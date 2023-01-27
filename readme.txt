@@ -1,6 +1,7 @@
 This is an english translation based on the adapted "Project54" ghost from AG36.
 This translation was made entirely by Yokiie (myself).
 This is a fan translation and I have no ties with AG36 or とわ/Towa
+!! THEY ARE NOT RESPONSIBLE FOR ISSUES WITH DIALOGUES OR TRANSLATIONS, DO NOT CONTACT THEM ABOUT IT !!
 
 The Ghost「54」's original author is "とわ" (Towa)
 
