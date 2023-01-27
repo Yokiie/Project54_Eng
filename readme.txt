@@ -1,29 +1,39 @@
-ƒS[ƒXƒgu54v Œ´ìÒ@‚Æ‚í
+This is an english translation based on the adapted "Project54" ghost from AG36.
+This translation was made entirely by Yokiie (myself).
+This is a fan translation and I have no ties with AG36 or ã¨ã‚/Towa
 
-‚±‚ÌƒS[ƒXƒg‚ÌìÒ@AG36
+The Ghostã€Œ54ã€'s original author is "ã¨ã‚" (Towa)
 
-•ÏX‰ÓŠ‚ª‘½‚­‚È‚èA
+Credit to AG36 for  maintaining/reviving the Ghost ã€Œ54ã€which is the version I translated.
 
-‚T‚S‚ğ—¢X‚ÉˆÚA‚·‚éŒv‰æ‚©‚ç—£‚êA
-
-‚T‚S‚ğƒx[ƒX‚Æ‚µ‚Äì‚Á‚¾‚T‚S”h¶ƒS[ƒXƒg‚É‚È‚Á‚½‚Ì‚Íu‚T‚S‚İ‚½‚¢‚ÌiŒ³ƒvƒƒWƒFƒNƒg‚T‚Sjv‚Å‚·B
-
-‚T‚S‚ÌŒŒ‚ÌŒq‚ª‚Á‚Ä‚È‚¢–…‚ğ‚æ‚ë‚µ‚­‚¨‚Ë‚ª‚¢‚µ‚Ü‚·B
-
-
-‰ü•Ï‹y‚ÑÄ”z•z‚Í©—R‚Å‚·
+This is a quote from the author of this version, AG36 :
+"The plan to transplant 54 to Satomi was scrapedã€
+so the 54-derivative ghost made based on the original 54 is now called "54-like (former project 54)"
+Please take care of my 54 non-blood sister."
 
 
-ƒƒCƒ“ƒy[ƒW
+You are free to modify and redistribute.
+
+
+Main page of the dev maintaining this version of 54.
 https://twitter.com/AG3601
-ƒoƒO•ñ
+Bug reports (ONLY for features & software bugs, they are not responsible for translation/dialogue errors)
 https://nanachi.sakura.ne.jp/faq/questions.php?id=ag36
 
-[[[[[[[[[[[[[[[[[[[[[[[[[[[
-ƒIƒŠƒWƒiƒ‹‚Ìu54v‚Ì”z•zƒTƒCƒg‚Å‚·
+ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼
+The original distribution website for the original "54"
 http://priest.so.land.to/54_/54.html
 
-ƒIƒXƒXƒƒoƒ‹[ƒ“‚Í
-‚È‚È‚Á‚¿—l§@•‘‚¢U‚é÷‚Ì@‚Å‚·
+Recommended ballons for "54"
+"èˆã„æ•£ã‚‹æ¡œã®è©©" (The poem of dancing cherry blossoms) by NANACHI
 http://nanachi.sakura.ne.jp/contents.html
+
+ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼ãƒ¼
+Translator's main social media
+https://twitter.com/yokiieonline
+
+You can also contact me on Discord 
+YğŸ’¿kiie#0101
+https://discord.com/invite/yokiie
+
 
