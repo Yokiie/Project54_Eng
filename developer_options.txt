@@ -1,13 +1,4 @@
 .gitignore,nonar,noupdate
 .gitattributes,nonar,noupdate
 .git/,nonar,noupdate
-README.md,nonar,noupdate
-ghost/master/satori_savedata.txt,nonar,noupdate
-ghost/master/profile/,nonar,noupdate
-ghost/master/satori_savebackup.txt,nonar,noupdate
-devnote.txt,nonar,noupdate
-shell/master/profile/,nonar,noupdate
-shell/MIY_Color/profile/,nonar,noupdate
-shell/54closet/profile/,nonar,noupdate
-Thumbs.db,nonar,noupdate
-/ghost/master/var
+.README.md

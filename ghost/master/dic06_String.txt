@@ -1,212 +1,222 @@
 
-”@-----------------------------------------------------
-”@
-”@shioriŒİŠ·dllw—¢Xi‚³‚Æ‚èjx—p«‘
-”@
-”@ƒƒjƒ…[‚Ìƒ{ƒ^ƒ“–¼‚Æ‚©B@
-”@ƒlƒbƒgƒ[ƒNXV‚ÌÛ‚Ìƒf[ƒ^’u‚«ê‚Æ‚©B@
-”@‚¨‚·‚·‚ß^ƒ|[ƒ^ƒ‹‚ÈURL‚Ìˆê——‚Æ‚©B@
-”@
-”@-----------------------------------------------------
+ï¼ƒã€€-----------------------------------------------------
+ï¼ƒã€€
+ï¼ƒã€€shioriäº’æ›dllã€é‡Œã€…ï¼ˆã•ã¨ã‚Šï¼‰ã€ç”¨è¾æ›¸
+ï¼ƒã€€
+ï¼ƒã€€Changes the button names in the menuã€‚ 
+ï¼ƒã€€Also lists the website/repository for network updateã€‚ 
+ï¼ƒã€€Also a list of recommended/portal URLs, (all in japanese)ã€‚ 
+ï¼ƒã€€
+ï¼ƒã€€-----------------------------------------------------
 
 
 
-—callghostrootbutton.caption
-‘¼‚ÌƒS[ƒXƒg‚³‚ñ‚ğ‚±‚±‚ÉŒÄ‚Ño‚¹‚Ü‚·ƒÓc
-—closebutton.caption
-‚í‚½‚µ‚ª‘Şê‚µ‚Ü‚·ƒÓc
-—configurationrootbutton.caption
-‚¢‚ë‚¢‚ëİ’è‚Å‚«‚Ü‚·ƒÓc
-—elpbutton.caption
-•Ö—˜‚È‹@”\‚ªA‚¢‚Á‚Ï‚¢ƒÓc
-—ghostrootbutton.caption
-ƒS[ƒXƒg‚³‚ñ‚Í‚±‚±‚©‚ç‘I‚×A‚Ü‚·ƒÓc
-—helpbutton.caption
-•ª‚©‚ç‚È‚¢‚±‚Æ‚ª‚ ‚Á‚½‚çA‚±‚±‚ğƒÓc
-—homeurl
-https://raw.githubusercontent.com/ag3601/Project54/master/
+ï¼ closebutton.caption
+I will leaveÏ†...ã€‚
+ï¼ configurationrootbutton.caption
+Various settings availableÏ†â€¦ã€‚
+ï¼ elpbutton.caption
+Useful functionsÏ†â€¦ã€‚
+ï¼ helpbutton.caption
+If you have any questionsÏ†â€¦ã€‚
+ï¼ homeurl
+# https://raw.githubusercontent.com/ag3601/Project54/master/
 
-”ƒlƒbƒgƒ[ƒNXV‚ÉƒAƒNƒZƒX‚·‚éƒAƒhƒŒƒXB
-”ƒtƒHƒ‹ƒ_–¼‚ğ‹LqAÅŒã‚É/‚ğ‚Â‚¯‚Ä‚­‚¾‚³‚¢B—á‚Ì‚æ‚¤‚ÈŒ`‚É‚È‚è‚Ü‚·B
-”—ájhttp://red_post.sakura.ne.jp/R_POST_and_KOMAINU/
+ï¼ƒThe address to be accessed during network updates.
+ï¼ƒDescribe the folder name, with / at the end. It will look like the example.
+ï¼ƒExampleï¼‰http://red_post.sakura.ne.jp/R_POST_and_KOMAINU/
 
-—inforootbutton.caption
-‚¢‚ñ‚Ó‚§‚ß[‚µ‚å‚ñƒÓc
-—kero.recommendbuttoncaption
-‚P‚Ì‚¨‚·‚·‚ß(&R)
+ï¼ kero.recommendbuttoncaption
+ï¿¥ï¼‘ Recommendation (&R)
 
-—pluginrootbutton.caption
-ƒvƒ‰ƒOƒCƒ“‚Å‚¢‚ë‚ñ‚È‹@”\‚ª‘‚¦‚é‚»‚¤A‚Å‚·ƒÓc
-—portalrootbutton.caption
-‚«‚Ù‚ñ(&P)
-i‚T‚S–¼‘Oj‚ÉAo—ˆ‚é‚±‚ÆƒÓc(&P)
-”iUj‚¾‚¯‚ÌA‚¨‚·‚·‚ßƒÓc(&P)
+ï¼ pluginrootbutton.caption
+Plugins can enhance my functions, they sayÏ†â€¦ã€‚
+ï¼ portalrootbutton.caption
+Root(&P)
 
-—rateofuseballoonbutton.caption
-ƒoƒ‹[ƒ“‚Ì•ÏX‚ÍA‚±‚±‚©‚çƒÓc
-—readmebutton.caption
-“Ç‚ñ‚Å‚­‚¾‚³‚¢ƒÓc(&R)
-‚ ‚ÌA‚±‚±ƒÓc(&R)
-Read@me(&R)
+ï¼ readmebutton.caption
+About the current shell(&R)
+User manual(&R)
+Read me(&R)
 
-—recommendrootbutton.caption
-‚¨‚·‚·‚ß(&R)
-‚Æ‚Ä‚àA‚·‚Ä‚«‚È‚Æ‚±‚ë‚ÖƒÓc(&R)
-‚¤‚ê‚µ‚¢A‚«‚à‚¿B(&R)
-s‚­‚ÆA‚«‚Á‚ÆA‚µ‚ ‚í‚¹A‚ÉƒÓc(&R)
-‚ ‚è‚ª‚Æ‚¤‚ÌA‚«‚à‚¿ƒÓc(&R)
+ï¼ recommendrootbutton.caption
+Recommendations(&R)
 
-—resettodefaultbutton.caption
-İ’è‚ğ‚à‚Æ‚Ç‚¨‚è‚É‚Å‚«‚Ü‚·ƒÓc
-–sakura.portalsites
-f‚©ƒ`ƒƒƒbƒg
-http://ukgkchat.saloon.jp/index.php?FrontPage
-–sakura.portalsites
-SSP@BUGTRAQ@
-http://ssp.shillest.net/@
-„§ƒx[ƒXƒEƒFƒAB
-‘¼‚Ì‚ÍXV‚ª~‚Ü‚Á‚Ä‚éB
+ï¼ resettodefaultbutton.caption
+Restore me to default settingsÏ†â€¦ã€‚
+ï¼Šsakura.portalsites
+Sakuraï¼ Moderator 
+http://nar.jpn.org/sakura/ 
 
 
-CROW@
-http://crow.aqrs.jp/@
+ï¼ƒï¼Šsakura.recommendsites
+ï¼ƒ-
+ï¼ƒhttp://
+ï¼ƒ
 
-–sakura.portalsites
+ï¼ƒï¼Škero.recommendsites
+ï¼ƒ-
+ï¼ƒhttp://
+ï¼ƒIf it is a solo ghost, the KERO side may not be necessary.
+
+ï¼ƒã€€"Ï†" will disable the "specialness" of the character right after it.
+ï¼ƒã€€Here, "..." is prevented from being replaced by "...\w3" as it is.
+ï¼ƒã€€It can also be used for other parentheses that you do not want to replace, such as parentheses "(".
+ï¼Šsakura.portalsites
+Ghost Bulletin Board 
+http://jbbs.livedoor.jp/computer/12782/ 
+
+ï¼Šsakura.portalsites
+Reviews site 
+http://review.sakura.ne.jp/ 
+
+ï¼Šsakura.portalsites
 -
 
-–sakura.portalsites
-Disc-2@
-http://disc2.s56.xrea.com/@
-\t\h‘‡î•ñƒTƒCƒg‚Å‚·B
-
-–sakura.portalsites
-‚¤‚³‚¾‚³‚­‚ç@
-http://usada.sakura.vg/@
-
-–sakura.portalsites
-GHOST@TOWN@
-http://ghosttown.mikage.jp/@
-
-–sakura.portalsites
-‰½‚©ƒS[ƒXƒgƒZƒ“ƒ^[@
-http://ngc.sherry.jp/@
-
-–sakura.portalsites
--
-
-–sakura.portalsites
-—¢XƒÓ/®”õ”ÇƒJƒXƒ^ƒ€
-http://ms.shillest.net/
-\t\hŒ»“_‚ÅXV‚³‚ê‚Ä‚¢‚é—¢X‚Å‚·B
-
-
-–sakura.portalsites
-—¢XƒÓi‚³‚Æ‚èƒÓj@
-http://ukgk.s34.xrea.com/poskoma/
-
-–sakura.portalsites
-ƒS[ƒXƒgƒLƒƒƒvƒ^[‚³‚­‚çiGC‚³‚­‚çj
-http://buynowforsale.shillest.net/ghosts/
-
-–sakura.portalsites
-—¢XWiki
-http://soliton.sub.jp/satori/index.php?FrontPage
-\t\h—¢X‚ÉŠÖ‚·‚é‚s‚‰‚‚ª‚Ü‚Æ‚Ü‚Á‚Ä‚¢‚é‚æ‚¤‚È‹C‚ª‚µ‚Ü‚·B
-–sakura.portalsites
-UKADOC@
-http://ssp.shillest.net/ukadoc/manual/index.html
-
-–sakura.portalsites
+ï¼Šsakura.portalsites
 postic
 http://navy.nm.land.to/post/
-–sakura.portalsites
+ï¼šIt's the original distributor of the plugins already applied to meã€‚
+ï¼šIf you want to complicate things, it's worth a readã€‚
+
+ï¼Šsakura.portalsites
+Satori variables dictionary
+http://members2.jcom.home.ne.jp/he-noki/uka-satori.html
+
+ï¼Šsakura.portalsites
+Satori Wiki
+http://www.mac.gn.to/satori/index.php
+ï¼šI feel like there are a lot of tips about Satori..
+ï¼šHmmmã€‚
+
+ï¼Šsakura.portalsites
+About Ghost Production/Developing 
+http://kemonomimisippo.hp.infoseek.co.jp/link/link_product.html 
+
+ï¼Šsakura.portalsites
+Satori 
+http://www.geocities.co.jp/SiliconValley-Cupertino/8536/ 
+
+ï¼Šsakura.portalsites
+SatoriÏ†/Maintenance Team customs
+http://ms.shillest.net/
+ï¼šThese are the Satori's that are being updated currentlyã€‚
+
+
+ï¼Šsakura.portalsites
 -
 
-–sakura.portalsites
-f‚©‚Ì‚ ‚»‚Ñ‚©‚½ƒÓiFIRST@GUIDEƒÓj@
-http://haka.sakura.ne.jp/guide/@
+ï¼Šsakura.portalsites
+How to play with the UkagakaÏ†ï¼ˆFIRST GUIDEÏ†ï¼‰ 
+http://haka.sakura.ne.jp/guide/ 
 
-–sakura.portalsites
-ghost-log
-https://ghost-log.net/
+ï¼Šsakura.portalsites
+-
 
+ï¼Šsakura.portalsites
+-
 
-”–sakura.recommendsites
-”-
-”http://
-”
+ï¼Šsakura.portalsites
+Ukagaka Ghost Repository 
+http://ngc.sherry.jp/ 
 
-”–kero.recommendsites
-”-
-”http://
-”ƒ\ƒƒS[ƒXƒg‚Å‚ ‚ê‚ÎAkero‘¤‚Í•K—v‚È‚¢‚±‚Æ‚àB
+ï¼Šsakura.portalsites
+GHOST TOWN 
+http://ghosttown.mikage.jp/ 
 
-”@ƒÓ‚Í’¼Œã‚Ì•¶š‚Ìu“Áê«v‚ğ–³Œø‰»‚µ‚Ü‚·B
-”@‚±‚±‚Å‚Íucv‚ª‚»‚Ì‚Ü‚Ü‚Å‚Íuc\w3v‚É’u‚«Š·‚¦‚ç‚ê‚Ä‚µ‚Ü‚¤‚Ì‚ğ–h‚¢‚Å‚Ü‚·B
-”@‘¼‚É‚à’u‚«Š·‚¦‚½‚­‚È‚¢ƒJƒbƒR@i@‚È‚Ç‚Ég‚¦‚Ü‚·B
-–sakura.portalsites
-ƒS[ƒXƒg‰ñ——”Â‚R‚’‚„
-http://jbbs.shitaraba.net/computer/44300/
+ï¼Šsakura.portalsites
+Usaka Sakura 
+http://usada.sakura.vg/ 
 
-–sakura.portalsites
-‰\‚Æ•]”»[‰ü]@‰ß‹ƒƒO•ÛŠÇŒÉ+@
-https://ghostreview.sakura.ne.jp/
+ï¼Šsakura.portalsites
+Disc-2 
+http://disc2.s56.xrea.com/ 
+ï¼šThis is a general information websiteã€‚
 
-–sakura.recommendsites
-ƒIƒŠƒWƒiƒ‹u54v‚Ì”z•zƒTƒCƒg
-http://priest.so.land.to/54_/54.html
+ï¼Šsakura.portalsites
+-
 
-”–sakura.portalsites
-”-
-”u-v‚Æ‚¢‚ê‚é‚±‚Æ‚ÅƒŠƒ“ƒNƒƒjƒ…[‚ÉŒrü‚ğˆø‚­‚±‚Æ‚ª‚Å‚«‚Ü‚·B@
+ï¼Šsakura.portalsites
+SSP BUGTRAQ 
+http://ssp.shillest.net/ 
+Recommended Baseware.
+Others are no longer updatedã€‚
 
 
-—saveasdefaultbutton.caption
-¡‚Ìİ’è‚ğ‘S•”‚ÌƒS[ƒXƒg‚³‚ñ‚É”½‰f‚³‚¹‚ç‚ê‚Ü‚·ƒÓc
-—shellrootbutton.caption
-‚·‚Ä‚«‚ÈA‚¨‚ß‚©‚µ‚Å‚·ƒÓc
-—shellscalerootbutton.caption
-‚í‚½‚µ‚Ì‘å‚«‚³‚ğƒÓc©—R‚É•ÏX‚Å‚«‚Ü‚·ƒÓc
-—shellscalerootbutton.caption
-‚í‚½‚µ‚Ì‘Ì‚ğƒÓc©—RA‚ÉƒÓc
-—updatebutton.caption
-ƒIƒ“ƒ‰ƒCƒ“ƒAƒbƒvƒf[ƒg(&U)
-ƒlƒbƒgƒ[ƒNXV(&U)
-XVA‚È‚ñ‚¾‚©•sˆÀ‚Å‚·ƒÓc(&U)
-XVA‚í‚½‚µ‚ÉA‚¤‚Ü‚­‚Å‚«‚é‚Å‚µ‚å‚¤‚©H(&U)
-‚È‚É‚©‚ªA•Ï‚í‚é‚Ì‚Å‚µ‚å‚¤A‚©ƒÓc(&U)
-‚±‚ê‚ÅA‚µ‚ ‚í‚¹‚ÉƒÓc‚È‚ê‚é‚Å‚µ‚å‚¤‚©ƒÓcH(&U)
-—username
-iƒ†[ƒU–¼j@
+CROW 
+http://crow.aqrs.jp/ 
 
-—vanishbutton.caption
-Á–Å(&F)
-ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹(&F)
-ŠoŒå‚Ío—ˆ‚Ä‚Ü‚·B(&F)
+ï¼Šsakura.portalsites
+Ukagaka Chat
+http://ukgkchat.saloon.jp/index.php?FrontPage
+Chat about Ukagaka's. Only in Japanese
+You can ask questionsã€‚
+ï¼šIt can be viewed with just a browserã€‚
 
-—vanishbutton.visible
-iÁ–Åƒ{ƒ^ƒ“j
+ï¼Šsakura.recommendsites
+"R-Posts and Komainu" distribution page
+http://emily.shillest.net/specwiki/index.php?Wiz%E2%98%85%2F%EF%BC%B2%E3%83%9D%E3%82%B9%E3%83%88%E3%81%A8%E7%8B%9B%E7%8A%AC
+ï¼šCheck in once in a whileã€‚
+ï¼šI'm not sure if they've been updated.
 
-”Á–Åw¦‚ğ•\¦‚·‚é‚©‚Ç‚¤‚©B1‚Å•\¦A0‚Å”ñ•\¦iF‚ª•Ï‚í‚è‘I‘ğ‚Å‚«‚È‚­‚È‚éj‚Å‚·B
-
-–ƒRƒƒ“ƒg
-
-@URLˆê——‚Ícc@
-
-@‚Ps–Ú‚ªƒTƒCƒg–¼@
-@‚Qs–Ú‚ªƒWƒƒƒ“ƒvæURL@
-@‚Rs–Ú‚ªƒoƒi[URLiÈ—ª‰Âj@
-@‚Ss–ÚˆÈ~‚ÍƒWƒƒƒ“ƒv‚É•\¦‚³‚ê‚é‰ï˜b•¶iÈ—ª‰Âj@
+ï¼ƒï¼Šsakura.portalsites
+ï¼ƒ-
+ï¼ƒYou can draw a line on the link menu by inserting "-"ã€‚ 
 
 
-”–sakura.recommendsites
-”ìÒ‚ÌƒTƒCƒgB‚±‚±‚ğg‚í‚¸‚ÉAsakura.portalsites‚É‚Ü‚Æ‚ß‚Ä‚µ‚Ü‚¤‚Ì‚àˆê‚Â‚Ì•û–@B@
-”http://`@
-”ƒoƒi[i‚ ‚ê‚Îj@
+ï¼Šsakura.recommendsites
+fiddle-de-dee
+http://fiddle-de-dee.sakura.ne.jp/
+ï¼šWho this package is distributed byã€‚
+ï¼šIf there's something, contact themã€‚
+
+ï¼ saveasdefaultbutton.caption
+You can reflect the current settings to all ghostsÏ†â€¦ã€‚
+ï¼ shellscalerootbutton.caption
+You can change my sizeÏ†â€¦ freelyÏ†â€¦ã€‚
+ï¼ shellscalerootbutton.caption
+My bodyÏ†â€¦ freeÏ†â€¦ã€‚
+ï¼ updatebutton.caption
+Online Update(&U)
+Network Update(&U)
+
+ï¼ username
+ï¼ˆUsernameï¼‰ 
+
+ï¼ vanishbutton.caption
+Destroy me(&F)
+Uninstall(&F)
+vanish(&F)
+
+ï¼ vanishbutton.visible
+1 
+ï¼ƒWhether or not the uninstall instruction is displayed. 
+ï¼ƒ1 means it is displayed, 0 means it is not displayed (color changes and selection is disabled).ã€‚
 
 
-—vanishbuttonvisible
-iÁ–Åƒ{ƒ^ƒ“j
+ï¼Šã‚³ãƒ¡ãƒ³ãƒˆ
 
-”Á–Åw¦‚ğ•\¦‚·‚é‚©‚Ç‚¤‚©B1‚Å•\¦A0‚Å”ñ•\¦iF‚ª•Ï‚í‚è‘I‘ğ‚Å‚«‚È‚­‚È‚éj‚Å‚·B
+ã€€The URL listâ€¦â€¦ 
 
+ã€€ï¼‘st line is site name 
+ã€€ï¼’st line jumps to URL 
+ã€€ï¼“rd line is Banner URL (optional) 
+ã€€ï¼”th line is dialogue displayed when jumping (optional) 
+
+
+ï¼ƒï¼Šsakura.recommendsites
+ï¼ƒAuthor's site. One way is not to use this site, but to put it all together in sakura.portalsites. 
+ï¼ƒhttp://ï½ 
+ï¼ƒBanner (if available) 
+
+
+ï¼ callghostrootbutton.caption
+Call additional ghosts hereÏ†â€¦ã€‚
+ï¼ inforootbutton.caption
+InformationÏ†â€¦ã€‚
+ï¼ shellrootbutton.caption
+Dress me upÏ†â€¦ã€‚
+ï¼ ghostrootbutton.caption
+Ghost can be picked hereÏ†â€¦ã€‚
+ï¼ rateofuseballoonbutton.caption
+Change ballons hereÏ†â€¦ã€‚

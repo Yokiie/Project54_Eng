@@ -3,7 +3,7 @@ name,MIY_Color
 
 craftman,MIY
 
-craftmanw,‚Ý‚â‚Ü
+craftmanw,ï¿½Ý‚ï¿½ï¿½
 
 craftmanurl,http://es.nsf.jp/
 

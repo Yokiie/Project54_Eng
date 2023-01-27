@@ -1,58 +1,39 @@
-–‰Šú‰»
-’‚èŠÔŠu	‚P‚W‚O•b
-$‚¨’ƒ‰ï	‚O
-’‚èŠÔŠuŒë·	‚R‚O“
-‰ï˜bŽžƒT[ƒtƒFƒX–ß‚µ	—LŒø
-ƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0	0
-ƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX1	10
-ƒXƒR[ƒvØ‚èŠ·‚¦Žž	\n[half]
-ƒ†[ƒU–¼	ƒ†[ƒU
-Ž©“®‘}“üƒEƒFƒCƒgƒ^ƒCƒv	—¢X
-Ž©“®‘}“üƒEƒFƒCƒg‚Ì”{—¦	‚Q‚O‚O“
-‚È‚Å‚ç‚êŽ‘±•b”	‚Q
-‚È‚Å‚ç‚ê”½‰ž‰ñ”	‚U‚O
-ƒg[ƒN’†‚Ì‚È‚Å‚ç‚ê”½‰ž	–³Œø
-ƒ†[ƒUŒhÌ	‚³‚ñ
-‚T‚S–¼‘O	‚í‚½‚µ
-‚T‚SŒÄÌ	54
-ƒg[ƒN—”	‚O
-–¼‘O•t‚¯Ï‚Ý	‚O
-ƒLƒX‚µ‚½	‚O
-‰‰ñ‹N“®Š®—¹	‚O
-‚T‚S«•Ê	—‚ÌŽq
-ƒvƒƒ|[ƒY	‚O
-‚í‚ª‚Ü‚Üƒg[ƒN	‚O
-Á–Åƒ{ƒ^ƒ“	1
-Á–Åƒ{ƒ^ƒ“‚Ìó‘Ô	•\Ž¦
-’@‚«Á–Å	‚O
-“ª’@‚¢‚½‰ñ”	‚O
-“ª’@‚«Á–Å‚Ìó‘Ô	‚È‚µ
-ŒC‚ ‚è	‚P
-‚T‚S‚Á‚Ä–¼‘OD‚«	‚O
-ƒ†[ƒU«•Ê	’j«
-’a¶ŒŽ	‚O
-’a¶“ú	‚O
-‘O‰ñ”NƒCƒxƒ“ƒg	‚O
-ŒðÛ	‚O
-D‚«	‚O
-DŠ´“x	‚O
-ƒAƒo’ƒ‚ð’m‚é	‚O
-ˆ—	‚P
-’a¶“ú‹³‚¦‚½	‚O
-‘¾‚Á‚Ä‚é‚ðŒ¾‚¤	‚O
-‘‰‚¹‚Ä‚é‚ðŒ¾‚¤	‚O
-—V‰€’ns‚Á‚½Ž–‚ ‚é	‚O
-ƒRƒ~ƒ…ƒƒjƒ…[ƒ^ƒCƒv	ƒ‰ƒ“ƒ_ƒ€
-ƒQ[ƒ€ƒZƒ“ƒ^[s‚Á‚½Ž–‚ ‚é	‚O
-ƒvƒŠƒNƒ‰‚â‚Á‚½	‚O
-¡“úƒvƒŠƒNƒ‰‚â‚Á‚½‰ñ”	‚O
-ƒuƒ‰ƒbƒNƒR[ƒq[ŒoŒ±	‚O
-ƒŠƒYƒ€ƒQ[ƒ€—û“x	‚O
-ƒLƒƒƒbƒ`ƒƒ[‚Ì‚Ê‚¢‚®‚é‚ÝŽe”L	‚O
-‚Ê‚¢‚­‚é‚ÝƒvƒŒƒ[ƒ“ƒg‚µ‚½	‚O
-ƒLƒƒƒbƒ`ƒƒ[‚ÌƒNƒ}‚Ì‚Ê‚¢‚®‚é‚Ý	‚O
-ƒLƒƒƒbƒ`ƒƒ[‚Ì‚¤‚Ï[‚Ê‚¢‚­‚é‚Ý	‚O
-‘O‰ñƒ†[ƒU’a¶“ú	‚O
+ï¼ŠåˆæœŸåŒ–
+ï¼„å–‹ã‚Šé–“éš”	ï¼‘ï¼˜ï¼ç§’
+ï¼„å–‹ã‚Šé–“éš”èª¤å·®	ï¼‘ï¼ï¼…
+ï¼„ä¼šè©±æ™‚ã‚µãƒ¼ãƒ•ã‚§ã‚¹æˆ»ã—	æœ‰åŠ¹
+ï¼„ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0	0
+ï¼„ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹1	30
+ï¼„ã‚¹ã‚³ãƒ¼ãƒ—åˆ‡ã‚Šæ›ãˆæ™‚	\n[half]
+ï¼„ãƒ¦ãƒ¼ã‚¶å	ãƒ¦ãƒ¼ã‚¶
+ï¼„è‡ªå‹•æŒ¿å…¥ã‚¦ã‚§ã‚¤ãƒˆã®å€çŽ‡	ï¼‘ï¼ï¼ï¼…
+ï¼„ãªã§ã‚‰ã‚ŒæŒç¶šç§’æ•°	ï¼’
+ï¼„ãªã§ã‚‰ã‚Œåå¿œå›žæ•°	ï¼–ï¼
+ï¼„ãƒˆãƒ¼ã‚¯ä¸­ã®ãªã§ã‚‰ã‚Œåå¿œ	ç„¡åŠ¹
+ï¼„è‡ªå‹•ã‚¢ãƒ³ã‚«ãƒ¼	æœ‰åŠ¹
+ï¼„ãƒ¦ãƒ¼ã‚¶å		ãƒ¦ãƒ¼ã‚¶	
+ï¼„å¥½æ„Ÿåº¦	ï¼
+ï¼„ãƒ¦ãƒ¼ã‚¶æ•¬ç§°	ã•ã‚“	
+ï¼„ï¼•ï¼”åå‰	ã‚ãŸã—
+ï¼„ãƒˆãƒ¼ã‚¯ä¹±æ•°	ï¼
+ï¼„åå‰ä»˜ã‘æ¸ˆã¿	ï¼
 
-—SAORI
-ssu,saori/ssu.dll
+
+
+
+ï¼ƒ
+ï¼ƒã€€å„æ žå…±é€šãƒ—ãƒ©ã‚°ã‚¤ãƒ³è¦æ ¼ã€ŽSAORIã€ç”¨ã®å®šç¾©ã€‚
+ï¼ƒã€€ä½¿ã†dllã¯äºˆã‚ã“ã“ã§åˆ—æŒ™ã—ã¦ãã ã•ã„ã€‚
+ï¼ƒã€€SAORIã‚’ä½¿ã‚ãªã„å ´åˆã€ã“ã“ã‹ã‚‰ä¸‹ã‚’æ¶ˆåŽ»ã—ã¦ã—ã¾ã£ã¦æ§‹ã„ã¾ã›ã‚“ã€‚
+ï¼ƒã€€SAORIãƒ•ã‚©ãƒ«ãƒ€ã‚‚ä¸è¦ã§ã™ã€‚
+ï¼ƒ
+ï¼ƒã€€ã‚«ãƒ³ãƒžåŒºåˆ‡ã‚Šã§ã€å·¦ã‹ã‚‰é †ã«
+ï¼ƒã€€ã€€ãƒ»è¾žæ›¸ã‹ã‚‰ã®å‘¼ã³å‡ºã™ã¨ãã®åå‰ã€‚dllåãã®ã¾ã¾ã§ã‚‚æ§‹ã„ã¾ã›ã‚“ã€‚
+ï¼ƒã€€ã€€ãƒ»ãƒ—ãƒ©ã‚°ã‚¤ãƒ³dllã®ç›¸å¯¾ãƒ‘ã‚¹ã€‚
+ï¼ƒã€€ã€€ãƒ»è‡ªå‹•è¨­å®šã•ã‚Œã‚‹å¼•æ•°ã€‚ã“ã‚Œã¯çœç•¥å¯ã€‚
+ï¼ƒ
+
+ï¼ SAORI
+fill_desktop,saori/fill_desktop.dll
+fill_red,saori/fill_desktop.dll,255,0,0
+

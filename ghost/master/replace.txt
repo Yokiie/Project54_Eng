@@ -1,20 +1,16 @@
-yƒ^ƒuz		
-‚—‚P	\w1
-‚—‚Q	\w2
-‚—‚R	\w3
-‚—‚S	\w4
-‚—‚T	\w5
-‚—‚U	\w6
-‚—‚V	\w7
-‚—‚W	\w8
-‚—‚X	\w9
-${usernames}	iUj
-i‚tj	iUj
-${‚T‚S–¼‘O‘I‘ð•Ï”}		i‚T‚S–¼‘Oj
-${54sNickName}		i‚T‚S–¼‘Oj
-i|‚Pj \s[-1]
+ã€ã‚¿ãƒ–ã€‘		
 
-
-”@ƒEƒFƒCƒg‚ð‘SŠp‚Å‘Å‚Ä‚é‚æ‚¤‚É‚·‚é
+ï¼ƒã€€ã‚¦ã‚§ã‚¤ãƒˆã‚’å…¨è§’ã§æ‰“ã¦ã‚‹ã‚ˆã†ã«ã™ã‚‹
+ï½—ï¼‘	\w1
+ï½—ï¼’	\w2
+ï½—ï¼“	\w3
+ï½—ï¼”	\w4
+ï½—ï¼•	\w5
+ï½—ï¼–	\w6
+ï½—ï¼—	\w7
+ï½—ï¼˜	\w8
+ï½—ï¼™	\w9
+${usernames}	ï¼ˆUï¼‰
 ${countzero}
+${ï¼•ï¼”åå‰é¸æŠžå¤‰æ•°}	ï¼ˆï¼•ï¼”åå‰ï¼‰
 ","
