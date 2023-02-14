@@ -2,7 +2,7 @@ charset,Shift_JIS
 
 craftman,AG36
 craftmanw,AG36
-craftmanurl,
+craftmanurl,https://twitter.com/AG3601
 
 name,Project54
 type,ghost
@@ -10,5 +10,5 @@ type,ghost
 sakura.name,54
 kero.name,
 
-icon,post.ico
+icon,54icon.ico
 shiori,satori.dll

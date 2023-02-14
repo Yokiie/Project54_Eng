@@ -1,275 +1,491 @@
 
-#ã€€-----------------------------------------------------
-#ã€€
-#ã€€shiori-compatible dll Dictionary for "Satori"
-#ã€€
-#ã€€Basic event talk
-#ã€€
-#ã€€-----------------------------------------------------
+”@-----------------------------------------------------
+”@
+”@shiori-compatible dll Dictionary for "Satori"
+”@
+”@Basic events dialogue
+”@
+”@Symbols glossary (based on this) http://soliton.sub.jp/satori/index.php?“Áê‹L†ˆê——#h0533f16 :
+”@u–v it is the symbol that represents the beginning of a talk, bookmark resource, or user function in the dictionary.
+”@The talk, etc. is written after the line following this symbol.
+”@Some special symbols, not limited to –, must be placed at the beginning of a line to have any effect.
+”@Note that these are treated as normal characters in the text.
+”@uFv is used to change which character is talking
+”@u$v is used to signify a variable
+”@u()v is used for surface switching, talk, functions, word groups, and variable calls, and is replaced (by parentheses).
+”@u„v jumps to a specified section
+”@uƒÓv disables any special symbols placed after it
+”@
+”@-----------------------------------------------------
 
 
 
 
-ï¼Šåˆå›
-ï¼åˆå›äºŒå›ç›®ä»¥é™ã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼ï¼‰ï¼ï¼
-\t\h\s[0]\u\s[10]\h\s[0]\nGreetingsã€‚\w8My name is 54ã€‚\n\w5\nUm,\w5Nice to meet you\w3â€¦\w3ã€‚
+–‰‰ñ
+„‰‰ñ“ñ‰ñ–ÚˆÈ~	i‚q‚Oj„‚O
+\t\h\c\s[0]
+GreetingsB\w8My name is 54B
 
-\t\w9\h\w7\c
-\s[1]Ohã€\w5Um\w4â€¦\w3
-Do you \w2want toã€\w6stay likeã€\w6thisï¼Ÿ\w6
-
+\w5UmA\w5Nice to meet you...\w3B
+\x\w9\t\h\w7\c
+\s[1]OhA\w5Um\w4c\w3
+Do you \w2want me toA\w6stay likeA\w6thisH\w6
 \w7
-Or do you want \w1toã€\w7change yourã€\w9clothes\w3â€¦\w3ï¼Ÿ\w4
+Or do you want \w1me toA\w7change myA\w9clothes\w3c\w3H\w4
+\_q
+\![*]\q[Change,’…‘Ö‚¦‚é]
+
+\![*]\q[Stay like this,’…‘Ö‚¦‚È‚¢]
+\_q
 
 
-\![*]\q[Change,ç€æ›¿ãˆã‚‹]
-\![*]\q[Stay like this,ç€æ›¿ãˆãªã„]
+”@i‚q‚Oj‚ÍƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‰ñ”
 
-#ã€€ï¼ˆï¼²ï¼ï¼‰ã¯ã‚¢ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å›æ•°
+–‰‰ñQ‚P
+\t\hi‚Tj
+Thank youAI look forward to our time togetherB
+–‰‰ñ“ñ‰ñ–ÚˆÈ~
+\t\h\c\s[0]\w4
+Ohcc\w2H
 
-ï¼Šåˆå›ï¼¿ï¼‘
-ï¼šThank youã€I look forward to working with you in the futureã€‚
-ï¼Šåˆå›äºŒå›ç›®ä»¥é™
-\t\h\s[0]\u\s[10]\h\s[0]\w4Oh\w2â€¦\w2â€¦\w2ï¼Ÿ\n\nIt's not the first timeã€is itï¼Ÿ
+It's not our first time meetingAis itH
+\_q
+\![*]\q[We already met,‰‰ñ“ñ‰ñ–ÚˆÈ~‚P]
 
-\![*]\q[Yes,åˆå›äºŒå›ç›®ä»¥é™ï¼‘]
-\![*]\q[No,åˆå›äºŒå›ç›®ä»¥é™ï¼’]
-ï¼Šåˆå›äºŒå›ç›®ä»¥é™ï¼‘
-\h\s[5]\w8\nI'm glad \w3â€¦\w3\n\w6to \w2see you \w3again\w9\w3â€¦\w3ã€‚\w3
-ï¼Šåˆå›äºŒå›ç›®ä»¥é™ï¼’
-\t\h\s[0]\nOh\w4â€¦\w4It's my \w2misunderstingã€\w7rightã€‚\w5\n\nGreetingsã€‚\w8My name is 54ã€‚\n\w5\nUmã€\w5Nice to meet you\w3â€¦\w3ã€‚
-ï¼Šå¤•æ–¹ã«çµ‚äº†
-\h\s[4]\n\tWellã€\w8please \w3â€¦\w3\n\w4call me \w3againã€\w3\s[1]\w8ok \w3â€¦\w8ã€‚
-ï¼Šå¤•æ–¹ã«çµ‚äº†
-\h\s[0]\n\t\nâ€¦\w3Ohã€\w5see youâ€¦ã€‚
-ï¼Šå¤•æ–¹ã«çµ‚äº†
-\h\s[0]\n\tâ€¦\w3Goodbye\s[4]\w8ã€‚
-ï¼Šå¤•æ–¹ã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[4]\w7
-Oh\w4â€¦\w4finallyã€\w8you're here \w4â€¦\w4\n
-\w8\s[1]\w5ã€€ã€€${usernames}\w3â€¦\w2ã€‚
-ï¼Šå¤•æ–¹ã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[0]
-\w4Ah\w6â€¦\w6\n
-\w7You came \w3to \w1see me \w1ã€\w9\w5right\w3â€¦\w2ï¼Ÿ
-ï¼Šå¤•æ–¹ã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[0]
-It's lateã€‚
-\w4Thank you for your timeâ€¦ã€‚
-ï¼Šå¤œã«çµ‚äº†
-\t\h\s[5]\w5\nGoodnight\w3â€¦\w3ã€‚\n\w7\n
-ï¼Šå¤œã«çµ‚äº†
-ï¼šSee you \w9tomorrow\w3â€¦\w3ã€‚\w3Sweet \w8dreams\w3â€¦\w3ã€‚\w3I'm sure\w9I'll see you soon\w3â€¦\w3ã€‚\w3
-ï¼Šå¤œã«çµ‚äº†
-\t\h\s[0]\w2\nâ€¦\w3Goodnight\w3\w3ã€‚\w7\s[1]\n
-ï¼Šå¤œã«çµ‚äº†
-\t\h\s[1]\w5\nGood...\w4night\w3â€¦\w3ã€‚\w7\n
-ï¼Šå¤œã«çµ‚äº†
-\h\s[0]\nGood\w4night\w3â€¦\w3\n\n\s[1]\w9\w9\w9${usernames}\w3â€¦\w3ã€‚
-ï¼Šå¤œã«çµ‚äº†	ï¼ˆç¾åœ¨æœˆï¼‰==ï¼–||ï¼ˆç¾åœ¨æœˆï¼‰==ï¼—||ï¼ˆç¾åœ¨æœˆï¼‰==ï¼˜ï¼‰
-\h\s[4]Good\w1â€¦\w1nightã€‚\n\n\w8\s[0]Be carefulã€\w5ã«\w3â€¦\w3\nto avoid\w3heat exhaustionã€\w9okay\w3â€¦\w3ï¼Ÿ
-ï¼Šå¤œã«çµ‚äº†
-\h\s[5]\w4\nI'm happy to be \w3withã€\w7you\w3â€¦\w3\n\w6ï¼ˆï¼‘åå‰ï¼‰\w9\w3â€¦\w3ã€‚
-ï¼Šå¤œã«çµ‚äº†	ï¼ˆç¾åœ¨æœˆï¼‰==ï¼‘ï¼’||ï¼ˆç¾åœ¨æœˆï¼‰==ï¼‘||ï¼ˆç¾åœ¨æœˆï¼‰==ï¼’)
-\h\s[4]Good\w1â€¦\w1nightã€‚\n\n\w8\s[0]Pleaseã€\w6be careful\w3â€¦\w3\nwith the \w3coldã€\w9okay\w3â€¦\w3ï¼Ÿ
-ï¼Šå¤œã«çµ‚äº†
-\h\s[0]\nGood\w1â€¦\w1nightã€‚
-ï¼Šå¤œã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[5]\w8\w8\n
-Goodã€\w7evening\w3â€¦\w3ã€‚\n
-\w7I can't \w3helpã€\w7but\w4â€¦\w3\ncount \w3the times \w1I can't see \w9\w4you\w3â€¦\w3
-ï¼Šå¤œã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[1]\w8
-Aren't \w2you\w2â€¦\w3tired\w3\w2â€¦\w2ï¼Ÿ
-ï¼Šå¤œã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[0]\w8
-Hellow\w2ã€\w5$(? "Often" "All the time")\w3â€¦\w3\n
-\w7I wonder \w1if \w6we can beã€\w7\s[1]\w8together\w5â€¦\w5ã€‚
-ï¼Šå¤œã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[5]\w8\w8\n
-Goodã€\w7evening\w3â€¦\w3ã€‚\n
-\w7I can't \w3helpã€\w7but\w4â€¦\w3\ncount \w3the times \w1we're not \w9\w4together\w3â€¦\w3ã€‚
-ï¼Šæ—©æœã«çµ‚äº†
-\h\s[0]\nIt's overã€\w1isn't it\w7â€¦I'm lonelyã€\w8am \w1Iâ€¦ã€‚
-ï¼Šæ—©æœã«çµ‚äº†
-\h\s[0]\nUntilã€\w6you \w2call me\w2againã€\w5I'll be\w3â€¦\w3\w7\w9\w9\n\s[1]\w7thinking about \w7${usernames}\w1until \w3you \w5\n\w5come \w9back\w3â€¦\w3ã€‚
-ï¼Šæ—©æœã«çµ‚äº†
-\h\s[5]\n\w8See you\w3â€¦\w5\n\n\w6I hope to\w3see you againã€\w9ok\w3â€¦\w3ï¼Ÿ
-ï¼Šæ—©æœã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[0]
-I get up \w5really \w1earlyã€\w8right\w5\n\n
-\s[1]\w9\w3${usernames}\w4â€¦\w3ã€‚
-ï¼Šæ—©æœã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[5]
-ã‚‚ã†ã€\w6å¤–ã¯\w3â€¦\w3æ˜ã‚‹ã„\w2ã§ã™ã€\w9\w4ã‹\w3â€¦\w3ï¼Ÿ
-ï¼Šæ—©æœã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[0]
-â€¦ãŠã¯ã‚ˆã†ã”ã–ã„ã¾ã™\n
-\w4\w9ã¾ã ã€å°‘ã—çœ ã„\s[5]\w6ã§ã™ã€‚
-ï¼Šæ˜¼ã«çµ‚äº†
-\t\h\s[0]\nâ€¦ã¾ãŸã€\w1ã‚ã„ãŸã„\w1ã§ã™â€¦ã€‚
-ï¼Šæ˜¼ã«çµ‚äº†
-\t\h\s[0]\nã¾ãŸã€\w6ãã£ã¨\w1â€¦ã€‚
-ï¼Šæ˜¼ã«èµ·å‹•
-\u\s[10]\h\s[5]\w7
-ã“ã‚“ã«ã¡ã¯ã€\w5${usernames}\w2â€¦\w2ã€‚
-\n\w8\w8\w5
-${ï¼•ï¼”åå‰é¸æŠå¤‰æ•°}\w4â€¦\w4é€¢ãˆã¦ã€\w6ã†ã‚Œã—ã„ã€\w9ã§ã™ã€‚
-ï¼Šæ˜¼ã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[1]
-\w7â€¦\w5â€¦\w5â€¦\w5â€¦\w5\n\w9\w9\w9
-ã‚ˆã‹ã£\w3ãŸã€\w6ã¾ãŸã€\w6å‘¼ã‚“ã§\w3ã‚‚ã‚‰ãˆã€\w8ãŸ\w4\s[1]\w8â€¦\w3ã€‚
-ï¼Šæ˜¼ã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[5]
-ã‚ã€\w8${usernames}\w3â€¦\w3ã€‚\w5\n
-\w5\s[1]\w6å‘¼ã‚“ã§\w3ã‚‚ã‚‰ãˆã¦ã€\w5ã†ã‚Œã—ã„ã€\w9\w5ã§ã™\w3â€¦\w3ã€‚
-ï¼Šæ˜¼ã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[4]
-\w7â€¦\w5â€¦\w5â€¦\w5â€¦\w5\n
-\w9\w9\w9ã‚ˆã‹ã£\w3ãŸã€\w6ã¾ãŸã€\w6ã“ã“ã«\w5æ¥ã‚Œã¦\w4\s[1]\w8â€¦\w3ã€‚
-ï¼Šæ˜¼ã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[0]
-ã“ã‚“ã«ã¡ã¯â€¦é€¢ã„ãŸã‹ã£ãŸã€‚
-ï¼Šæœã«çµ‚äº†
-\h\s[5]\t\n\w3â€¦\w3â€¦\w3\n\n\w9\w9å¾…ã£ã¦\w2ã¾ã™ã€\w9ã­\w3â€¦\w3ã€‚
-ï¼Šæœã«çµ‚äº†
-\h\s[4]\t\n\w5ãŠåˆ¥ã‚Œã®\w3æ™‚ã¯ã€\w7ã„ã¤\w2ã‚‚\w3â€¦\w3\n\n\w9ã¡ã‚‡ã£ã¨\w4\s[1]\w5ã›ã¤ãªã„ã€\w9ã§ã™\w3â€¦\w3ã€‚
-ï¼Šæœã«çµ‚äº†
-\h\s[0]\t\nãŠç–²ã‚Œã•ã¾ã€\w2ã§ã—ãŸã€‚
-ï¼Šæœã«çµ‚äº†
- \h\s[0]\t\nãŠç–²ã‚Œã•ã¾ã€\w2ã§ã—ãŸã€‚
-ï¼Šæœã«èµ·å‹•
-\t\h\s[0]\u\s[10]\h\n\s[0]\w8\w4
-ãŠã¯ã‚ˆã†\w3â€¦\w5ã”ã–ã„ã¾ã™ã€‚\w8\w6
-\t\h\n\s[5]\w7
-ä»Šæ—¥\w3ã‚‚\w7ã„ã¡ã«ã¡ã€\w7è‰¯ã„æ—¥ã§\w3ã‚ã‚Šã¾ã™ã‚ˆã†ã€\w9\w6ã«\w3â€¦\w3ã€‚
-ï¼Šæœã«èµ·å‹•
-\t\h\s[0]\u\s[10]\h\n\s[0]\w8\w4
-ãŠã¯ã‚ˆã†\w3â€¦\w5ã”ã–ã„ã¾ã™ã€‚\w8\w6
-\t\h\n\s[5]\w7
-ä»Šæ—¥\w3ã‚‚\w7ã„ã¡ã«ã¡ã€\w7ã™ã¦ããªæ—¥ã§\w3ã‚ã‚Šã¾ã™ã‚ˆã†ã€\w9\w6ã«\w3â€¦\w3ã€‚
-ï¼Šæœã«èµ·å‹•
-\t\h\s[0]\u\s[10]\h\n\s[0]\w8\w4
-ãŠã¯ã‚ˆã†\w3â€¦\w5ã”ã–ã„ã¾ã™ã€‚\w8\w6
-\t\h\n\s[1]ä»Šæ—¥\w3ã‚‚ã€\w7${usernames}ã«\w3é€¢ãˆã¦\w5\w9\w8
-\n\n\w6ã†ã‚Œã—ã„ã€\w9\w6ã§ã™\w5â€¦\w3ã€‚\w3
-ï¼Šæœã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[0]\w8\nãŠã¯ã‚ˆã†ã€\w6ã”ã–ã„ã¾ã™\w3\n
-\w6\s[1]\w7â€¦\w4ã§ã€\w6ã„ã„ã®ã‹ã€\w8ãªï¼Ÿ
-ï¼Šæœã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[5]\n\w4
-${usernames}ã€\w1ã¨\w5\nã‚€ã‹ãˆã‚‹æœã€\w7ã¯\w3â€¦\w3\n
-\w6ã¨ã¦ã‚‚\w3\s[1]\w7ç´ æ•µã§ã™ã€\w9ã­\w4â€¦\w4ã€‚
-ï¼Šæœã«èµ·å‹•
-\h\s[0]\u\s[10]\h\s[0]
-\w8â€¦\w3â€¦\w3æœã§ã™ã­ã€‚
-\w9\s[5]\w5ãŠã€\w6ãŠã¯ã‚ˆã†ã”ã–ã„ã€\w9\w4ã¾ã™\w3â€¦\w3ã€‚
-ï¼Šæœã«èµ·å‹•
-ï¼šæ°—æŒã¡ã‚ˆã\w3èµ·ãã‚‰ã‚Œã¾ã—ãŸã€\w9ã‹\w3â€¦\w3ï¼Ÿæœã‹ã‚‰ã€\w6å‘¼ã‚“ã§\w2ã‚‚ã‚‰ãˆã€\w8ã¦\w3â€¦\w3\s[5]\w5
+\![*]\q[I'm new,‰‰ñ“ñ‰ñ–ÚˆÈ~‚Q]
+\_q
+–‰‰ñ“ñ‰ñ–ÚˆÈ~‚P
+\t\h\s[5]\w8
+I knew itc
 
-ã†ã‚Œã—ã„ã€\w9ã§ã™\w3â€¦\w3ã€‚\w3ä»Šæ—¥ã‚‚ã€\w5è‰¯ã„æ—¥ã«\w2ãªã‚Šã¾ã™ã‚ˆã†ã€\w9ã«\w3â€¦\w3ã€‚\w3
-ï¼Šæ·±å¤œã«çµ‚äº†
-\h\s[0]\n\ã‚ã£ã€\w7ã‚‚ã†\w2ã“ã‚“ãª\w1æ™‚é–“\w3â€¦\w3ã€‚\w3\n
-\w9\w9\s[1]\w4${usernames}ã¨\w4ã„ã£ã—ã‚‡ã€\w5ã ã¨\w3â€¦\w3\n\w5æ™‚é–“ãŒ\w3çµŒã¤ã®ãŒ\w3ã¯ã‚„ã„ã§ã™ã€\w9ã­\w3â€¦\w3ã€‚
-ï¼Šæ·±å¤œã«çµ‚äº†
-\h\s[0]\t\nå¤œæ›´ã‹ã—\w2ã—ã™ãã«ã€\w5ã¯\w3â€¦\w3\n\s[1]\w4æ°—ã‚’ä»˜ã‘ã¦\w3ãã ã•ã„ã€\w9ã­â€¦ã€‚
-ï¼Šæ·±å¤œã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[1]\w7
-ã“ã€\w5ã“ã‚“ãª\w2æ™‚é–“\w1ã«\w3â€¦\w5
-\w3${usernames}ã¨\w2ã„ã£ã—ã‚‡\w4ã ãªã‚“ã€\w7ã¦\w3â€¦\w3\w7\n
-\w7ã€€ã‚ãŸã—\w5â€¦\w5ã€‚
-ï¼Šæ·±å¤œã«èµ·å‹•
-\h\n\s[0]\u\s[10]\h\s[1]
-â€¦\w3ã“ã‚“ãªã«\w5å¤œé…ãã«\w2
-\w4â€¦\w4ä¼šã„ã«æ¥ã¦ã€\w4ãã ã•ã£ãŸã‚“ã§ã™ã€\w3ã­\w2â€¦\w6\n
-\w5\w9${usernames}\w4â€¦\w3ã€‚
-ï¼Šæ·±å¤œã«èµ·å‹•
-\t\h\n\s[0]\u\s[10]\h\s[0]
-â€¦ãã‚ãã‚å¯ãªãã¦ã€\w4å¤§ä¸ˆå¤«ã§ã™ã‹ï¼Ÿ
-ï¼Šçµ‚äº†
-\t\h\s[1]\n\w2ã¾ãŸ\w2â€¦\w2ã‚ãˆã¾ã™ã€\w7ã‚ˆã­\w2â€¦\w2ã€‚
-ï¼Šçµ‚äº†
-\t\h\s[1]\nã‚ã€\w4ã‚ã®\w3â€¦\w3\n\n\w6ã¾ãŸ\w3â€¦\w3ãã£ã¨\w6\w2ã€‚
-ï¼Šçµ‚äº†
-\t\h\s[0]\nã‚ã€\w4ã‚ã®\w3â€¦\w3ãã£ã¨ã€\w6ã¾ãŸ\w2â€¦\w2ã€‚
-ï¼Šçµ‚äº†
-ï¼æ·±å¤œã«çµ‚äº†ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼”
-ï¼æ—©æœã«çµ‚äº†ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼–
-ï¼æœã«çµ‚äº†ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼‘ï¼
-ï¼æ˜¼ã«çµ‚äº†ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼‘ï¼–
-ï¼å¤•æ–¹ã«çµ‚äº†ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼‘ï¼˜
-ï¼å¤œã«çµ‚äº†ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼’ï¼“
+\w6It's nice \w2to see \w3youA\w9againc\w3
+–‰‰ñ“ñ‰ñ–ÚˆÈ~‚Q
+\t\h\s[0]
+Ah\w4c\w4
 
-ï¼Šçµ‚äº†
-\t\h\s[4]\n\w8å¯‚ã—ã„ã€\w5ã‘ã©\w3â€¦\w2ä»•æ–¹ãªã„ã§ã™ã‚ˆã€\w7ã­\w1â€¦\w1ã€‚
-ï¼Šçµ‚äº†
-\t\h\s[0]\w8\nã‚\w3â€¦\w3\n\w5ä»Šæ—¥ã¯\w3ãŠã—ã¾ã„\w1ãªã®ã‹ã€\w8ãª\w3â€¦\w3ï¼Ÿ\w3\n
-\w7æœ€å¾Œã¾ã§\w5ä¸€ç·’ã«\w2ã„ã‚‰ã‚Œã€\w8ã¦\w3â€¦\w3
-\w6\s[5]\w5ã†ã‚Œã—ã„ã€\w8ã§ã™\w3â€¦\w3\n
-\w9\w9ã¾ãŸã€\w8\s[1]\w4å‘¼ã‚“ã§\w2ãã ã•ã„ã€\w9ã­ã€‚\w7\n\w6${usernames}\w3â€¦\w3ã€‚
-ï¼Šèµ·å‹•
-\h\s[0]\u\s[10]\h\s[1]\w5\nã‚ˆã‹ã£ãŸ\w3â€¦\w1ã¾ãŸã€\w4é€¢ãˆã¾ã—ãŸ\w2â€¦\w1ã€‚
-ï¼Šèµ·å‹•
-\h\s[0]\u\s[10]\h\s[4]\w9\w9\nã‚ã£\w5â€¦\w4\n\n\w9ã‚„ã£ã¨ã€\w9ã‚ãˆã¾ã—ã€\w9\w5ãŸ\w3â€¦\w3ã€‚
-ï¼Šèµ·å‹•
-ï¼ãƒ¦ãƒ¼ã‚¶èª•ç”Ÿæ—¥èµ·å‹•	ï¼ˆèª•ç”Ÿæœˆï¼‰==ï¼ˆç¾åœ¨æœˆï¼‰&&ï¼ˆèª•ç”Ÿæ—¥ï¼‰==ï¼ˆç¾åœ¨æ—¥ï¼‰&&ï¼ˆï¼ˆç¾åœ¨å¹´ï¼‰èª•ç”Ÿæ—¥ï¼‰ï¼ï¼ï¼
-ï¼ï¼ˆç¾åœ¨æœˆï¼‰æœˆï¼ˆç¾åœ¨æ—¥ï¼‰æ—¥
-ï¼æ·±å¤œã«èµ·å‹•ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼”
-ï¼æ—©æœã«èµ·å‹•ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼–
-ï¼æœã«èµ·å‹•ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼‘ï¼
-ï¼æ˜¼ã«èµ·å‹•ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼‘ï¼–
-ï¼å¤•æ–¹ã«èµ·å‹•ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼‘ï¼˜
-ï¼å¤œã«èµ·å‹•ã€ã‚¿ãƒ–ã€‘ï¼ˆç¾åœ¨æ™‚ï¼‰ï¼œï¼’ï¼“
-ï¼æ·±å¤œã«èµ·å‹•
-ï¼Šèµ·å‹•
-\h\s[0]\u\s[10]\h\s[0]\n\w8â€¦\w2ã‚ã€\w2${usernames}\w7\nã¾ãŸ\w3â€¦\w2ä¼šãˆã¦ã€\w4ã†ã‚Œã—ã„ã€\w4ã§ã™\w2â€¦\w1ã€‚
-ï¼Šèµ·å‹•
-\h\s[0]\u\s[10]\h\s[0]\n\w8â€¦\w2ã‚ã€\w2${usernames}\w7\nã¾ãŸ\w3â€¦\w2ä¼šãˆã¦ã€\w4ã†ã‚Œã—ã„ã€\w4ã§ã™\w2â€¦\w1ã€‚
-ï¼Šèµ·å‹•
-\h\s[0]\u\s[10]\h\s[1]\w5\nã‚ˆã‹ã£ãŸ\w3â€¦\w1ã¾ãŸã€\w4é€¢ãˆã¾ã—ãŸ\w2â€¦\w1ã€‚
-ï¼Šç€æ›¿ãˆã‚‹
-\t\h\w7\n\s[5]ã¯ã„ã€‚\w8ç€æ›¿ãˆ\w1ã¾ã™ã€\w9\w4ã­\w3â€¦\w3ã€‚
+It's my \w2misunderstandingA\w7isn't itB\w5
+
+GreetingsB\w8My name is 54B
+
+\w5UhmA\w5nice to meet youc
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚Tj
+WellA\w8againc
+
+\w4Please \w3call meA\w3i‚R‚Wj\w8 okcH
+–—[•û‚ÉI—¹
+„ˆê”Ê“I‚ÈI—¹
+
+”Œã‚Åê—p‚Ìƒg[ƒN‚ğ‘‚­‚Ì‚¾
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚R‚Wj\w5
+Thanks for your time...
+
+\w5iUjc
+–ˆê”Ê“I‚È‹N“®
+\t\hi‚R‚Rj\w7
+Ahc\w4
+
+\w9i‚V‚Pj\w3FinallyA\w8we meet\w4c\w4
+
+\w8i‚W‚Tj\w5iUjc
+–ˆê”Ê“I‚È‹N“®
+\t\h
+\w4i‚X‚SjOh\w6c\w6
+
+\w7i‚W‚TjYou came\w3to\w1see me\w1right...\w5H
+–—[•û‚É‹N“®
+\t\h\s[0]
+It's lateB
+
+\w4Thank you for your timecB
+––é‚ÉI—¹
+\t\h\s[5]\w5
+Good night\w3A
+
+iUjB
+––é‚ÉI—¹
+\t\hi‚Oj
+See youA\w9tomorrowc
+
+i‚Tj\w3SweetA\w8dreamsc\w9\w9
+
+\w3\w3i‚P‚TjI'm sureA\w9we'll meet againc
+––é‚ÉI—¹
+\t\h\s[0]
+Good\w4Anightc
+
+i‚Tj\w9\w9\w9iUjc
+––é‚ÉI—¹	iŒ»İŒj==‚U||iŒ»İŒj==‚V||iŒ»İŒj==‚W
+\t\hi‚Oj
+Good\w1cnightB
+
+\w8i‚TjThe heat, please be \w5careful \w5okc
+
+To avoid\w3heat exhaustionA\w9okcH
+––é‚ÉI—¹
+\t\h\s[5]\w4
+I'm happy \w3to be withA\w7youc
+
+\w3\w6i‚T‚S–¼‘OjisA\w9happyc
+––é‚ÉI—¹	iŒ»İŒj==‚P‚Q||iŒ»İŒj==‚P||iŒ»İŒj==‚Q
+\t\h
+i‚OjGood\w1cnightB
+
+i‚Tj\w8Don't let the cold \w5get to youA\w5ok\w6c
+Please \w3be carefulA\w9okcH
+––é‚ÉI—¹
+\t\hi‚Tj
+Good \w1\w1nightc
+
+iUjB
+––é‚É‹N“®
+\t\h\s[5]\w8\w8
+GoodA\w7eveningc\w5
+
+i‚P‚Sj\w7I can't \w3helpA\w7but\w4c\w9
+i‚Pj\w9count \w3the times \w1I can't seeA\w9\w4youc
+––é‚É‹N“®
+\t\hi‚Tj\w8
+Good eveningA\w6
+
+iUj\w9\w9i‚Pj\w9
+
+Are\w2you\w2notA\w3tiredc\w2H
+––é‚É‹N“®
+\t\hi‚P‚Sj\w8
+I can't\w2help butA\w5\s[1]\w5wonderc
+
+\w7If we \w1could \w6be togetherA\w7\w8forever\w5c\w5B
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚S‚Uj\w5
+It's alreadyA\w1over\w7c\w9\w5i‚R‚Xj\w5
+
+How lonelyA\w9I'll \w8miss \w1youc
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚Pj
+Until \w6you A\w2call \w2meA\w5againc\w9\w9
+
+i‚R‚Wj\w5iUjA\w7I'll \w1always \w3be
+
+\w9thinkinA\w9about \w3youc
+–ˆê”Ê“I‚ÈI—¹
+\t\h\s[5]
+\w8See youc\w5
+
+\w6I hope \w3toA\w9see you\w3Ai‚R‚Wj\w5again\w3c
+–‘’©‚É‹N“®
+\t\hi‚Tj
+\w9\w3Oh it's \w4iUjc\w3B
+
+SeeA\w5I get up \w1really earlyA\w8right\w5H
+
+–‘’©‚É‹N“®
+\t\hi‚Oj
+\w6Outsidec\w9\w9i‚Tj\w3
+
+It'sA\w3already \w2brightA\w9\w4isn't itcH
+–‘’©‚É‹N“®
+\t\h\s[0]
+cGood morning\w9\w9
+
+\w4\w9I'm stillAa little \s[5]\w6sleepyB
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚R‚Wj
+See youcA\w1
+
+I'd like to \w1see you againc
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚Tj
+Likely\w3AI'll see \w5you again\w6\w1c
+–’‹‚É‹N“®
+\t\h\s[5]\w7
+HelloB\w5\w9\w9
+
+i‚T‚S–¼‘Ojisc\w2
+\w8\w8i‚Pj\w5
+really \w3happy\w4c\w4to see \w6youA\w9iUjB
+–ˆê”Ê“I‚È‹N“®
+\t\hi‚Tj\w9
+I'm \w3gladA\w6\w9\w9
+
+\s[1]\w6ThatA\w6you \w3called meA\w8again\w4\w8c\w3B
+–ˆê”Ê“I‚È‹N“®
+\t\h\s[5]
+AhA\w8iUjc\w5
+
+\w5\s[1]\w6I'm really \w3glad thatA\w5
+
+you called \w9\w5mec
+–ˆê”Ê“I‚È‹N“®
+\t\hi‚Q‚Xj
+\w7c\w5c\w5c\w5c\w5
+
+i‚Qj\w9\w9\w9I'm \w3gladc
+
+\w6ThatA\w6you're \w5here again\w4\s[1]\w8c\w3B
+–’‹‚É‹N“®
+\t\h\w5i‚Pj\w6
+HellocA\w5\w9\w9
+
+i‚Qj\w5I missed you\w3A\w5\w5very much\w3c\w3B
+–’©‚ÉI—¹
+\t\h\s[5]
+\w4i‚T‚S–¼‘Ojwillc\w9
+be waiting for iUjA\w9
+
+\w3for a longc\w3A
+\w9\w9long\w2A\w9timec\w9\w9
+
+\w9Have a nice dayA\w9
+iUjB
+–’©‚ÉI—¹
+\t\hi‚P‚Tj
+\w5When we say \w3goodbyeA\w7
+
+It's \w2alwaysc
+\w9A \w4\w5littleA\w9sadc\w9
+
+i‚Tj\w9\w9Have a nice day\w9A\w3iUjB
+–’©‚ÉI—¹
+\t\hi‚Tj
+Thank youA\w2for your timeB
+
+\w9\w9i‚P‚Sj\w9i‚T‚S–¼‘OjwillA\w9
+
+\w9always be \w5waiting for iUjc
+–’©‚É‹N“®
+\t\h\s[0]\w8\w4
+Good \w3\w5morningA\w8\w6
+
+iUjB\w9\s[5]\w9
+\w7
+I hope \w3that \w7todayA\w7
+will be \w3a good day\w9\w6c
+–’©‚É‹N“®
+\t\hi‚Tj\w8\w4
+Good \w5morningB\w8\w6
+
+\w5i‚T‚S–¼‘Ojis \s[1]really \w3happyA\w7to see \w3iUj\w5\w9\w8
+
+\w6againA\w9\w6today\w5c\w3B\w3
+–’©‚É‹N“®
+\t\hi‚Tj\w8
+GoodA\w6morning\w3\w6\s[1]\w7c
+
+\w4Is \w6that okay \w8to sayH
+–’©‚É‹N“®
+\t\hi‚Q‚Vj\w4
+iUjA\w1and\w5
+
+a beautiful morning\w7c\w9\w9\s[1]\w9
+
+\w6It's so \w3\w7lovelyA\w9isn't it\w4c\w4B
+–’©‚É‹N“®
+\t\h\s[0]
+\w3It's morning alreadyc\w9\w9
+
+\w9i‚Pj\w5AhA\w6Good \w9\w4morningc
+–’©‚É‹N“®
+\t\hi‚Oj
+Did you \w3have a good rest\w9cH
+
+\s[5]\w5I'm glad \w6youA\w2called \w8mecA
+I'm reallyA\w9gladc
+
+\w9\w3I hope you \w5have a \w2good dayA\w9todayc\w3
+–[–é‚ÉI—¹
+\t\h\s[0]
+OhA\w7it's \w2already \w1latec\w3
+
+\w9\w9\s[1]\w4When i'm \w4withA\w5iUjc
+
+\w5Time \w3flies\w3A\w9doesn't itc
+
+\w9GoodnightB
+–[–é‚ÉI—¹
+\t\h\s[0]
+Don't stay \w2up tooA\w5latec
+
+\s[1]\w4Take \w3careA\w9okcH
+–[–é‚É‹N“®
+\t\h\s[1]\w7
+OhA\w5it's \w2pretty \w1latec\w5
+
+\w3I can't \w2believe I'm \w4withA\w7c\w7
+
+\w7iUj\w5c\w5B
+–[–é‚É‹N“®
+\t\h\s[1]
+\w3It's so \w5late\w2\w4c
+
+\w4You cameA\w4to see meA\w3didn't youc\w6
+
+\w5\w9iUj\w4c\w3B
+–[–é‚É‹N“®
+\t\h\s[0]\w5
+You should go to sleepA\w9
+
+\w4Are you feeling okayH
+–I—¹
+‹N“®ƒg[ƒN—”	i—”‚O`‚Qj
+
+„ˆê”Ê“I‚ÈI—¹	i‹N“®ƒg[ƒN—”j‚Q
+
+„[–é‚ÉI—¹	iŒ»İjƒ‚T
+„‘’©‚ÉI—¹	iŒ»İjƒ‚V
+„’©‚ÉI—¹	iŒ»İjƒ‚P‚P
+„’‹‚ÉI—¹	iŒ»İjƒ‚P‚V
+„—[•û‚ÉI—¹	iŒ»İjƒ‚Q‚O
+„–é‚ÉI—¹
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚S‚Uj
+\w8It feels lonelyA\w5butc
+
+i‚Sj\w2It can't be helpedA\w7right\w1c
+––é‚ÉI—¹	i‹N“®j„‚Q
+\t\hi‚P‚Sj\w8
+Ahc
+\w5It's the \w3end of \w1the dayA\w8isn't itcH\w3
+
+\s[5]\w7I'm glad \w5we could be \w2togetherA\w8till the endc
+\w6\w5I'm soA\w8happyc
+
+\s[1]\w9\w9PleaseA\w8\w4call me\w2againA\w9okH\w7
+
+\w6iUjc
+–ˆê”Ê“I‚È‹N“®
+\t\h\s[1]\w5
+I'm gladc\w9\w9
+
+We meetA
+
+\w4againc
+–ˆê”Ê“I‚È‹N“®
+\t\h\s[4]\w9\w9
+Oh\w5c\w4
+
+\w9FinallyA\w9you'rec \w9\w5herec
+–‹N“®																	„[–é‚É‹N“®	iŒ»İjƒ‚S
+‹N“®ƒg[ƒN—”	i—”‚O`‚Qj
+
+„ˆê”Ê“I‚È‹N“®	i‹N“®ƒg[ƒN—”j‚Q
+
+„[–é‚É‹N“®	iŒ»İjƒ‚T
+„‘’©‚É‹N“®	iŒ»İjƒ‚V
+„’©‚É‹N“®	iŒ»İjƒ‚P‚P
+„’‹‚É‹N“®	iŒ»İjƒ‚P‚V
+„—[•û‚É‹N“®	iŒ»İjƒ‚Q‚O
+„–é‚É‹N“®
+
+–ˆê”Ê“I‚È‹N“®
+\t\hi‚Tj
+\w2AhA\w2iUjB\w9\w5
+
+i‚R‚Wj\w5I'm seeing youc\w2again\w8c\w9
+
+i‚W‚Tj\w4I'mA\w4gladc
+–’…‘Ö‚¦‚é
+\t\h\w7\n\s[5]YesB\w8I'll change\w1A\w9\w4okc
 \![change,shell,MIY_Color]
 
-ï¼ãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•
-ï¼Šç€æ›¿ãˆãªã„
+–’…‘Ö‚¦‚È‚¢
+Œ»İ‚ÌƒVƒFƒ‹	master
+
+„ƒ†[ƒU‚Ì–¼‘O‚ğ¿–â
+–ƒ†[ƒU‚Ì–¼‘O‚ğ¿–â
+‰‰ñ‹N“®Š®—¹	‚P
+\w9\w9\c\t\h\s[1]\w4
+Uhmc
+
+Can IA\w4ask your namec\w2Is thatA\w4okayc\w2H\w8
+\_q
+\![*]\q[Sure,ƒ†[ƒU‚Ì–¼‘O‚ğ¿–âT]
+
+\![*]\q[No,ƒ†[ƒU‚Ì–¼‘O‚ğ¿–âF]
+\_q
+–ƒ†[ƒU‚Ì–¼‘O‚ğ¿–âT
+\t\h
+\s[5]OhA\w3thank you\w1cso much\w1c
+
+\w5\w4UhmA\w3pleaseA\w3input\w1cyour nameB\w7
+
+\![open,inputbox,ƒ†[ƒU–¼]
+–ƒ†[ƒU‚Ì–¼‘O‚ğ¿–âF
+\t\h\s[4]\w6
+Ohc\w3I'm so \w2sorryA\w4
+
+\w7for sayingc\w2unnecessary thingsc
+–ƒ†[ƒU–¼‚ğ‹³‚¦‚Ä‚à‚ç‚Á‚½
+\t\h\c\s[0]\b[2]
+Your name is iƒ†[ƒU–¼jc\w3
+
+How should IA\w6address youcH
+\_q
+\![*]\q[ƒÓ-san,‚³‚ñ•t‚¯]
+\![*]\q[ƒÓ-kun,‚­‚ñ•t‚¯]
+\![*]\q[ƒÓ-chan,‚¿‚á‚ñ•t‚¯]
+\![*]\q[ƒÓ-sama,—l•t‚¯]
+\![*]\q[ƒÓ-kyun,ŒN•t‚¯]
+\![*]\q[ƒÓ-tan,‚½‚ñ•t‚¯]
+\![*]\q[ƒÓ-dono,“a•t‚¯]
+\![*]\q[Nothing,ŒÄ‚ÑÌ‚Ä]
+\![*]\q[Let me decide,ŒÄ‚Ñ•û©•ª‚ÅŒˆ‚ß‚é]
 
 
-ï¼ãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•
-ï¼Šãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•
-\t\h\w9\w9\c\h\s[1]\w4
-ã‚ã®\w3â€¦\w3ãŠåå‰ã€\w4ä¼ºã£ã¦ã‚‚\w3â€¦\w2ã„ã„ã§ã™ã€\w4ã‹\w2â€¦\w2ï¼Ÿ\w8
+\![*]\q[Anything more elaborateH,‚à‚Á‚Æ‹Ã‚Á‚½ŒÄ‚Ñ•û]
 
-\q[ã„ã„ã‚ˆ,ãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•T]
-\q[ã ã‚,ãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•F]
-ï¼Šãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•T
-\t\h\s[5]ã‚ã€\w3
+\![*]\q[Please stop,ƒ†[ƒUŒÄ‚Ñ•û‘I‚ñ‚Å‚È‚¢]
+\_q
+–ƒ†[ƒUŒÄ‚Ñ•û‘I‚ñ‚Å‚È‚¢
+‰‰ñ‹N“®Š®—¹	‚P
+ƒ†[ƒUŒhÌ	‚³‚ñ
+\t\h\s[0]\w4
+Yesc
 
-ã‚ã‚ŠãŒã¨ã†\w1â€¦\w1ã”ã–ã„ã¾ã™\w1â€¦ã€‚
-\w5\n\w4ã‚ã®ã€\w3å…¥åŠ›ã‚’ã€\w3ãŠé¡˜ã„\w1â€¦\w1ã—ã¾ã™ã€‚\w7
-\![open,inputbox,ãƒ¦ãƒ¼ã‚¶å]
-ï¼Šãƒ¦ãƒ¼ã‚¶ã®åå‰ã‚’è³ªå•F
-\t\h\s[4]\w6\nã‚\w2â€¦\w3ä½™è¨ˆãªã“ã¨\w2è¨€ã£ã¦ã€\w4\n\w7ã”ã‚ã‚“\w2â€¦\w2ãªã•ã„\w2â€¦ã€‚
-ï¼Šãƒ¦ãƒ¼ã‚¶åã‚’æ•™ãˆã¦ã‚‚ã‚‰ã£ãŸ
-\t\h\c\s[0]\n\b[2]ãŠåå‰ã¯ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰â€¦ã€‚\w3
-å‘¼ã³æ–¹ã¯ã€\w6ã©ã†ãªã•ã„ã¾ã™ã‹â€¦ï¼Ÿ
+Well thenAanother timeAmaybec
+–ˆê”Ê“I‚ÈI—¹
+\t\hi‚R‚Wj
+\w2See youc
 
-\![*]\q[ã•ã‚“,ã•ã‚“ä»˜ã‘]
-\![*]\q[ãã‚“,ãã‚“ä»˜ã‘]
-\![*]\q[ã¡ã‚ƒã‚“,ã¡ã‚ƒã‚“ä»˜ã‘]
-\![*]\q[æ§˜,æ§˜ä»˜ã‘]
-\![*]\q[å›,å›ä»˜ã‘]
-\![*]\q[ãŸã‚“,ãŸã‚“ä»˜ã‘]
-\![*]\q[æ®¿,æ®¿ä»˜ã‘]
-\![*]\q[ç„¡ã—ãŒã„ã„,å‘¼ã³æ¨ã¦]
-\![*]\q[è‡ªåˆ†ã§æ±ºã‚ã‚‹,å‘¼ã³æ–¹è‡ªåˆ†ã§æ±ºã‚ã‚‹]
+\w2We'll meet againA\w7rightcH
+–ˆê”Ê“I‚ÈI—¹
+\t\h
+i‚Tj\w5iUjA\w5uhmc\w9
 
-\![*]\q[ã‚‚ã£ã¨å‡ã£ãŸã®ã¯ãªã„ï¼Ÿ,ã‚‚ã£ã¨å‡ã£ãŸå‘¼ã³æ–¹]
-\![*]\q[ã‚„ã£ã±ã‚Šæ­¢ã‚,ãƒ¦ãƒ¼ã‚¶å‘¼ã³æ–¹é¸ã‚“ã§ãªã„]
-ï¼Šãƒ¦ãƒ¼ã‚¶å‘¼ã³æ–¹é¸ã‚“ã§ãªã„
-ï¼„ãƒ¦ãƒ¼ã‚¶æ•¬ç§°ï¼	ã•ã‚“
-\t\h\s[0]\w4\nã¯ã„â€¦ãã‚Œã§ã¯ã€ã¾ãŸã®æ©Ÿä¼šã€ã«â€¦ã€‚
-ï¼Šçµ‚äº†
-\h\s[1]\n\w2ã¾ãŸ\w2â€¦\w2ã‚ãˆã¾ã™ã€\w7ã‚ˆã­\w2â€¦\w2ã€‚
-ï¼Šçµ‚äº†
-\h\s[1]\n\w2ã‚ã®\w4â€¦\w2ã¾ãŸ\w2â€¦\w3ã€‚
+\w5i‚R‚WjSee you laterc
+–ƒ†[ƒU–¼‚ğ‹ó‘Å‚¿‚³‚ê‚½
+\t\h\s[0]\w4
+Yesc
+
+I'll see youAnext timec
+–Œ»İ“ú
+iŒ»İ”NjiŒ»İŒjiŒ»İ“új
+––é‚ÉI—¹
+„ƒRƒ~ƒ…‚¨‚â‚·‚İ
+–[–é‚ÉI—¹
+„ƒRƒ~ƒ…‚¨‚â‚·‚İ
+–ˆê”Ê“I‚È‹N“®
+\t\hi‚Tj\w6
+Call me i‚T‚S–¼‘Ojcokc
+
+i‚R‚Wj\w8Thank \w6youA\w5iUjB
+–[–é‚ÉI—¹
+\t\hi‚V‚Qj
+You're a night owl, aren't youH\w9
+
+i‚V‚Pj\w2PleaseA\w5take care of yourselfB
+–‘’©‚ÉI—¹
+„ˆê”Ê“I‚ÈI—¹
+
+”Œã‚Åê—p‚Ìƒg[ƒN‚ğ‘‚­‚Ì‚¾
+–’‹‚ÉI—¹
+„ˆê”Ê“I‚ÈI—¹
+
+”Œã‚Åê—p‚Ìƒg[ƒN‚ğ‘‚­‚Ì‚¾
+–—[•û‚É‹N“®
+„ˆê”Ê“I‚È‹N“®
+–‘’©‚É‹N“®
+„ˆê”Ê“I‚È‹N“®
+–[–é‚É‹N“®
+„ˆê”Ê“I‚È‹N“®

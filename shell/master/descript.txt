@@ -33,7 +33,7 @@ menu.separator.color.b,220
 
 craftman,towa
 
-craftmanw,„Å®„Çè
+craftmanw,Ç∆ÇÌ
 
 craftmanurl,http://www3.to/gift/
 

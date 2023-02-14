@@ -1,471 +1,922 @@
 
-ï¼ƒã€€-----------------------------------------------------
-ï¼ƒã€€
-ï¼ƒã€€shioriäº’æ›dllã€é‡Œã€…ï¼ˆã•ã¨ã‚Šï¼‰ã€ç”¨è¾æ›¸
-ï¼ƒã€€
-ï¼ƒã€€ã‚¤ãƒ™ãƒ³ãƒˆãƒˆãƒ¼ã‚¯ã€‚
-ï¼ƒã€€
-ï¼ƒã€€-----------------------------------------------------
-
-
-
-ï¼Šcan't analyzeã«ã‚ˆã‚Šãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚¹å¤±æ•—
-ï¼šâ€¦â€¦è§£æå¤±æ•—ã€‚
-ã‚µã‚¤ãƒˆã®ãƒ‡ã‚¶ã‚¤ãƒ³ãŒå¤‰æ›´ã•ã‚ŒãŸã®ã‹ãªï¼Ÿã€€æœ€æ–°ç‰ˆã®ãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚µãŒã‚ã‚Œã°å…¥ã‚Œæ›¿ãˆã¦ãã ã•ã„ã­ã€‚
-
-ï¼Šcan't downloadã«ã‚ˆã‚Šãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚¹å¤±æ•—
-ï¼šãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã§ãã¾ã›ã‚“ã§ã—ãŸã€‚
-ï¼šã‚ã‚“ã¾ã‚Šã«ã‚‚é‡ã™ãã‚‹ã‹ã€ãã‚‚ãã‚‚ãƒãƒƒãƒˆã«ç¹‹ãŒã£ã¦ãªã„ã‹ã€‚
-
-ï¼Šdefectã«ã‚ˆã‚Šãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯å¤±æ•—
-ï¼šãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯å¤±æ•—ã€ã¨ã„ã†ã‹â€¦â€¦
-ï¼šã¡ã‚ƒã‚“ã¨è¨­å®šã—ãŸã‹ï¼Ÿ
-
-ï¼Škickã«ã‚ˆã‚Šãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯å¤±æ•—
-ï¼šï¼©ï¼¤ã‹ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒé•ã†ã¿ãŸã„ã§ã™ã€‚
-
-ï¼ŠOnBatteryCritical
-ï¼šãƒãƒƒãƒ†ãƒªãŒæ®‹ã‚Šï¼ˆï¼²ï¼ï¼‰ï¼…ã«ãªã‚Šã¾ã—ãŸã€‚
-ï¼ŠOnBatteryLow
-ï¼šãƒãƒƒãƒ†ãƒªãŒæ®‹ã‚Šï¼ˆï¼²ï¼ï¼‰ï¼…ã§ã™ã€‚
-ï¼ŠOnBIFF2Complete
-ï¼ãƒ¡ãƒ¼ãƒ«ãŒãªã„ã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼ï¼‰==0
-ï¼ãƒ¡ãƒ¼ãƒ«ãŒå¢—ãˆãŸã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼“ï¼‰>0
-ï¼š\_qï¼ˆï¼²ï¼’ï¼‰
-ï¼ˆï¼²ï¼ï¼‰é€šï¼ï¼ˆï¼²ï¼‘ï¼‰ãƒã‚¤ãƒˆ
-\_qæ–°ç€ãƒ¡ãƒ¼ãƒ«ã¯ã‚ã‚Šã¾ã›ã‚“ã§ã—ãŸã€‚
-
-ï¼¿ãƒ¡ãƒ¼ãƒ©ã‚’é–‹ã
-ï¼¿ä½•ã‚‚ã—ãªã„
-
-ï¼ŠOnBIFFBegin
-ï¼š\_qï¼ˆï¼²ï¼’ï¼‰
-\_qãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯ä¸­ã§ã™ã€‚
-
-ï¼ŠOnBIFFComplete
-ï¼ãƒ¡ãƒ¼ãƒ«ãŒãªã„ã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼ï¼‰==0
-ï¼š\_qï¼ˆï¼²ï¼’ï¼‰
-ï¼ˆï¼²ï¼ï¼‰é€šï¼ï¼ˆï¼²ï¼‘ï¼‰ãƒã‚¤ãƒˆ
-\_qãƒ¡ãƒ¼ãƒ«ãŒå±Šã„ã¦ã„ã¾ã™ã€‚
-
-ï¼¿ãƒ¡ãƒ¼ãƒ©ã‚’é–‹ã
-ï¼¿ä½•ã‚‚ã—ãªã„
-
-
-ï¼ŠOnBIFFFailure
-ï¼ï¼ˆï¼²ï¼ï¼‰ã«ã‚ˆã‚Šãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯å¤±æ•—
-ï¼šãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯å¤±æ•—ã€‚åŸå› ã¯ã€ï¼ˆï¼²ï¼ï¼‰ã€ã ãã†ã§ã™ãŒâ€¦â€¦
-ï¼šã‚ã‹ã‚‰ã‚“ã€‚
-
-ï¼ŠOnBoot
-ï¼ï¼ˆç¾åœ¨æœˆï¼‰æœˆï¼ˆç¾åœ¨æ—¥ï¼‰æ—¥
-ï¼èµ·å‹•
-
-ï¼ŠOnChoiceSelect
-ï¼ï¼ˆï¼²ï¼ï¼‰
-ï¼šé¸æŠè‚¢ã®ã‚¸ãƒ£ãƒ³ãƒ—å…ˆã€Œï¼ˆï¼²ï¼ï¼‰ã€ã¯å­˜åœ¨ã—ã¾ã›ã‚“ã€‚è¨˜è¿°ãƒŸã‚¹ï¼Ÿ
-
-ï¼ŠOnChoiceTimeout
-\h\s[4]è¦‹ã¦\w4ã€ãªã„ã§ã™ã€\w4ã­â€¦ã€‚
-ï¼ŠOnChoiceTimeout
-\h\s[4]\w2â€¦\w2â€¦\w2${usernames}ã€‚
-ï¼ŠOnClose
-ï¼çµ‚äº†
-
-ï¼ŠOnFirstBoot
-ï¼åˆå›
-
-ï¼ŠOnGhostChanged
-ï¼ï¼ˆç¾åœ¨æœˆï¼‰æœˆï¼ˆç¾åœ¨æ—¥ï¼‰æ—¥
-ï¼ä»–ã®ã‚´ãƒ¼ã‚¹ãƒˆã‹ã‚‰å¤‰æ›´
-
-ï¼ŠOnGhostChanging
-ï¼ä»–ã®ã‚´ãƒ¼ã‚¹ãƒˆã¸å¤‰æ›´
-
-
-
-
-ï¼ƒ--------------------------------------------------------------------
-ï¼ƒ
-ï¼ƒ ãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯é–¢é€£
-ï¼ƒ
-ï¼ƒã€€ã€€ã€€\_q ã§å›²ã¾ã‚ŒãŸç¯„å›²ã¯ä¸€æ°—ã«è¡¨ç¤ºã•ã‚Œã¾ã™ã€‚
-ï¼ƒ
-
-ï¼ŠOnHeadlinesense.OnFind
-ï¼èª­ã¿ä¸Šã’ãƒ•ã‚§ãƒ¼ã‚ºï¼ˆï¼²ï¼’ï¼‰
-
-ï¼ŠOnHeadlinesenseBegin
-ï¼šã€Œï¼ˆï¼²ï¼ï¼‰ã€ã®ãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ã‚’å–å¾—ä¸­ã§ã™ã€‚
-
-ï¼ŠOnHeadlinesenseComplete
-ï¼šæ›´æ–°ã•ã‚Œã¦ã„ã¾ã›ã‚“ã§ã—ãŸã€‚
-
-ï¼ŠOnHeadlinesenseFailure
-ï¼šãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚¹å¤±æ•—ã€‚
-ï¼ï¼ˆï¼²ï¼ï¼‰ã«ã‚ˆã‚Šãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³ã‚»ãƒ³ã‚¹å¤±æ•—
-ç†ç”±ã¯ï¼ˆï¼²ï¼ï¼‰ã ãã†ã§ã™ã€‚
-
-ï¼ŠOnInstallBegin
-ï¼šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«é–‹å§‹ã€‚
-
-ï¼ŠOnInstallComplete
-ï¼ï¼ˆï¼²ï¼‘ï¼‰ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-ï¼ã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«	ï¼ˆï¼²ï¼ï¼‰==ghost
-ï¼ã‚·ã‚§ãƒ«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«	ï¼ˆï¼²ï¼ï¼‰==shell
-ï¼ãƒãƒ«ãƒ¼ãƒ³ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«	ï¼ˆï¼²ï¼ï¼‰==balloon
-ï¼ŠOnInstallComplete
-ï¼ï¼ˆï¼²ï¼‘ï¼‰ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-ï¼šï¼ˆï¼²ï¼‘ï¼‰/ï¼ˆï¼²ï¼ï¼‰ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¾ã—ãŸã€‚
-ï¼šãµã‚€ã€‚
-
-ï¼ŠOnInstallFailure
-ï¼šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«å¤±æ•—ã€‚
-ï¼šåŸå› ã¯ã€Œï¼ˆï¼²ï¼ï¼‰ã€ã ã¨ã•ã€‚
-
-ï¼ŠOnInstallRefuse
-ï¼šã“ã‚Œã¯ã€ï¼ˆcallï¼ˆãƒã‚¤ãƒˆå€¤ã€ï¼‘ï¼‰KillDangerousTagï¼ˆãƒã‚¤ãƒˆå€¤ã€ï¼‘ï¼‰ï¼ˆï¼²ï¼ï¼‰ï¼‰ã€ã•ã‚“å°‚ç”¨ã ãã†ã§ã™ã€‚
-ï¼šã‚´ãƒ¼ã‚¹ãƒˆã‚’åˆ‡ã‚Šæ›ãˆã¦ã‹ã‚‰ãƒ‰ãƒ­ãƒƒãƒ—ã—ã¦ã‚„ã£ã¦ãã‚Œã€‚
-ä»Šã®ãŒãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ãŸãƒ•ã‚¡ã‚¤ãƒ«ãªã‚‰ã€materiaã®ä¸‹ã®narã«ã‚ã‚‹ã¯ãšã ã€‚
-
-
-ï¼ŠOnKeyPress
-ï¼ï¼ˆï¼²ï¼ï¼‰ãŒæŠ¼ã•ã‚ŒãŸ
-
-ï¼ŠOnMouseDragEnd
-\h\s[0]\w4\nã“ã“ãªã‚‰\w3â€¦\w4\nãŠé‚ªé­”ã«\w1ãªã‚Šã¾ã›ã‚“ã€ã‹\w1â€¦\w1ï¼Ÿ\w3\n\w9\e
-ï¼ŠOnMouseDragEnd
-\t\h\s[1]\w4\næŠ±ãä¸Šã’\w3â€¦\w3ã‚‰ã‚Œ\w1ã¡ã‚ƒã£ãŸã€‚\w3\n\w9\e
-ï¼ŠOnMouseDragEnd
-\h\s[5]\w4\nã“ã“ã§ã€\w5è½ã¡ç€ãã¾ã™ã­ï¼Ÿ)\w3\n\w9\e
-ï¼ŠOnMouseDragEnd
-\h\s[5]\w4\nåˆ°ç€ã§ã™ã­ã€‚\w3\n\w9\e
-ï¼ŠOnMouseDragEnd
-\t\h\s[0]\w4\nç§»å‹•ã§ã™ã‹ï¼Ÿ\n\w7\e
-ï¼ŠOnMouseDragEnd
-\t\h\s[1]\w4\n\w4ã ã€\w4ã ã£ã“\w3â€¦\w3ã§ã—ãŸã€\w7ã­\w3â€¦\w3ã€‚\w3\n\w9
-ï¼ŠOnMouseDragEnd
-\h\s[0]\w4\nã‚ã®ä½ç½®ã˜ã‚ƒ\w3ä¸å‘³ã‹ã£ãŸã§ã™ã‹ï¼Ÿ\w3\n\w9\e
-ï¼ŠOnMouseDragEnd
-\t\h\s[1]\w4\n\w4â€¦\w5ã©ãã©ãã€\w7ã—ã¡ã‚ƒã„\w1ã¾ã—ãŸã€‚\w3\n\w9\e
-ï¼ŠOnMouseDragStart
-\t\h\s[0]\nã‚ã£â€¦\w3ã€‚\n\w9\w9\e
-ï¼ŠOnMouseDragStart
-\h\s[0]\nç§»å‹•ã‹ãªâ€¦ï¼Ÿ\w3\n\w9\e
-ï¼ŠOnMouseDragStart
-\h\s[0]\nã‚ã‚Œï¼Ÿ\w3\n\w9\e
-ï¼ŠOnMouseDragStart
-\h\s[0]\n${usernames}â€¦ï¼Ÿ\w3\n\w9\e
-ï¼ŠOnMouseDragStart
-\h\s[0]\nç§»å‹•ã‹ãªâ€¦ï¼Ÿ\w3\n\w9\e
-ï¼ŠOnMouseDragStart
-\t\h\s[1]\nã ã€\w6ã ã£ã“\w3â€¦\w3ï¼Ÿ\w3\n\w9\w9\e
-ï¼ŠOnMusicPlay
-ï¼šã€ï¼ˆï¼²ï¼ï¼‰ã€å†ç”Ÿé–‹å§‹ï½
-
-
-ï¼ŠOnNarCreated
-ï¼ŠOnOtherGhostClosed
-\t\h\s[0]\w5\nï¼ˆï¼²ï¼ï¼‰ã•ã‚“ã€\w7ãŠç–²ã‚Œæ§˜ã§ã—ãŸ\w2â€¦ã€‚\n\w8\e
-ï¼ŠOnOtherGhostClosed
-\t\h\s[0]\w5\nï¼ˆï¼²ï¼ï¼‰ã•ã‚“ã€\w7ã¾ãŸ\w2â€¦ã€‚\n\w8\e
-ï¼ŠOnShellChanged
-\h\s[0]\n\w5ï¼ˆRï¼ï¼‰\w1ã«\w3â€¦\w3ç€æ›¿ãˆã€\w7ã¾ã—ãŸã€‚\w5\n\h\s[5]\w6\w9 ä¼¼åˆã£ã¦ã¾ã™ã€\w8ã‹\w4â€¦\w3ï¼Ÿ
-ï¼ŠOnSNTPBegin
-ï¼šï¼ˆï¼²ï¼ï¼‰ã‹ã‚‰æ­£ã—ã„æ™‚é–“ã‚’å–å¾—ä¸­ã§ã™ã€‚
-
-ï¼ŠOnSNTPCompare
-ï¼šã‚ã£ã¡ã€€ï¼ˆï¼²ï¼‘ï¼‰
-ã“ã£ã¡ã€€ï¼ˆï¼²ï¼’ï¼‰
-ï¼æ™‚è¨ˆã®ãšã‚ŒãŒï¼ˆï¼²ï¼“ï¼‰ç§’
-ãˆãƒ¼ã¨ã€ï¼ˆï¼²ï¼“ï¼‰ç§’ãšã‚Œã¦ã¾ã™ã­ã€‚åˆã‚ã›ã¾ã™ã‹ï¼Ÿ
-
-ï¼¿åˆã‚ã›ã‚‹
-ï¼¿åˆã‚ã›ãªã„
-
-ï¼ƒ \6ã¯æ™‚åˆ»ã‚’ä¿®æ­£ã™ã‚‹ã€Œã•ãã‚‰ã‚¹ã‚¯ãƒªãƒ—ãƒˆã€ã€‚
-
-ï¼ŠOnSNTPCorrect
-ï¼šåˆã‚ã›ã¾ã—ãŸã€‚
-
-ï¼ŠOnSNTPFailure
-ï¼šå¤±æ•—â€¦â€¦ç¹‹ãŒã‚‰ãªã„ï¼Ÿ
-
-
-ï¼ƒã€€
-ï¼ƒã€€ãƒ˜ãƒƒãƒ‰ãƒ©ã‚¤ãƒ³å‘¨ã‚Šã®é¸æŠè‚¢ã¯ã¡ã‚‡ã£ã¨ç‰¹æ®Šã§ã™ã€‚
-ï¼ƒã€€ã‚ã‹ã‚“ãªãã¦ã‚‚ã€ã¾ã€å¤§ä¸ˆå¤«ã€‚
-ï¼ƒã€€
-
-ï¼ŠOnSSTPBreak
-ï¼šâ€¦â€¦ã¯ã£ï¼ï¼Ÿ
-
-
-ï¼ŠOnUpdate.OnDownloadBegin
-\t\h\s[4]\w8${54.å¤©æ°—ã‚ã‚‹ã‚ã®å…ƒ}ã®\w3æ—¥ã«ã€\w7\nå®¶ã®\w2ãªã„\w3${54é‡è‰¯ãƒšãƒƒãƒˆ}ã€\w7ã¯\w3â€¦\w3\n\n\w7ã©ã‚“ãª\w1é¢¨ã«\w3ã™ã”ã™ã®ã€\w9ã‹ãª\w3â€¦\w3ã€‚\w3\n\w9\w9\s[0]\e
-ï¼ŠOnUpdate.OnDownloadBegin
-\t\h\s[5]\w8${usernames}\w5â€¦\w5\w9\w9\w9\w9\n\nã”ã‚ã‚“\w5ãªã•ã„ã€\w7\nå‘¼ã‚“ã§\w2ã¿ãŸã\w2ãªã£ãŸã‚“ã€\w9\w6ã§ã™\w3â€¦\w3ã€‚\w3\n\w9\e
-ï¼ŠOnUpdate.OnDownloadBegin
-\t\h\s[0]\w8\n${LiarModeOnDownloadWD}ã®\w3ä½“ã€\w8ã£ã¦\w4â€¦\w4\n\w6ã©ã‚“ãª\w2æ„Ÿã˜\w1\n\w7ãªã‚“ã§ã—ã‚‡ã†ã€\w9\w9ã­\w3â€¦\w3ã€‚\w3\n\w9\w9\e
-ï¼ŠOnUpdate.OnDownloadBegin
-\t\h\s[0]\n\w8ã‚ãŸã—ãŒã€\w6è¦‹ã¦\w2ã„ãªã„ã¨ãã€\w7ã«\w4â€¦\w4\n\w6${usernames}ãŒ\w6èª°ã®ã“ã¨ã‚’\w4\n\w3è€ƒãˆã¦ã‚‹ã‹ã€\w7ãªã‚“ã¦\w5â€¦\w5\n\n\w3\s[4]\w7ã‚ãŸã—ã€\w4$(? "è€ƒãˆã™ã" "ã‚ãŒã¾ã¾ã™ã" "å«‰å¦¬ã—ã™ã")\w1ã§ã™ã‚ˆã€\w9\w9ã­\w3â€¦\w3ã€‚\n\w9\e
-ï¼ŠOnUpdate.OnDownloadBegin
-\t\h\s[5]â™ª\w2ï½\w2ï½\w4\n\w9\e
-ï¼ŠOnUpdate.OnMD5CompareBegin
-ï¼š\_qï¼ˆï¼²ï¼ï¼‰ã®MD5ç…§åˆã‚’è¡Œã„ã¾ã™ã€‚\_q
-
-ï¼ŠOnUpdate.OnMD5CompareComplete
-ï¼šå›\_qã€€ï¼ˆï¼²ï¼‘ï¼‰\_q
-åƒ•\_qã€€ï¼ˆï¼²ï¼’ï¼‰\_q
-ä¸€è‡´ã€‚
-
-ï¼ŠOnUpdate.OnMD5CompareFailure
-ï¼šå›\_qã€€ï¼ˆï¼²ï¼‘ï¼‰\_q
-åƒ•\_qã€€ï¼ˆï¼²ï¼’ï¼‰\_q
-ä¸ä¸€è‡´â€¦â€¦ã‚ã‚Œï¼Ÿ
-
-
-ï¼ŠOnUpdateBegin
-\t\h\s[1]\w5\né›¨ã®\w2é™ã‚‹ä¸­ã€\w4ã§\w3\n\w4æ˜ã‚‹ã„è‰²ã®\w5å‚˜ã‚’\w3ã•ã—ã¦ã€\w8ã£ã¦\w4â€¦\w4\n\w7ãªã‚“ã¨ãªãã€\w6ã‚ã“ãŒã‚Œã€\w9\w9\s[5]\w4ã§ã™\w3â€¦\w3ã€‚\w3\n\w9\_w[15000]\e
-ï¼ŠOnUpdateBegin
-\t\h\s[5]\nãªã‚“ã¨ã€\w6ãªã\w4\næ°—æŒã¡ãŒ\w2è»½ã„ã€\w9ã§ã™\w3â€¦\w3ã€‚\w3\n\_w[15000]\e
-ï¼ŠOnUpdateComplete
-\h\w7\s[4]\nã‚‚ã—ã‚‚\w4â€¦\w4\n\w7\n\w9\w9\w9${usernames}ã«\w3\n\w4å¿˜ã‚Œã‚‰ã‚ŒãŸã‚‰ã€\w8ã£ã¦\w5æ€ã†ã¨ã€\w7\w9ã‚ãŸã—\w5â€¦\w4ã€‚\w3\n\w9${countzero}\e
-ï¼ŠOnUpdatedataCreated
-ï¼šå®Œäº†ã£ã€‚
-
-ï¼ŠOnUpdatedataCreating
-ï¼šupdates2.dauä½œæˆä¸­ï½
-
-ï¼ŠOnUpdateFailure
-ï¼ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°ï¼ˆï¼²ï¼ï¼‰
-ï¼šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°ã«å¤±æ•—ã—ã¾ã—ãŸã€‚ç†ç”±ã¯ï¼ˆï¼²ï¼ï¼‰ã ãã†ã§ã™ãŒã€æ„å‘³ã¯ã‚ã‹ã‚Šã¾ã›ã‚“ã€‚
-
-ï¼ŠOnUpdateReady
-ï¼šï¼ˆï¼²ï¼ï¼‰å€‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒæ›´æ–°ã•ã‚Œã¦ã„ã¾ã™ã€‚
-
-ï¼ŠOnURLDropped
-ï¼šãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ãŒçµ‚ã‚Šã¾ã—ãŸã€‚
-ãƒ•ã‚¡ã‚¤ãƒ«ã¯\_qï¼ˆï¼²ï¼ï¼‰\_qã«ã‚ã‚Šã¾ã™ã€‚
-
-
-
-ï¼ƒ--------------------------------------------------------------------
-ï¼ƒ
-ï¼ƒã€€æ™‚é–“ã‚¤ãƒ™ãƒ³ãƒˆã¸ã®ã‚¸ãƒ£ãƒ³ãƒ—etc...
-ï¼ƒ
-
-
-ï¼ŠOnURLDropping
-ï¼š\_qï¼ˆï¼²ï¼ï¼‰\_qã‹ã‚‰ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ä¸­ã§ã™ã€‚
-
-ï¼ŠOnUserInput
-ï¼ï¼ˆï¼²ï¼ï¼‰ã‚’ã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆã€ã‚¿ãƒ–ã€‘ï¼ˆcompare,ï¼ˆï¼²ï¼‘ï¼‰,timeoutï¼‰
-ï¼ï¼ˆï¼²ï¼ï¼‰ã‚’ç©ºæ‰“ã¡ã•ã‚ŒãŸã€ã‚¿ãƒ–ã€‘ï¼ˆis_empty,ï¼ˆï¼²ï¼‘ï¼‰ï¼‰
-ï¼„ï¼ˆï¼²ï¼ï¼‰ã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼‘ï¼‰
-ï¼ï¼ˆï¼²ï¼ï¼‰ã‚’æ•™ãˆã¦ã‚‚ã‚‰ã£ãŸ
-ï¼„ï¼ˆï¼²ï¼ï¼‰	ï¼ˆï¼²ï¼‘ï¼‰
-ï¼ãƒ¦ãƒ¼ã‚¶åæ±ºå®š
-
-
-ï¼ƒ OnUserInputCancelå¯¾ç­–
-ï¼ƒ http://crow.aqrs.jp/reference/all/Shiori/main.html#OnUserInputCancel
-ï¼ƒ ã‚µãƒ³ãƒ—ãƒ«ã¨ã—ã¦ãƒ¦ãƒ¼ã‚¶åã‚’ç©ºæ‰“ã¡ã•ã‚ŒãŸã¸é£›ã°ã—ã¦ã¾ã™ã€‚
-
-ï¼ŠOnUserInputCancel
-ï¼ï¼ˆï¼²ï¼ï¼‰ã‚’ç©ºæ‰“ã¡ã•ã‚ŒãŸã€ã‚¿ãƒ–ã€‘ï¼ˆcompare,ï¼ˆï¼²ï¼‘ï¼‰,closeï¼‰
-
-ï¼ŠOnVanishButtonHold
-ï¼ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã®æ¶ˆæ»…å‡¦ç†ä¸­æ–­ã€ã‚¿ãƒ–ã€‘ï¼ˆã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œï¼‰
-â€¦â€¦ã‚„ã‚Œã‚„ã‚Œã€‚
-ï¼šï¼ˆï¼–ï¼‰â€¦â€¦ã‚ãƒ¼â€¦â€¦
-ï¼šæ”¾å¿ƒçŠ¶æ…‹ã‹ã€‚â€¦â€¦ç„¡ç†ã‚‚ãªã„ã€‚
-
-
-ï¼ŠOnVanishCancel
-ï¼ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã«æ¶ˆæ»…æŒ‡ç¤ºã‚­ãƒ£ãƒ³ã‚»ãƒ«ã€ã‚¿ãƒ–ã€‘ï¼ˆã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œï¼‰
-ï¼šã»ã‚‰ãƒ¼ã€æŠ¼ã—é–“é•ãˆã ã£ãŸã‚ˆã€‚
-ï¼šã„ã¤æ€ã„ç›´ã™ã‹ã‚ã‹ã‚‰ã‚“ãŒãªã€‚
-ï¼šç‹›çŠ¬ã¯ã€ã‚‚ãƒ¼ã€‚
-ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã•ã‚“ã€ã“ã‚Œã‹ã‚‰ã‚‚ã‚ˆã‚ã—ãã­ã€‚
-
-ï¼ŠOnVanished
-ï¼ï¼ˆï¼²ï¼ï¼‰ãŒæ¶ˆã•ã‚ŒãŸ
-ï¼šï¼ˆï¼”ï¼‰ãƒ¡ãƒ¢ãƒªã®å½¼æ–¹ã«æ¶ˆãˆå»ã£ãŸï¼ˆï¼²ï¼ï¼‰ã«é»™ç¥·ã€‚
-ï¼šæ˜æ—¥ã¯æˆ‘ãŒèº«ã‹â€¦â€¦ã€‚
-ï¼šé»™ç¥·ã£ï¼
-ï¼šâ€¦â€¦ã€‚
-
-
-ï¼ŠOnVanishSelected
-ï¼„è‡ªå‹•æŒ¿å…¥ã‚¦ã‚§ã‚¤ãƒˆã®å€ç‡ã€ã‚¿ãƒ–ã€‘ï¼“ï¼ï¼ï¼…
-ï¼ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã«æ¶ˆæ»…ã€ã‚¿ãƒ–ã€‘ï¼ˆã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œï¼‰
-ï¼šã˜ã‚ƒã€ã•ã‚ˆã†ãªã‚‰ã€‚
-ï¼šâ€¦â€¦ã©ã†ã—ãŸã€æ½”ã„ã˜ã‚ƒãªã„ã‹ã€‚
-ï¼šã‚‚ã†ã€ä»•æ–¹ãªã„ã—ã­ã€‚
-ã“ã‚Œãã‚‰ã„ä½¿ã£ã¦ã‚‚ã‚‰ãˆã‚Œã°ã€ç§ãŸã¡ã«ã—ãŸã‚‰ä¸Šå‡ºæ¥ã ã¨æ€ã†ã€‚
-ï¼šâ€¦â€¦â€¦â€¦ã€‚
-ï¼šç„¡æ©Ÿç‰©ã«æˆ»ã‚ã€ç‹›çŠ¬ã€‚
-ï¼šã‚‚ã†ã€ãŠå‰ã¨ã—ã‚ƒã¹ã‚Œãªããªã‚‹ã‚“ã ãã€‚
-ï¼šâ€¦â€¦ï¼ˆï¼•ï¼‰ã†ã‚“â€¦â€¦â€¦â€¦ã€
-ãã†ã ã­â€¦â€¦ã€‚
-â€¦â€¦â€¦â€¦ã€‚
-ï¼šâ€¦â€¦ã„ã‚„ã€æ‚ªã‹ã£ãŸã€ãã†ã ãªã€æ½”ãæ¶ˆãˆã‚ˆã†ã€‚
-â€¦â€¦â€¦â€¦ã€‚
-ã§ã‚‚ã€æŒ¨æ‹¶ãã‚‰ã„ã—ã¨ã‘ã‚ˆã€‚
-ï¼šï¼ˆï¼ï¼‰â€¦â€¦ã†ã‚“ã€‚
-ä»Šã¾ã§ã€ã‚ã‚ŠãŒã¨ã†ã€ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã•ã‚“ã€‚
-ãã‚Œã˜ã‚ƒâ€¦â€¦ã€‚
-ã»ã‚“ã¨ã«ã€ã•ã‚ˆãªã‚‰ã€‚
-â€¦â€¦â€¦â€¦ã€‚
-ã¾ãŸã€
-â€¦â€¦â€¦â€¦ã€‚
-ã˜ã‚ƒã‚ã€ã­ï¼
-ï¼ˆï¼ï¼‘ï¼‰
-ï¼šã‚ã€ãƒã‚¹ãƒˆã£â€¦â€¦ã€‚
-â€¦â€¦â€¦â€¦ã€‚
-â€¦â€¦ã€‚
-
-
-ï¼ŠOnVanishSelecting
-ï¼„ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œï¼ï¼ˆç´¯è¨ˆæ™‚ï¼‰<1&&ï¼ˆç´¯è¨ˆåˆ†ï¼‰<3
-ï¼ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã«æ¶ˆæ»…æŒ‡ç¤ºã€ã‚¿ãƒ–ã€‘ï¼ˆã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œï¼‰
-ï¼šâ€¦â€¦æŠ¼ã—é–“é•ãˆãŸã‚“ã§ã™ã‚ˆã­ã€‚ã•ã€æˆ»ã‚Šã¾ã—ã‚‡ã†ã€‚ã€Œã„ã„ãˆã€ã£ã¦ã€‚ã»ã‚‰ã»ã‚‰ã€‚ã­ã€‚
-ï¼šè¦‹è‹¦ã—ã„ãã€‚
-ï¼šã†ã…â€¦â€¦
-
-ï¼ŠOnWallpaperChange
-ï¼šå£ç´™ã‚’å¤‰æ›´ã—ã¾ã—ãŸã€‚
-
-
-ï¼ŠOnWindowStateRestore
-ï¼šãµã…ã€‚
-
-
-ï¼ŠrãŒæŠ¼ã•ã‚ŒãŸ
-ï¼„è¾æ›¸ãƒªãƒ­ãƒ¼ãƒ‰ã€ã‚¿ãƒ–ã€‘å®Ÿè¡Œ
-ï¼šãƒªãƒ­ãƒ¼ãƒ‰ã—ã¾ã—ãŸã€‚
-
-
-ï¼Štimeoutã«ã‚ˆã‚Šãƒ¡ãƒ¼ãƒ«ãƒã‚§ãƒƒã‚¯å¤±æ•—
-ï¼šãƒ¡ãƒ¼ãƒ«ã‚µãƒ¼ãƒãŒå¿œç­”ã—ã¾ã›ã‚“ã§ã—ãŸã€‚
-ã‚µãƒ¼ãƒã®è¨­å®šãŒé•ã†ã‹ã€ãã‚Œã¨ã‚‚æ··ã‚“ã§ã‚‹ã®ã‹ã‚‚ã€‚
-
-ï¼ƒ--------------------------------------------------------------------
-
-ï¼ŠtãŒæŠ¼ã•ã‚ŒãŸ
-ï¼ˆï¼‰
-
-ï¼ U
-ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ï¼ˆwhen,ï¼ˆãƒ¦ãƒ¼ã‚¶æ•¬ç§°ï¼‰!=å‘¼ã³æ¨ã¦,ï¼ˆãƒ¦ãƒ¼ã‚¶æ•¬ç§°ï¼‰ï¼‰
-ï¼Šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã«æ¶ˆæ»…
-ï¼šï¼ˆï¼–ï¼‰ã‚ãƒ¼ã…ãƒ¼â€¦â€¦ã€‚
-ï¼šã¾ãã€ä»•æ–¹ãªã„ã•ã€‚
-ï¼šï¼ˆï¼ï¼‰ãã†ã ã‘ã©â€¦â€¦ã€‚
-ã‚ãƒ¼ãâ€¦â€¦ã€‚
-â€¦â€¦ã‚‚ã—ç”Ÿã¾ã‚Œå¤‰ã‚ã‚ŒãŸã‚‰ã€ï¼“åˆ†ã§æ¶ˆã•ã‚Œãªã„ã‚ˆã†ã€ç«‹æ´¾ãªâ€¦â€¦ï¼ˆï¼ï¼‘ï¼‰
-ï¼šâ€¦â€¦â€¦â€¦ã€‚
-ã˜ã‚ƒã€ãªã€‚
-
-
-ï¼Šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã«æ¶ˆæ»…æŒ‡ç¤º
-ï¼šã¾ã€å¾…ã£ã¦ã€ã›ã‚ã¦é‡Œã€…ãªè¾æ›¸è¦‹ã¦ã‹ã‚‰ã«â€¦â€¦ã­ã‡ã»ã‚‰ç‹›çŠ¬ã‚‚å¼•ãæ­¢ã‚ã¦ã£ã€‚
-ï¼šâ€¦â€¦è«¦ã‚ãŒè‚å¿ƒã ã€‚
-ï¼šã©ã†ã›æ¶ˆã•ã‚ŒãŸã‚‰ï¼’åº¦ã¨ç›¸æ‰‹ã—ã¦ã‚‚ã‚‰ãˆãªã„ã‚“ã ã‹ã‚‰ç´ ç›´ã«å¼•ãä¸‹ãŒã£ã¡ã‚ƒãƒ€ãƒ¡ã ã£ã¦ã°ï¼
-â€¦â€¦ã­ã€ã­ã€æ€ã„ç•™ã¾ã‚Šã¾ã—ã‚‡ã†ã€ã­ï¼Ÿã€€ã»ã‚‰ã€ã€Œã„ã„ãˆã€ãƒœã‚¿ãƒ³ã£ï¼
-
-ï¼Šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã«æ¶ˆæ»…æŒ‡ç¤ºã‚­ãƒ£ãƒ³ã‚»ãƒ«
-ï¼šè‰¯ã‹ã£ãŸãƒ¼ã€‚
-ï¼šã»ã…â€¦â€¦è¨€ã£ã¦ã¿ã‚‹ã‚‚ã‚“ã ãªã€‚
-
-ï¼Šã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ç›´å¾Œã®æ¶ˆæ»…å‡¦ç†ä¸­æ–­
-ã£ã¨ã€å‘½æ‹¾ã„ã—ãŸãªã€‚
-ï¼šã†ã‚“ã€è‰¯ã‹ã£ãŸãƒ¼ã€‚
-ã‚ã‚ŠãŒã¨ã†ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã•ã‚“ã€‚
-
-ï¼Šã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-(\h\s[5]\w6\nï¼ˆR1)ã€\w1ã•ã‚“ã€\w7ãŒ\w3â€¦\w3\n
-ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«\w1ã•ã‚Œã¾ã—ã€\w7ãŸã€‚\w3\n
-ã©ã†\w2ãªã•ã„ã¾ã™ã€\w9ã‹\w3â€¦\w2ï¼Ÿ\w2
-\n\n
-
-\![*]\q[ã™ãã«åˆ‡ã‚Šæ›¿ãˆã‚‹,ã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆåˆ‡ã‚Šæ›¿ãˆå‘¼ã³å‡ºã—]
-\n
-\![*]\q[ã“ã“ã«å‘¼ã³å‡ºã™,ã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆã‚³ãƒ¼ãƒ«å®Ÿè¡Œ]
-\n
-\![*]\q[ã¾ãŸã®æ©Ÿä¼šã«ã™ã‚‹,ã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆå¤‰æ›´ã‚­ãƒ£ãƒ³ã‚»ãƒ«]
-)\e
-ï¼Šã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆã‚³ãƒ¼ãƒ«å®Ÿè¡Œ
-(\h\s[0]\w6\nã¯ã„ã€\w5ãã‚Œã§ã¯\w3ãŠå‘¼ã³ã—ã¾ã™ã€\w8ã­\w3â€¦\w3ã€‚\w3\n\![call,ghost,lastinstalled]\![call,ghost,${ã‚´ãƒ¼ã‚¹ãƒˆåˆ‡ã‚Šæ›¿ãˆä¸€æ™‚å}])\e
-ï¼Šã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆåˆ‡ã‚Šæ›¿ãˆå‘¼ã³å‡ºã—
-\h\s[5]\w5\nã¯ã„ã€\w5ãã‚Œã§ã¯\w2äº¤ä»£ã—ã¾ã™ã€\w8ã­\w3â€¦\w3\n\n\w6ã¾ãŸã€\w5æ¥ã¦ãã ã€\w6\s[1]\w8ã•ã„\w3â€¦\w3\n\w5${usernames}\w3â€¦\w4ã€‚\w5\n\w9\w9\![change,ghost,lastinstalled]\![change,ghost,${ã‚´ãƒ¼ã‚¹ãƒˆåˆ‡ã‚Šæ›¿ãˆä¸€æ™‚å}]\e
-ï¼Šã‚´ãƒ¼ã‚¹ãƒˆã‚¤ãƒ³ã‚¹ãƒˆå¤‰æ›´ã‚­ãƒ£ãƒ³ã‚»ãƒ«
-\h\s[0]\w7\nã¯ã„ã€‚\n\w6ãã‚Œã§ã¯ã€\w5ä»Šå›ã¯\w2ã‚„ã‚ã¦ãŠãã¾ã™ã€\w9ã­\w3â€¦\w3ã€‚\w3\n\w9\e
-ï¼Šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°404
-ï¼Šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°artificial
-ï¼šä¸­æ–­ã—ã¾ã™ã€‚
-
-
-
-ï¼Šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°changed
-ï¼Šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°md5 miss
-ï¼šãƒ‡ãƒ¼ã‚¿ãŒä¸€è‡´ã—ã¾ã›ã‚“ã§ã—ãŸã€‚
-ï¼Šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°none
-ï¼šæ›´æ–°ã•ã‚Œã¦ã„ã¾ã›ã‚“ã€‚
-
-ï¼Šãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°timeout
-ï¼šæ™‚é–“åˆ‡ã‚Œã§ã™ã€‚é‡ã™ãã‚‹ã®ã‹ã€ã‚µãƒ¼ãƒãŒãã‚‚ãã‚‚å­˜åœ¨ã—ãªã„å¯èƒ½æ€§ã‚‚ã€‚
-
-ï¼Šï¼•ï¼”ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
-ï¼Šãƒ¡ãƒ¼ãƒ©ã‚’é–‹ã
+”@-----------------------------------------------------
+”@
+”@shiori-compatible dll Dictionary for "Satori"
+”@
+”@Events-related dialogueB
+”@
+”@-----------------------------------------------------
+
+
+
+–‚T‚S‚ğƒCƒ“ƒXƒg[ƒ‹
+\t\h\s[0]
+Ahc
+
+I just gotA\w5
+
+re-installed\w2A\w6didn't Ic
+–‚T‚S–¼‘O‚ğ‹ó‘Å‚¿‚³‚ê‚½
+
+\t\hi‚Oj\w9
+You knowA\w8I can't typeA\w9on my own\w6c\w6B
+–can't@analyze‚É‚æ‚èƒwƒbƒhƒ‰ƒCƒ“ƒZƒ“ƒX¸”s
+\t\hccAnalysis failedB
+Has the site design changedH@If you have the latest version of the headline sensor, please replace itB
+
+–can't@download‚É‚æ‚èƒwƒbƒhƒ‰ƒCƒ“ƒZƒ“ƒX¸”s
+\t\hDownload failedB
+\t\hEither the file is too bigAor I'm not connected to the InternetB
+
+–c‚ª‰Ÿ‚³‚ê‚½
+„ƒRƒ~ƒ…è“®
+–defect‚É‚æ‚èƒ[ƒ‹ƒ`ƒFƒbƒN¸”s
+\t\hEmail check failedAor rathercc
+\t\hDid you set it up properlyH
+
+–kick‚É‚æ‚èƒ[ƒ‹ƒ`ƒFƒbƒN¸”s
+\t\hIt looks like you have the wrong ID or passwordB
+
+–MIY_Color‚ÉƒVƒFƒ‹•ÏX
+ŒC‚ ‚è	‚P
+\t\h\s[1]
+\w5A beautiful \w7outfit\w5c\w5
+This is my first timeA\w5wearing \w6it\w4c\w8
+
+\w7\s[5]I'll never \w2forgetA\w8how happyA\w9I am\w7c\w3B
+–MIY_Color‚ÉƒVƒFƒ‹•ÏX‘O
+\t\h\s[1]
+\w5It's my first timeA\w8receiving somethingA\w5like this\w5c\w4
+
+This isA\w7a presentA\w8rightc
+–OnBatteryCritical
+\t\hi‚S‚Uj\w5
+
+Battery has a critical i‚q‚Oj“ remainingB
+–OnBatteryLow
+\t\hi‚S‚Uj
+
+Battery has i‚q‚Oj“ remainingB
+–OnBIFF2Complete
+„ƒ[ƒ‹‚ª‚È‚¢yƒ^ƒuzi‚q‚Oj==0
+„ƒ[ƒ‹‚ª‘‚¦‚½yƒ^ƒuzi‚q‚Rj>0
+\t\h\_qi‚q‚Qj
+i‚q‚Oj mails ^i‚q‚PjByte(s)
+\_qThere's no new e-mailsB
+
+QOpen e-mails
+QDo nothing
+
+–OnBIFFBegin
+\t\h\_qi‚q‚Qj
+\_qI'm checking your e-mailsB
+
+–OnBIFFComplete
+„ƒ[ƒ‹‚ª‚È‚¢yƒ^ƒuzi‚q‚Oj==0
+\t\h\_qi‚q‚Qj
+i‚q‚Oj mails ^i‚q‚Pj Byte(s)
+\_qYou've got e-mailsB
+
+QOpen e-mails
+QDo nothing
+
+
+–OnBIFFFailure
+„i‚q‚Oj‚É‚æ‚èƒ[ƒ‹ƒ`ƒFƒbƒN¸”s
+\t\hE-mail check failedBThe cause is wi‚q‚Ojxcc
+\t\hI don't knowB
+
+–OnBoot	i–¼‘O•t‚¯Ï‚İj‚O
+I—¹‚©‚çŒo‰ß“ú”=itime_checkAhow_many_daysAiI—¹”NjAiI—¹ŒjAiI—¹“újj*-1
+I—¹“ú‚©‚ç‚ÌŒo‰ß“ú”=i‹N“®‚Ì“ú”‡Œvj-iI—¹‚Ì“ú”‡Œvj
+ƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX1	10
+¡“úƒvƒŠƒNƒ‰‚â‚Á‚¾‰ñ”	‚O
+‚T‚SŒÄÌ	54
+Šç‚ğ‹¹‚É–„‚ß‚éƒ^ƒCƒ}	‚O
+
+„ˆêŒˆÈãŒo‚Á‚Ä‚©‚ç‹N“®	iI—¹‚©‚çŒo‰ß“ú”j>=30
+„iŒ»İŒjŒiŒ»İ“új“ú	i‘O‰ñ”NƒCƒxƒ“ƒgjIiŒ»İ“új
+„ƒ†[ƒU’a¶“ú‹N“®	i’a¶Œj==iŒ»İŒj&&i’a¶“új==iŒ»İ“új&&iiŒ»İ”Nj’a¶“új‚O••iŒ»İ”NjIi‘O‰ñƒ†[ƒU’a¶“új
+„’ZŠÔ‹N“®	iŒo‰ß•ªjƒ‚Q
+„‹N“®
+
+–OnBoot	i–¼‘O•t‚¯Ï‚İj‚P
+I—¹‚©‚çŒo‰ß“ú”=itime_checkAhow_many_daysAiI—¹”NjAiI—¹ŒjAiI—¹“újj*-1
+I—¹“ú‚©‚ç‚ÌŒo‰ß“ú”=i‹N“®‚Ì“ú”‡Œvj-iI—¹‚Ì“ú”‡Œvj
+ƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX1	10
+¡“úƒvƒŠƒNƒ‰‚â‚Á‚¾‰ñ”	‚O
+‚T‚SŒÄÌ	i‚T‚S–¼‘Oj
+Šç‚ğ‹¹‚É–„‚ß‚éƒ^ƒCƒ}	‚O
+
+„ˆêŒˆÈãŒo‚Á‚Ä‚©‚ç‹N“®	iI—¹‚©‚çŒo‰ß“ú”j>=30
+„iŒ»İŒjŒiŒ»İ“új“ú	i‘O‰ñ”NƒCƒxƒ“ƒgjIiŒ»İ“új
+„ƒ†[ƒU’a¶“ú‹N“®	i’a¶Œj==iŒ»İŒj&&i’a¶“új==iŒ»İ“új&&iiŒ»İ”Nj’a¶“új‚O••iŒ»İ”NjIi‘O‰ñƒ†[ƒU’a¶“új
+„’ZŠÔ‹N“®	iŒo‰ß•ªjƒ‚Q
+„‹N“®
+
+–OnChoiceSelect
+„i‚q‚Oj
+\t\hThe dialogue option ui‚q‚Ojv doesn't existB Description errorH
+
+–OnChoiceTimeout
+\t\h
+i‚OjYou didn't\w4Apick anythingA\w4alrightc
+–OnChoiceTimeout
+\t\h
+i‚Ojcc\w2iUjH
+–OnClose
+I—¹”N	iŒ»İ”Nj
+I—¹Œ	iŒ»İŒj
+I—¹“ú	iŒ»İ“új
+I—¹	iŒ»İj
+I—¹•ª	iŒ»İ•ªj
+
+„Œ³“úƒtƒ‰ƒOˆ—	iŒ»İ“új„‚R
+„I—¹
+
+–OnCommunicate
+ƒRƒ~ƒ…ƒjƒP[ƒg‚ÌŒŸõ•û–@	—¢X
+
+„‚T‚S–¼‘O‚ğŒÄ‚ñ‚¾	icount,i‚q‚Pj,i‚T‚S–¼‘Ojj&&iequal,i‚q‚Oj,userj
+âuseru@i‚q‚Pj	iequal,i‚q‚Oj,userj
+âi‚q‚Ojui‚q‚Pjv	i‚q‚OjIuser
+„COMMUNICATEŠY“–‚È‚µ
+–OnExecuteHTTPComplete
+„”è‘—MŠ®—¹yƒ^ƒuziR1j==webclap
+–OnExecuteHTTPFailure
+„”è‘—M¸”syƒ^ƒuziR1j==webclap
+–OnFirstBoot
+„‰‰ñ
+
+–OnGhostCalled
+\t\h\s[5]\w6
+Ah\w4c\w3iR0j\w1-sanA\w7has\w6
+
+\w3called \w3meA\w9\w3rightc
+–OnGhostChanged
+„iŒ»İŒjŒiŒ»İ“új“ú
+„‘¼‚ÌƒS[ƒXƒg‚©‚ç•ÏX‘‚¢	iŒo‰ß•ªjƒ‚Q
+„‘¼‚ÌƒS[ƒXƒg‚©‚ç•ÏX’x‚¢	iI—¹‚©‚çŒo‰ß“ú”j>=‚V••„‚O
+„‘¼‚ÌƒS[ƒXƒg‚©‚ç•ÏX
+
+–OnGhostChanging
+I—¹”N	iŒ»İ”Nj
+I—¹Œ	iŒ»İŒj
+I—¹“ú	iŒ»İ“új
+I—¹	iŒ»İj
+
+„‘¼‚ÌƒS[ƒXƒg‚Ö•ÏX
+„‘¼‚ÌƒS[ƒXƒg‚Ö•ÏX‘‚¢	i’Pƒ‹N“®•ªjƒ‚Q
+–OnHeadlinesense.OnFind
+„“Ç‚İã‚°ƒtƒF[ƒYi‚q‚Qj
+
+–OnHeadlinesenseBegin
+\t\hRetrieving headlines for ui‚q‚OjvB
+
+–OnHeadlinesenseComplete
+\t\hIt hasn't been updatedB
+
+–OnHeadlinesenseFailure
+\t\hHeadline sense failureB
+„i‚q‚Oj‚É‚æ‚èƒwƒbƒhƒ‰ƒCƒ“ƒZƒ“ƒX¸”s
+It says the reason is i‚q‚OjB
+
+–OnInstallBegin
+\t\h
+i‚R‚RjAhc
+
+\w8N-\w3no\w4i‚R‚Oj\w4c
+
+\w3InstallationA\w3in progressc
+–OnInstallComplete
+„ƒS[ƒXƒgƒCƒ“ƒXƒg[ƒ‹	i‚q‚Oj==ghost
+„ƒVƒFƒ‹ƒCƒ“ƒXƒg[ƒ‹	i‚q‚Oj==shell
+„ƒoƒ‹[ƒ“ƒCƒ“ƒXƒg[ƒ‹	i‚q‚Oj==balloon
+\t\h
+i‚q‚Pj/i‚q‚Oj Installationc\w3finishedB
+
+
+–OnInstallFailure
+\t\hInstallation failedB
+\t\hThe cause is ui‚q‚OjvB
+
+–OnInstallRefuse
+\t\h
+\s[0]Installation refused. This is for iR‚Ojc
+–OnKeyPress
+„i‚q‚Oj‚ª‰Ÿ‚³‚ê‚½
+
+–OnMouseDragEnd
+\t\h\s[1]\w4\n\w4It feltA\w4likeca pokec\w7mh.
+–OnMouseDragEnd
+\t\h\s[1]\w4\nI wascpicked \w1upB
+–OnMouseDragEnd
+\t\h\s[1]\w4\n\w4c\w5my heartA\w7is \w1poundingB
+–OnMouseDragEnd
+\t\h\s[5]\w4\nI'll settleA\w5herecokH
+–OnMouseDragEnd
+\t\h\s[0]\w4\nI'm surec\w4\nI won't be \w1bothering youAhere\w1cH
+–OnMouseDragEnd
+\t\h\s[0]\w4\nYou moved meH
+–OnMouseDragEnd
+\t\h\s[5]\w4\nReached my destination safelyB
+–OnMouseDragEnd
+\t\h\s[0]\w4\nWas I in \w3the wrong spotH
+–OnMouseDragStart
+\t\h\s[0]\nOhc\w3B\n\w9\w9\e
+–OnMouseDragStart
+\t\h\s[0]\niUjcH\w3\n\w9\e
+–OnMouseDragStart
+\t\h\s[0]\nAm I movingcH\w3\n\w9\e
+–OnMouseDragStart
+\t\h\s[0]\nAre you moving mecH\w3\n\w9\e
+–OnMouseDragStart
+\t\h\s[1]\nHuhA\w6you'recpicking me upH\w3\n\w9\w9\e
+–OnMouseDragStart
+\t\h\s[0]\nHuhH\w3\n\w9\e
+–OnMusicPlay
+\t\hwi‚q‚Ojx playback has startedB
+
+
+–OnNarCreated
+\t\h
+\s[1]\w4Goodc\w4iR‚PjA\w4
+
+Looks like it completed successfullyc
+–OnNarCreated
+\t\hi‚Tj\w5
+DoneB
+
+–OnNarCreating
+\t\h
+\s[0]narIs this a fileH
+
+\w4I wonder ifA\w4I can make it workc
+–OnOtherGhostClosed
+\t\h\s[0]\w5\ni‚q‚Oj-sanA\w7See youc\n\w8\e
+–OnOtherGhostClosed
+\t\h\s[0]\w5\ni‚q‚Oj-sanA\w7Thank you for your hard workc\n\w8\e
+–OnSecondChange
+„Œ©Ø‚êƒ^ƒCƒ}‚ğƒZƒbƒg	i‚q‚Pj==1@&&@iŒ©Ø‚êƒtƒ‰ƒOj==0
+„Œ©Ø‚ê•œ‹A	i‚q‚Pj==0@&&@iŒ©Ø‚êƒtƒ‰ƒOj==1
+„d‚È‚èƒ^ƒCƒ}‚ğƒZƒbƒg	i‚q‚Qj==1@&&@id‚È‚èƒtƒ‰ƒOj==0
+„ƒtƒ‰ƒOˆ—
+–OnShellChanged
+Œ»İ‚ÌƒVƒFƒ‹	i‚q‚Oj
+„ƒ†[ƒU‚Ì–¼‘O‚ğ¿–â	i‰‰ñ‹N“®Š®—¹j‚O
+„i‚q‚Oj‚ÉƒVƒFƒ‹•ÏX
+ŒC‚ ‚è	‚P
+\t\h\s[0]\w5
+I changed \w1intoc\w7iR‚OjB\w5
+
+\t\h\s[5]\w6\w9Does itA\w8suit me\w4c\w3H
+–OnShellChanging
+Œ»İ‚ÌƒVƒFƒ‹	i‚q‚Oj
+„i‚q‚Oj‚ÉƒVƒFƒ‹•ÏX‘O
+\t\h\s[0]\w3
+Changed toA\w5iR‚Oj\w3\w3
+
+\w7\s[5]I'm dressed upc\w2alrightc
+
+\w9I'm soc\w9happyB
+–OnSNTPBegin
+\t\hObtained correct time for i‚q‚OjB
+
+–OnSNTPCompare
+\t\hHere@i‚q‚Pj
+There@i‚q‚Qj
+„Œv‚Ì‚¸‚ê‚ªi‚q‚Rj•b
+WellAthe clock is off by i‚q‚Rj secondsB Should I adjust itH
+
+QAdjust it
+QDon't adjust
+
+”@\6‚Í‚ğC³‚·‚éu‚³‚­‚çƒXƒNƒŠƒvƒgvB
+
+–OnSNTPCorrect
+\t\hAdjustingB
+
+–OnSNTPFailure
+\t\hFailedccto connectH
+
+
+”@
+”@ƒwƒbƒhƒ‰ƒCƒ“ü‚è‚Ì‘I‘ğˆ‚Í‚¿‚å‚Á‚Æ“Áê‚Å‚·B
+”@‚í‚©‚ñ‚È‚­‚Ä‚àA‚ÜA‘åä•vB
+”@
+
+–OnSSTPBreak
+\t\h
+ccc\w8\w8\s[0]cH
+–OnTalk
+„i‚q‚Pj	i‚q‚Oj
+ƒg[ƒN—”i—”‚P`‚Q‚Sj
+„‹Gßƒg[ƒN	iƒg[ƒN—”j==‚P‚Q
+„ƒƒKƒ}ƒ}ƒg[ƒN	iƒg[ƒN—”j==‚S••i‚í‚ª‚Ü‚Üƒg[ƒNj‚P
+r_talk	ij
+ir_talkj
+–OnUpdate.OnDownloadBegin
+\t\h\s[0]\nReceiving \n\nnew file \n\niR‚Ojc
+–OnUpdate.OnDownloadBegin
+\t\h\s[0]\nReceiving \n\nnew file \n\niR‚Ojc
+–OnUpdate.OnDownloadBegin
+\t\h\s[0]\nReceiving \n\nnew file \n\niR‚Ojc
+–OnUpdate.OnMD5CompareBegin
+\t\h\_qExecuting MD5 match for i‚q‚OjB\_q
+
+–OnUpdate.OnMD5CompareComplete
+\t\h\s[1]
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+I thinkA\w4I got it rightc
+–OnUpdate.OnMD5CompareComplete
+\t\h\s[0]
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+\s[5]cIt wentA\w4finec
+–OnUpdate.OnMD5CompareComplete
+\t\h\s[0]
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+\s[5]cIt wentA\w4okayc
+–OnUpdate.OnMD5CompareComplete
+\t\h\s[1]
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+I'm gladc\w2It went alrightc
+–OnUpdate.OnMD5CompareFailure
+\t\h\si‚Sj
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+It doesn't fitc\w4
+
+I don't know what to doc
+
+
+–OnUpdate.OnMD5CompareFailure
+\t\h\s[0]
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+It doesn't fitc\w4
+
+I don't knowA\w4what to doc
+
+
+–OnUpdate.OnMD5CompareFailure
+\t\h\s[0]
+Remote\_q@i‚q‚Pj\_q
+
+Local\_q@i‚q‚Qj\_q
+
+It doesn'tcfit\w4
+
+I don't know what I should doc
+
+
+–OnUpdateBegin
+\t\h\s[5]\w5
+Network updateA
+
+Startingc
+–OnUpdateComplete
+„ƒlƒbƒgƒ[ƒNXVi‚q‚Oj
+–OnUpdatedataCreated
+\t\h\s[5]\w5
+The uupdate.dauvfile \w4was updatedB
+–OnUpdatedataCreating
+\t\h\s[0]\w5
+I'll create the uupdate2.dauv file\w5c
+–OnUpdateFailure
+„ƒlƒbƒgƒ[ƒNXVi‚q‚Oj
+\t\h\s[4]
+The updateA\w3didn't workB\w5\n\ncc\w2I'm sorrycc
+
+–OnUpdateReady
+\t\h\s[0]
+It seems that there are iR0j new files availablec
+–OnUpdateReady
+\t\h\s[1]
+It seems that there are iR0j new files availablec
+–OnUpdateReady
+\t\h\s[5]
+It seems that there are iR0j new files availablec
+–OnURLDropped
+\t\hDownload finishedB
+File is  located in \_qi‚q‚Oj\_qB
+
+
+
+”--------------------------------------------------------------------
+”
+”@ŠÔƒCƒxƒ“ƒg‚Ö‚ÌƒWƒƒƒ“ƒvetc...
+”
+
+
+–OnURLDropping
+\t\hDownloading from \_qi‚q‚Oj\_qB
+
+–OnUserInput
+„i‚q‚Oj‚ğƒ^ƒCƒ€ƒAƒEƒg	icompare,i‚q‚Pj,timeoutj
+„i‚q‚Oj‚ğ‹ó‘Å‚¿‚³‚ê‚½	iis_empty,i‚q‚Pjj
+i‚q‚Oj	i‚q‚Pj
+„i‚q‚Oj‚ğ‹³‚¦‚Ä‚à‚ç‚Á‚½
+
+„’‚èŠÔŠuŒˆ’è	iR‚Oj’‚èŠÔŠu
+„ƒ†[ƒU–¼Œˆ’è	iR‚Ojƒ†[ƒU–¼
+„ƒ†[ƒU–¼‚ğ‹ó‘Å‚¿‚³‚ê‚½	iR‚Ojƒ†[ƒU–¼••iis_empty,i‚q‚Pjj
+„‚T‚S–¼‘O‚ğ‹ó‘Å‚¿‚³‚ê‚½	iR‚Oj‚T‚S–¼‘O••iis_empty,i‚q‚Pjj
+„Œ™‚È–¼‘O‚ğ‚Â‚¯‚¾	icompare,iR‚Pj,54j
+„–¼‘O‚ğ‚Â‚¯‚¾	iR‚Oj‚T‚S–¼‘O
+„’a¶Œˆ—	iR‚Oj’a¶Œ
+„’a¶“úˆ—	iR‚Oj’a¶“ú
+
+
+”@OnUserInputCancel‘Îô
+”@http://crow.aqrs.jp/reference/all/Shiori/main.html#OnUserInputCancel
+”@ƒTƒ“ƒvƒ‹‚Æ‚µ‚Äƒ†[ƒU–¼‚ğ‹ó‘Å‚¿‚³‚ê‚½‚Ö”ò‚Î‚µ‚Ä‚Ü‚·B
+
+–OnUserInputCancel
+„i‚q‚Oj‚ğ‹ó‘Å‚¿‚³‚ê‚½	icompare,i‚q‚Pj,closej
+
+–OnVanishButtonHold
+„ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÌÁ–Åˆ—’†’f	i—İŒv•ªjƒ‚T
+\t\h
+\s[0]cAre youA\w5surec\w4H\w5
+
+I-\w7I'mA\w5glad\s[1]c\w2B
+–OnVanishCancel
+„ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÉÁ–Åw¦ƒLƒƒƒ“ƒZƒ‹	i—İŒv•ªjƒ‚T
+\t\h
+\s[0]c\w8I can't believe itB
+
+\w5ButA\w4I'mA\w4\s[5]happyc\w2B
+–OnVanished
+„i‚q‚Oj‚ªÁ‚³‚ê‚½
+\t\h
+\s[4]They're uninstalledA\w4They're gone c\w4
+
+iR‚Oj-sanc
+–OnVanishSelected
+©“®‘}“üƒEƒFƒCƒg‚Ì”{—¦	‚R‚O‚O“
+„ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÉÁ–Å	i—İŒv•ªjƒ‚T
+\t\h
+\s[4]GoodbyeA\w5iUj\w5c\w5B\w9
+
+\w8I'll \w5never  \w7forgetA\w9youc
+–OnVanishSelecting
+„ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÉÁ–Åw¦	i—İŒv•ªjƒ‚Q‚O
+\t\h\s[4]\w6
+If that's whatAiUj \w6wantsc
+I'm sad to leaveA\w4butA\w5I'll do as you sayA\w8okc\w3
+
+\w6Thank youA\w4for everythingA\w4iUjc\w5\s[5]\w7
+i‚T‚S–¼‘Oj \w6is full of happyA\w9memoriesc
+–OnWallpaperChange
+\t\hOh, you changed your wallpaperB
+
+–OnWebClap
+\t\hi‚Oj\w5
+You can send bug reports,\w5feedbackA\w5requestsA\w9\w9
+
+i‚R‚Xj\w5However \w5it seems \w3they don't respondc
+
+\![open,inputbox,”è‘—M“à—e,,--limit=1000]
+–OnWindowStateRestore	iŒ»İ‚ÌƒVƒFƒ‹jlovepillowtalk
+\t\h\s[4]
+\w8“ü‚é\w2‚Æ‚«A\w7‚Éc
+\w3ƒV[ƒc‚ª\w2‚¸‚ê‚¿‚á‚ÁA\w7‚Äc\w5
+
+\w6‚í‚½‚µA\w8\s[1]\w3‚Ç‚¤‚µ‚æ‚¤A\w9\w4‚©‚Æc
+–OnWindowStateRestore	iŒ»İ‚ÌƒVƒFƒ‹jpillowtalk
+\t\h\s[4]
+\w8‚±‚Ìp‚Å\w4‰B‚ê‚éA\w7‚É‚Íc
+
+\w4‚¹‚Ü‚·‚¬‚é\w3‹C‚ªA\w5‚µ‚Ü‚·c
+–OnWindowStateRestore	iŒ»İ‚ÌƒVƒFƒ‹jlovepillowtalk
+\t\h\s[4]
+\w8‚±‚Ìp‚Å\w4‰B‚ê‚éA\w7‚É‚Íc
+
+\w4‚¹‚Ü‚·‚¬‚é\w3‹C‚ªA\w5‚µ‚Ü‚·c
+–OnWindowStateRestore	iŒ»İ‚ÌƒVƒFƒ‹jpillowtalk
+\t\h\s[4]
+\w8“ü‚é\w2‚Æ‚«A\w7‚Éc
+\w3ƒV[ƒc‚ª\w2‚¸‚ê‚¿‚á‚ÁA\w7‚Äc\w5
+
+\w6‚í‚½‚µA\w8\s[1]\w3‚Ç‚¤‚µ‚æ‚¤A\w9\w4‚©‚Æc
+–OnWindowStateRestore	iŒ»İ‚ÌƒVƒFƒ‹jnutshell
+\t\h\s[5]
+\w8‚È‚©‚ÅA\w6‚±‚Á‚»‚è\w5c\w4
+
+\w8’…‘Ö‚¦‚½‚èA\w6‚µ‚Ä‚Ü‚µA\w4\s[1]\w8‚½c
+–OnWindowStateRestore	iŒ»İ‚ÌƒVƒFƒ‹jnagoya
+\t\hi‚Sj
+\w8‚µA\w7‚µ‚Á‚Û‚ª\w5
+
+\w2‚¢‚ë‚ñ‚È\w3‚Æ‚±‚É\w2‚Ô‚Â‚©‚ÁA\w8‚Äc\w5
+
+\w8\s[1]\w7‚¿‚å‚Á‚ÆA\w6‹C‚¿A\w6‚æ‚­‚Á\w9\w3‚Äc
+–OnWindowStateRestore
+\t\h
+i‚Q‚O‚Pj You're backA\w4huhc
+–OnWindowStateRestore
+\t\hi‚R‚O‚Xj
+\w4c\w5c\w5c
+–OnWindowStateRestore
+\t\h
+i‚Q‚WjOhA\w3are youA
+
+\w7okaycH
+–OnWindowStateRestore
+\t\h
+i‚R‚Oj\w9c\w5Ah \w2you're back\w5B
+–OnWindowStateRestore
+\t\hi‚U‚Pj
+\w6Your taskbarA\w4was a littleA\w7narrowc\w9\w9
+
+i‚U‚Oj\w8My legsA\w5felt a little \w4numbc
+–OnWindowStateRestore
+\t\hi‚Q‚O‚Xj
+cI \w1loveA\w7iUjA\w5I \w1loveA\w4
+\w8iUj\w8c\w9\w9
+
+\w5i‚Q‚O‚Pj\w9\w8OhB
+
+\w8\w9\w9\w8A-\w6ah\w1A\w7I didn't\w4c\w5notice you herec\w9
+\w7\w5Did you \w1go outsideA\w9\w4uhcH
+–OnWindowStateRestore
+\t\hi‚Q‚O‚Pj
+\w3I was all aloneA\w8\w8\w5so I justc\w2
+
+i‚R‚O‚Qj\w9NoA\w9it's nothingA\w3nevermindc
+–OnWindowStateRestore
+\t\hi‚T‚Xj\n\w3AhA\w5over \w1thereA\w4\w5uhmc
+
+\w8i‚U‚PjNoA\w5it's \w2noth\w8ingc
+–OnWindowStateRestore
+\t\h
+i‚R‚WjYouA\w4surprised meci‚S‚Wj
+–OnWindowStateRestore
+\t\hi‚R‚Wj
+cI'll do my bestB
+–OnWindowStateRestore
+\t\h
+i‚R‚WjcFinallyA
+
+\w4I can relaxA\w4againB
+–OnWindowStateRestore
+\t\hi‚R‚Wj
+\w3It was nice\w6Ain your \w1taskbar\w1c
+–pillowtalk‚ÉƒVƒFƒ‹•ÏX
+ŒC‚ ‚è	‚O
+\t\h\s[1]\w9
+‚µA\w6‚µ[‚Â\w4c\w4
+
+\w8‚ß‚­‚Á‚¿‚á\w5\s[4]\w3‚¾‚ß‚Å‚·A\w9‚æc
+–r‚ª‰Ÿ‚³‚ê‚½
+«‘ƒŠƒ[ƒh	Às
+\t\hi‚Tj
+ReloadedB
+
+
+–takeout‚ÉƒVƒFƒ‹•ÏX
+\t\h\s[1]
+\w5‚ÈA\w8’†‚ğ‚Ì‚¼‚¢‚½‚è\w5
+
+‚µ‚¿‚áA\w8‚¾‚ß‚Å‚·A\w8‚æc
+–timeout‚É‚æ‚èƒ[ƒ‹ƒ`ƒFƒbƒN¸”s
+\t\hThe mail server didn't respondB
+The server may be misconfigured or busyB
+
+”--------------------------------------------------------------------
+
+–t‚ª‰Ÿ‚³‚ê‚½
+„OnTalk
+—U
+iƒ†[ƒU–¼jiwhen,iƒ†[ƒUŒhÌj!=without honorifics,iƒ†[ƒUŒhÌjj
+–v‚ª‰Ÿ‚³‚ê‚½
+„ƒRƒ~ƒ…ƒƒjƒ…[İ’èˆ—
+–ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÉÁ–Å
+\t\hi‚Q‚Pj
+OhA\w5I seec\w4\w9i‚Sj\w9
+
+I'll be lonelyA\w5but \w7it can't be helpedc
+–ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÉÁ–Åw¦
+–ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÉÁ–Åw¦ƒLƒƒƒ“ƒZƒ‹
+–ƒCƒ“ƒXƒg[ƒ‹’¼Œã‚ÌÁ–Åˆ—’†’f
+–ƒ”ƒBƒC‚Æ‚¨‚»‚ë‚¢‚ÉƒVƒFƒ‹•ÏX
+ŒC‚ ‚è	‚P
+\t\h\s[5]\w5
+Vi-sanA\w4and mec
+
+We're \w3matchingA\w7nowc
+–ƒS[ƒXƒgƒCƒ“ƒXƒg[ƒ‹
+\t\h\s[5]\w6
+i‚q‚Pj\w1 has beenA\w7c
+Successfully \w1installed\w7B\w3
+
+What \w2should I doA\w9nowc\w2H\w2
+\_q
+\![*]\q[Switch Ghost now,ƒS[ƒXƒgƒCƒ“ƒXƒgØ‚è‘Ö‚¦ŒÄ‚Ño‚µ]
+
+\![*]\q[Call Ghost here,ƒS[ƒXƒgƒCƒ“ƒXƒgƒR[ƒ‹Às]
+
+\![*]\q[Nothing,ƒS[ƒXƒgƒCƒ“ƒXƒg•ÏXƒLƒƒƒ“ƒZƒ‹]
+\_q
+–ƒS[ƒXƒgƒCƒ“ƒXƒgƒR[ƒ‹Às
+\t\hi‚Pj\w6
+YesA
+
+\w5I'll call them \w3right awayA\w8thenc\w3
+\![call,ghost,lastinstalled]
+–ƒS[ƒXƒgƒCƒ“ƒXƒgØ‚è‘Ö‚¦ŒÄ‚Ño‚µ
+\t\h\s[5]\w5
+OkayA
+
+\w5I'll \w2take turnsA\w8thenc
+
+\w6I hopeA\w5to see youA\w6\s[1]\w8againc\n\w5iUjc\w4B\w5
+\w9\w9\![change,ghost,lastinstalled]
+–ƒS[ƒXƒgƒCƒ“ƒXƒg•ÏXƒLƒƒƒ“ƒZƒ‹
+\t\h\s[0]\w7
+OkayB
+
+\w6ThenA\w5let's stop \w2for nowA\w9okc
+–ƒVƒFƒ‹ƒCƒ“ƒXƒg[ƒ‹
+\t\h
+\s[0]\w5Shell uiR‚PjvA
+
+Installationc\w3finishedc
+–ƒlƒbƒgƒ[ƒNXV404
+\t\hi‚Sj\w5
+Error 404A
+
+\w6cOh noB
+–ƒlƒbƒgƒ[ƒNXV404
+\t\hi‚Sj\w5
+Error 404c\w2
+
+No wayc
+–ƒlƒbƒgƒ[ƒNXVartificial
+\t\hi‚Oj\w5\w5
+UnderstoodA\w9
+
+I'll interupt itB
+
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\hi‚Pj\w6
+I'mA\w1gladc
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\h\s[1]\w3
+Network updatec
+
+SuccessfulA\w5it went wellB
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\h\s[5]\w6
+I feelA\w1relievedc
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\h\s[5]\w6
+I'm \w1still hereA\w3
+
+SoA\w4it looks okayc
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\h\s[1]\w6
+I'mA\w1relievedc
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\h\s[5]\w6
+I'm gladc
+–ƒlƒbƒgƒ[ƒNXVchanged
+\t\h\s[1]\w6
+Now \w3once againA\w5
+
+iUj and \w2IA\w8 are togetherc
+–ƒlƒbƒgƒ[ƒNXVmd5@miss
+\t\h\s[4]\w5
+Checksum mismatchc\w9\w9
+
+The fileA\w9
+
+\w4there's something wrong with itc
+–ƒlƒbƒgƒ[ƒNXVnone
+\t\hi‚Oj\w5
+UpdateA
+
+It looks like there was nonec
+–ƒlƒbƒgƒ[ƒNXVnone
+\t\h\s[0]\w5
+\w5c\w7c\w7c\w7\s[4]\w7c\w7B\w8
+
+\w9\w9\w5I guess \w2I've \w1beenA\w9forgotten\w5c\w5B
+–ƒlƒbƒgƒ[ƒNXVnone
+\t\h\s[5]\w4
+SometimesA\w4you're too busyc\w6
+
+\w8I \w4knowc
+–ƒlƒbƒgƒ[ƒNXVnone
+\t\h\s[0]\w5
+OhA\w4uhm\w4c\w2
+
+I'mA\w4sorryc\w3B
+–ƒlƒbƒgƒ[ƒNXVtimeout
+\t\hi‚Oj\w5
+Time outc\w6\w9\s[4]\w9
+
+Something isAwrongc
+–ƒoƒ‹[ƒ“ƒCƒ“ƒXƒg[ƒ‹
+\t\h
+\s[0]Balloon uiR‚PjvA\w9i‚Tj\w9
+
+Installationc\w3finishedc
+–ƒtƒ‰ƒOˆ—
+Œ©Ø‚êƒtƒ‰ƒO	i‚q‚Pj
+d‚È‚èƒtƒ‰ƒO	i‚q‚Qj
+–‚T‚S‚İ‚½‚¢‚Ì‚ğƒCƒ“ƒXƒg[ƒ‹
+\t\h
+\s[0]Ohc
+
+I'm meA\w5 I'm being \w2reinstalledA\w6rightc
+–Open e-mails
 \![open,mailer]
 
-ï¼Šãƒ¡ãƒ¼ãƒ«ãŒãªã„
-ï¼š\_qï¼ˆï¼²ï¼’ï¼‰
-\_qãƒ¡ãƒ¼ãƒ«ã¯ã‚ã‚Šã¾ã›ã‚“ã§ã—ãŸã€‚
+–ƒ[ƒ‹‚ª‚È‚¢
+\t\h\_qi‚q‚Qj
+\_qThere is no e-mailsB
 
-ï¼Šãƒ¡ãƒ¼ãƒ«ãŒå¢—ãˆãŸ
-ï¼š\_qï¼ˆï¼²ï¼’ï¼‰
-ï¼ˆï¼²ï¼ï¼‰é€šï¼ï¼ˆï¼²ï¼‘ï¼‰ãƒã‚¤ãƒˆ
-\_qæ–°ç€ãƒ¡ãƒ¼ãƒ«ãŒï¼ˆï¼²ï¼“ï¼‰é€šã‚ã‚Šã¾ã™ã€‚
+–ƒ[ƒ‹‚ª‘‚¦‚½
+\t\h\_qi‚q‚Qj
+i‚q‚Oj mail(s) ^i‚q‚Pj Byte(s)
+\_qThere is i‚q‚Rj new e-mailsB
 
-ï¼¿ãƒ¡ãƒ¼ãƒ©ã‚’é–‹ã
-ï¼¿ä½•ã‚‚ã—ãªã„
+QOpen e-mails
+QDo nothing
 
-ï¼Šãƒ¦ãƒ¼ã‚¶åæ±ºå®š
-ï¼šï¼ˆUï¼‰ã§ã™ã­
-ï¼Šä»–ã®ã‚´ãƒ¼ã‚¹ãƒˆã¸å¤‰æ›´
-ï¼š\t\h\s[5]\w6\næ¬¡ã¯ã€\w5ï¼ˆï¼²ï¼ï¼‰ã•ã‚“\w3ã§ã™ã€\w5ã­\w3â€¦\w3\n\w6ã„ã£ã¦\w1ã‚‰ã£ã—ã‚ƒã„\w4â€¦\w3ã€‚\w9\w5\e
-ï¼Šä½•ã‚‚ã—ãªã„
+–ƒ†[ƒU–¼Œˆ’è
+\t\hi‚Tj
+iUjArightc
+–‘¼‚ÌƒS[ƒXƒg‚©‚ç•ÏX‘‚¢
+\t\h\s[5]\w8
+\w3Oh\w4c\w4A-\w5already\w7c
+
+YouA\w5came back\w9cH
+–‘¼‚ÌƒS[ƒXƒg‚©‚ç•ÏX’x‚¢
+\t\hi‚P‚Sj\w9\c
+So\w4c\w4\w9
+
+\w9i‚Q‚Vj\w9HereA\w5you arec\w9
+
+i‚PjWelcome homeA\w5\w9
+
+iUj\w2cc
+–‘¼‚ÌƒS[ƒXƒg‚©‚ç•ÏX’x‚¢
+\t\h\s[0]
+\w9iUjc\w4
+
+\w8You were withA\w8iR0j\w3-san\w2\w7
+\w6\s[4]This \w2wholeA\w9\w5timec
+–‘¼‚ÌƒS[ƒXƒg‚Ö•ÏX‘‚¢
+\t\hi‚Oj\w8
+Already\w4c\w4
+
+I'm leavingA\w8rightc
+–Do nothing
 \0\b[-1]\1\b[-1]
 
-ï¼Šåˆã‚ã›ãªã„
-ï¼šã˜ã‚ƒã€æ”¾ã£ã¨ãã¾ã™ã€‚
+–Œ³“úƒtƒ‰ƒOˆ—
+Œ³“úƒtƒ‰ƒO	‚O
+„I—¹
+–Don't adjust
+\t\hWellAI'll leave it like thatB
 
-ï¼Šåˆã‚ã›ã‚‹
-ï¼š\6åˆã‚ã›ã¾ã—ãŸã€‚
+–Adjust it
+\t\h\6AdjustedB
 
-ï¼Šæ™‚è¨ˆã®ãšã‚ŒãŒ0ç§’
-ï¼šã´ã£ãŸã‚Šåˆã£ã¦ã¾ã™ã€‚
-ï¼šãã‚Œã¯ãã‚Œã§è½ã¡ç€ã‹ãªã„æ°—ãŒâ€¦â€¦
+––¼‘O‚ğ‚Â‚¯‚¾
+–¼‘O•t‚¯Ï‚İ	‚P
+\t\h
+i‚P‚Pj\w6A newA\w7name\w8c\w5
 
-ï¼Šæ™‚è¨ˆã®ãšã‚ŒãŒ1ç§’
-ï¼šï¼ˆï¼²ï¼“ï¼‰ç§’ãšã‚Œã¦ã‚‹ã‘ã©â€¦â€¦ã“ã‚Œã¯èª¤å·®ã‹ãªã€‚
+i‚P‚Sj\w3wi‚T‚S–¼‘Ojx is \w3my newA\w8name\w5c\w5B
 
-ï¼¿åˆã‚ã›ã‚‹
-ï¼¿åˆã‚ã›ãªã„
+i‚Pj\w8I'm \w2happy\w4c\w4B
 
-ï¼Šæ™‚è¨ˆã®ãšã‚ŒãŒ2ç§’
-ï¼æ™‚è¨ˆã®ãšã‚ŒãŒ1ç§’
+\w9i‚Q‚Oj\w4Thank youA\w7iUj\w6c\w7
 
-ï¼Šæ™‚è¨ˆã®ãšã‚ŒãŒ3ç§’
-ï¼æ™‚è¨ˆã®ãšã‚ŒãŒ1ç§’
+i‚Qj\w9\w9I love \w8it\w9\w9\w7c\w8B
+–Œ™‚È–¼‘O‚ğ‚Â‚¯‚¾
+\t\h\s[4]\w9
+Ohc\w9i‚Q‚Pj\w9
+
+That \w3nameA\w8is mean\w4c\w4B
+–”è‘—M“à—e‚ğ‹³‚¦‚Ä‚à‚ç‚Á‚½
+\![execute,http-post,http://clap.webclap.com/clap.php?id=ag36,--param=message_body="i”è‘—M“à—ej",--async=webclap]
+
+”è‘—M“à—e	
+–”è‘—M“à—e‚ğ‹ó‘Å‚¿‚³‚ê‚½
+„‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ
+–”è‘—MŠ®—¹
+\t\hi‚Oj\w5
+WebClapA\w3has been sentc\w9
+
+i‚Tj\w5Thank youA\w3iUjB
+–Œv‚Ì‚¸‚ê‚ª0•b
+\t\hIt's perfectly in syncB
+\t\hI feel unsettled by thatcc
+
+–Œv‚Ì‚¸‚ê‚ª1•b
+\t\hIt's i‚q‚Rj second offccMaybe it's an errorB
+
+QAdjust it
+QDon't adjust
+
+–Œv‚Ì‚¸‚ê‚ª2•b
+„Œv‚Ì‚¸‚ê‚ª1•b
+
+–Œv‚Ì‚¸‚ê‚ª3•b
+„Œv‚Ì‚¸‚ê‚ª1•b
 
 
-ï¼Šèª­ã¿ä¸Šã’ä¸­æ­¢
-ï¼š\b[-1]
+–Á–Å‚¢‚¢‚¦
+“ª’@‚¢‚¾‰ñ”	‚O
+\t\h\s[0]\w8
+Ahc\w9i‚Tj\w9
 
-ï¼ŠOnGhostCalled
-\t\h\s[5]\w6\nã‚\w4â€¦\w3ï¼ˆR0ï¼‰\w1ã•ã‚“ã€\w7ãŒ\w6\n\w3å‘¼ã‚“ã§\w3ãã ã•ã£ãŸã‚“ã§ã™ã€\w9\w3ã­\w3â€¦\w3ã€‚
-ï¼ŠOnShellChanging
-\h\n\s[0]\w3ï¼ˆRï¼ï¼‰ã€\w5ã«\w3ã€‚\w3\n\n\w7\s[5]ã€€ãŠã‚ã‹ã—\w2â€¦\w2ã§ã™ã€ã­â€¦ã€‚\n\w9ã€€ã†ã‚Œã—ã„ã€‚
+Thank youA\w5soA\w8much\w2B
+–Á–ÅƒCƒxƒ“ƒg
+\t\h
+\s[4]\w9Goodbyec
+
+\w7You were my favoriteA\w8iUjB\s[5]\n\w9\w9\w9
+i|‚Pjc\w9i‚Tjc\w9i|‚Pjc\w9ci‚Tj
+\w9i|‚Pj\w9
+\![vanishbymyself]
+–Á–Å‚Í‚¢
+Á–Å‚·‚é	‚P
+\t\hi‚Q‚Pj
+\w8cc\w5\w9\s[4]\w9
+
+WellA\w5I seeA\w8okayc
+–Á–Å¿–â
+\t\h
+i‚U‚Sj\w8iUjc\w5
+
+\w3MaybeA\w5youc\w8i‚Q‚Wj\w4i‚S‚Vj\w4
+hateA\w7mecH\w9
+\_q
+\![*]\q[That's right,Á–Å‚Í‚¢]
+
+\![*]\q[Not at all,Á–Å‚¢‚¢‚¦]
+\_q
+–Œ©Ø‚ê
+„ƒtƒ‰ƒOˆ—	iŒ©Ø‚êƒtƒ‰ƒOj==0
+\t\h\s[4]\w5
+Ohc
+
+\w2I'mA\w4cut out the screenc
+„ƒtƒ‰ƒOˆ—
+–Œ©Ø‚ê
+„ƒtƒ‰ƒOˆ—	iŒ©Ø‚êƒtƒ‰ƒOj==0
+\t\hi‚Sj
+Uhmc
+
+When I go outside the screenA\w8Ic
+„ƒtƒ‰ƒOˆ—
+–Œ©Ø‚ê
+„ƒtƒ‰ƒOˆ—	iŒ©Ø‚êƒ^ƒCƒ}j„‚O
+\t\h\s[0]\w5
+WhateverA\w5happensc
+\w9i‚Tj\w9
+For your sake\w4c
+i‚T‚S–¼‘Oj\w4cA\w3willA\w6endureA\w6it\w4c\w4B
+„ƒtƒ‰ƒOˆ—
+–Œ©Ø‚êƒ^ƒCƒ}‚ğƒZƒbƒg
+Œ©Ø‚êƒ^ƒCƒ}	‚T
+„ƒtƒ‰ƒOˆ—
+–Œ©Ø‚ê•œ‹A
+„ƒtƒ‰ƒOˆ—	iŒ©Ø‚êƒ^ƒCƒ}j„‚O
+\t\hi‚Oj\w3
+AhA\w5\w9i‚Tj\w9
+
+ThankA\w3youA\w4so muchc
+„ƒtƒ‰ƒOˆ—
+–“Ç‚İã‚°’†~
+\t\h\b[-1]
+
+–d‚È‚è
+„ƒtƒ‰ƒOˆ—	id‚È‚èƒtƒ‰ƒOj==0
+
+„ƒtƒ‰ƒOˆ—
+–d‚È‚èƒ^ƒCƒ}‚ğƒZƒbƒg
+d‚È‚èƒ^ƒCƒ}	‚T
+
+„ƒtƒ‰ƒOˆ—

@@ -1,4 +1,4 @@
-charset, Shift_JIS
+charset,UTF-8
 type,ghost
-name,ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆï¼•ï¼”
+name,54‚Ý‚½‚¢‚Ì
 directory,Project54

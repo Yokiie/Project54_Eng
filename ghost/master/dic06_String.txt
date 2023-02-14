@@ -1,222 +1,225 @@
 
-ï¼ƒã€€-----------------------------------------------------
-ï¼ƒã€€
-ï¼ƒã€€shioriäº’æ›dllã€é‡Œã€…ï¼ˆã•ã¨ã‚Šï¼‰ã€ç”¨è¾æ›¸
-ï¼ƒã€€
-ï¼ƒã€€Changes the button names in the menuã€‚ 
-ï¼ƒã€€Also lists the website/repository for network updateã€‚ 
-ï¼ƒã€€Also a list of recommended/portal URLs, (all in japanese)ã€‚ 
-ï¼ƒã€€
-ï¼ƒã€€-----------------------------------------------------
+”@-----------------------------------------------------
+”@
+”@shiori-compatible dll Dictionary for "Satori"
+”@
+”@Names of the buttons for the right clic menuB@
+”@place to put data for network updatesB@
+”@A list of recommended/portal URLsB@
+”@
+”@-----------------------------------------------------
 
 
 
-ï¼ closebutton.caption
-I will leaveÏ†...ã€‚
-ï¼ configurationrootbutton.caption
-Various settings availableÏ†â€¦ã€‚
-ï¼ elpbutton.caption
-Useful functionsÏ†â€¦ã€‚
-ï¼ helpbutton.caption
-If you have any questionsÏ†â€¦ã€‚
-ï¼ homeurl
+—callghostrootbutton.caption
+Call other ghosts hereƒÓc
+—closebutton.caption
+I will leaveƒÓc
+—configurationrootbutton.caption
+Various settingsƒÓc
+—elpbutton.caption
+Useful featuresƒÓc
+—ghostrootbutton.caption
+Switch ghosts hereƒÓc
+—helpbutton.caption
+If you have questions, click hereƒÓc
+—homeurl
 # https://raw.githubusercontent.com/ag3601/Project54/master/
 
-ï¼ƒThe address to be accessed during network updates.
-ï¼ƒDescribe the folder name, with / at the end. It will look like the example.
-ï¼ƒExampleï¼‰http://red_post.sakura.ne.jp/R_POST_and_KOMAINU/
+”Address to access for network updatesB
+”Describe the folder name, with / at the end. It will look like the example belowB
+”Examplejhttp://red_post.sakura.ne.jp/R_POST_and_KOMAINU/
 
-ï¼ kero.recommendbuttoncaption
-ï¿¥ï¼‘ Recommendation (&R)
+—inforootbutton.caption
+InformationƒÓc
+—kero.recommendbuttoncaption
+‚P‚Ì‚¨‚·‚·‚ß(&R)
 
-ï¼ pluginrootbutton.caption
-Plugins can enhance my functions, they sayÏ†â€¦ã€‚
-ï¼ portalrootbutton.caption
+—pluginrootbutton.caption
+Features can be added with pluginsƒÓc
+—portalrootbutton.caption
 Root(&P)
+This is what i‚T‚S–¼‘Oj can doƒÓc(&P)
+”iUj‚¾‚¯‚ÌA‚¨‚·‚·‚ßƒÓc(&P)
 
-ï¼ readmebutton.caption
-About the current shell(&R)
-User manual(&R)
-Read me(&R)
+—rateofuseballoonbutton.caption
+Change ballons hereƒÓc
+—readmebutton.caption
+About the current shellƒÓc(&R)
+User manualƒÓc(&R)
+Read@me(&R)
 
-ï¼ recommendrootbutton.caption
+—recommendrootbutton.caption
 Recommendations(&R)
+Nice place to visitƒÓc(&R)
+Happy feelingB(&R)
+Happy placeƒÓc(&R)
+RecommendedƒÓc(&R)
 
-ï¼ resettodefaultbutton.caption
-Restore me to default settingsÏ†â€¦ã€‚
-ï¼Šsakura.portalsites
-Sakuraï¼ Moderator 
-http://nar.jpn.org/sakura/ 
-
-
-ï¼ƒï¼Šsakura.recommendsites
-ï¼ƒ-
-ï¼ƒhttp://
-ï¼ƒ
-
-ï¼ƒï¼Škero.recommendsites
-ï¼ƒ-
-ï¼ƒhttp://
-ï¼ƒIf it is a solo ghost, the KERO side may not be necessary.
-
-ï¼ƒã€€"Ï†" will disable the "specialness" of the character right after it.
-ï¼ƒã€€Here, "..." is prevented from being replaced by "...\w3" as it is.
-ï¼ƒã€€It can also be used for other parentheses that you do not want to replace, such as parentheses "(".
-ï¼Šsakura.portalsites
-Ghost Bulletin Board 
-http://jbbs.livedoor.jp/computer/12782/ 
-
-ï¼Šsakura.portalsites
-Reviews site 
-http://review.sakura.ne.jp/ 
-
-ï¼Šsakura.portalsites
--
-
-ï¼Šsakura.portalsites
-postic
-http://navy.nm.land.to/post/
-ï¼šIt's the original distributor of the plugins already applied to meã€‚
-ï¼šIf you want to complicate things, it's worth a readã€‚
-
-ï¼Šsakura.portalsites
-Satori variables dictionary
-http://members2.jcom.home.ne.jp/he-noki/uka-satori.html
-
-ï¼Šsakura.portalsites
-Satori Wiki
-http://www.mac.gn.to/satori/index.php
-ï¼šI feel like there are a lot of tips about Satori..
-ï¼šHmmmã€‚
-
-ï¼Šsakura.portalsites
-About Ghost Production/Developing 
-http://kemonomimisippo.hp.infoseek.co.jp/link/link_product.html 
-
-ï¼Šsakura.portalsites
-Satori 
-http://www.geocities.co.jp/SiliconValley-Cupertino/8536/ 
-
-ï¼Šsakura.portalsites
-SatoriÏ†/Maintenance Team customs
-http://ms.shillest.net/
-ï¼šThese are the Satori's that are being updated currentlyã€‚
-
-
-ï¼Šsakura.portalsites
--
-
-ï¼Šsakura.portalsites
-How to play with the UkagakaÏ†ï¼ˆFIRST GUIDEÏ†ï¼‰ 
-http://haka.sakura.ne.jp/guide/ 
-
-ï¼Šsakura.portalsites
--
-
-ï¼Šsakura.portalsites
--
-
-ï¼Šsakura.portalsites
-Ukagaka Ghost Repository 
-http://ngc.sherry.jp/ 
-
-ï¼Šsakura.portalsites
-GHOST TOWN 
-http://ghosttown.mikage.jp/ 
-
-ï¼Šsakura.portalsites
-Usaka Sakura 
-http://usada.sakura.vg/ 
-
-ï¼Šsakura.portalsites
-Disc-2 
-http://disc2.s56.xrea.com/ 
-ï¼šThis is a general information websiteã€‚
-
-ï¼Šsakura.portalsites
--
-
-ï¼Šsakura.portalsites
-SSP BUGTRAQ 
-http://ssp.shillest.net/ 
-Recommended Baseware.
-Others are no longer updatedã€‚
-
-
-CROW 
-http://crow.aqrs.jp/ 
-
-ï¼Šsakura.portalsites
+—resettodefaultbutton.caption
+Restore me to default settingsƒÓc
+–sakura.portalsites
 Ukagaka Chat
 http://ukgkchat.saloon.jp/index.php?FrontPage
-Chat about Ukagaka's. Only in Japanese
-You can ask questionsã€‚
-ï¼šIt can be viewed with just a browserã€‚
+–sakura.portalsites
+SSP@BUGTRAQ@
+http://ssp.shillest.net/@
 
-ï¼Šsakura.recommendsites
-"R-Posts and Komainu" distribution page
-http://emily.shillest.net/specwiki/index.php?Wiz%E2%98%85%2F%EF%BC%B2%E3%83%9D%E3%82%B9%E3%83%88%E3%81%A8%E7%8B%9B%E7%8A%AC
-ï¼šCheck in once in a whileã€‚
-ï¼šI'm not sure if they've been updated.
+Recommended basewear for SSPB
+Other sources aren't updatedB
 
-ï¼ƒï¼Šsakura.portalsites
-ï¼ƒ-
-ï¼ƒYou can draw a line on the link menu by inserting "-"ã€‚ 
+–sakura.portalsites
+-
 
+–sakura.portalsites
+Disc-2@
+http://disc2.s56.xrea.com/
 
-ï¼Šsakura.recommendsites
-fiddle-de-dee
-http://fiddle-de-dee.sakura.ne.jp/
-ï¼šWho this package is distributed byã€‚
-ï¼šIf there's something, contact themã€‚
+\t\hGeneral information websiteB
 
-ï¼ saveasdefaultbutton.caption
-You can reflect the current settings to all ghostsÏ†â€¦ã€‚
-ï¼ shellscalerootbutton.caption
-You can change my sizeÏ†â€¦ freelyÏ†â€¦ã€‚
-ï¼ shellscalerootbutton.caption
-My bodyÏ†â€¦ freeÏ†â€¦ã€‚
-ï¼ updatebutton.caption
-Online Update(&U)
-Network Update(&U)
+–sakura.portalsites
+Usaka Sakura
+http://usada.sakura.vg/
 
-ï¼ username
-ï¼ˆUsernameï¼‰ 
+–sakura.portalsites
+GHOST@TOWN@
+http://ghosttown.mikage.jp/
 
-ï¼ vanishbutton.caption
-Destroy me(&F)
-Uninstall(&F)
-vanish(&F)
+–sakura.portalsites
+Ukagaka Ghost center@
+http://ngc.sherry.jp/@
 
-ï¼ vanishbutton.visible
-1 
-ï¼ƒWhether or not the uninstall instruction is displayed. 
-ï¼ƒ1 means it is displayed, 0 means it is not displayed (color changes and selection is disabled).ã€‚
+–sakura.portalsites
+-
+
+–sakura.portalsites
+SatoriƒÓ/Maintenance team
+http://ms.shillest.net/
+
+Satori is this Ghost's programming languageB
+You'll find documentation about it thereB
 
 
-ï¼Šã‚³ãƒ¡ãƒ³ãƒˆ
+–sakura.portalsites
+Satori documentation
+http://ukgk.s34.xrea.com/poskoma/
 
-ã€€The URL listâ€¦â€¦ 
+–sakura.portalsites
+Ghost Captor Sakura iGC Sakuraj
+http://buynowforsale.shillest.net/ghosts/
 
-ã€€ï¼‘st line is site name 
-ã€€ï¼’st line jumps to URL 
-ã€€ï¼“rd line is Banner URL (optional) 
-ã€€ï¼”th line is dialogue displayed when jumping (optional) 
+\t\hRepository of ghostsB
+
+–sakura.portalsites
+Satori Wiki
+http://soliton.sub.jp/satori/index.php?FrontPage
+
+\t\hA place that gathers tips for SatoriB
+
+–sakura.portalsites
+UKADOC@
+http://ssp.shillest.net/ukadoc/manual/index.html
+
+–sakura.portalsites
+postic
+http://navy.nm.land.to/post/
+–sakura.portalsites
+-
+
+–sakura.portalsites
+How to use Ukagaka'sƒÓiFIRST@GUIDEƒÓj@
+http://haka.sakura.ne.jp/guide/
+
+\t\hI'm sorry, this guide is in JapaneseB
+\t\hYou'll have to use Google Translate, sorry...B
+
+–sakura.portalsites
+ghost-log
+https://ghost-log.net/
 
 
-ï¼ƒï¼Šsakura.recommendsites
-ï¼ƒAuthor's site. One way is not to use this site, but to put it all together in sakura.portalsites. 
-ï¼ƒhttp://ï½ 
-ï¼ƒBanner (if available) 
+”–sakura.recommendsites
+”-
+”http://
+”
+
+”–kero.recommendsites
+”-
+”http://
+”If it is a solo ghost, the KERO side may not be necessary.
+
+”@ƒÓdisables the "specialness" of the immediately following character.
+”@Here, it prevents "..." from being replaced by "...\w3}" as it is.
+”@You can also use it to disable parentheses that you don't want to be replaced.
+–sakura.portalsites
+Ghost Notice board
+http://jbbs.shitaraba.net/computer/44300/
+
+–sakura.portalsites
+Ghost reputationƒÓ/reviews
+https://ghostreview.sakura.ne.jp/
+
+–sakura.recommendsites
+Original u54v distribution site
+http://priest.so.land.to/54_/54.html
+
+Sadly it seems to not be accessibly anymore.
+Maybe there is an archive of it 
+on the "WayBack Machine" site.
+
+”–sakura.portalsites
+”-
+”You can draw a divider line on the link menu by entering u-vB@
 
 
-ï¼ callghostrootbutton.caption
-Call additional ghosts hereÏ†â€¦ã€‚
-ï¼ inforootbutton.caption
-InformationÏ†â€¦ã€‚
-ï¼ shellrootbutton.caption
-Dress me upÏ†â€¦ã€‚
-ï¼ ghostrootbutton.caption
-Ghost can be picked hereÏ†â€¦ã€‚
-ï¼ rateofuseballoonbutton.caption
-Change ballons hereÏ†â€¦ã€‚
+—saveasdefaultbutton.caption
+Set current settings as defaultsƒÓc
+—shellrootbutton.caption
+Dress me up nicelyƒÓc
+—shellscalerootbutton.caption
+Change my size hereƒÓc
+—shellscalerootbutton.caption
+Resize my body freelyƒÓc
+—updatebutton.caption
+Online updates(&U)
+Network updates(&U)
+UpdatesAthey make me nervousƒÓc(&U)
+Updates, am I allowed to do itH(&U)
+Updates will change meƒÓc(&U)
+Will this update change meƒÓcH(&U)
+—username
+iƒ†[ƒU–¼j@
+
+—vanishbutton.caption
+Terminate meB(&F)
+Uninstall meB(&F)
+Delete meB(&F)
+
+—vanishbutton.visible
+iÁ–Åƒ{ƒ^ƒ“j
+
+”Displays the uninstall instructions: 1 to display, 0 to not-display 
+”(color changes and selection becomes unavailable if 0 is selected).
+
+–ƒRƒƒ“ƒg
+
+@In the URL listcc@
+
+@‚Pst line is the site name@
+@‚Qnd line is the destination URL@
+@‚Rrd line is the banner's URLiOptionalj@
+@‚Sth line and after is the dialogue that will be displayed when URL is clickediOptionalj@
+
+
+”–sakura.recommendsites
+”ìÒ‚ÌƒTƒCƒgB‚±‚±‚ğg‚í‚¸‚ÉAsakura.portalsites‚É‚Ü‚Æ‚ß‚Ä‚µ‚Ü‚¤‚Ì‚àˆê‚Â‚Ì•û–@B@
+”http://`@
+”Banner iif anyj@
+
+
+—vanishbuttonvisible
+iÁ–Åƒ{ƒ^ƒ“j
+
+”Displays the uninstall instructions: 1 to display, 0 to not-display 
+”(color changes and selection becomes unavailable if 0 is selected).
+

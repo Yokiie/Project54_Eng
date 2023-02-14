@@ -1,169 +1,1043 @@
 
-ï¼ƒã€€-----------------------------------------------------
-ï¼ƒã€€
-ï¼ƒã€€shioriäº’æ›dllã€é‡Œã€…ï¼ˆã•ã¨ã‚Šï¼‰ã€ç”¨è¾æ›¸
-ï¼ƒã€€
-ï¼ƒã€€Poked, prodded, and rolled.
-ï¼ƒã€€In the case of Post, the menu is displayed when the face is "poked", 
-ï¼ƒã€€so the main menu is also here.
-ï¼ƒã€€
-ï¼ƒã€€-----------------------------------------------------
+”@-----------------------------------------------------
+”@
+”@shiori-compatible dll Dictionary for "Satori"
+”@
+”@PokedApettedAhead pat actionsB
+”@In the case of the post, the main menu is also located here, 
+”@as the menu is brought up when the face is "poked"B
+”@
+”@-----------------------------------------------------
 
 
-ï¼Š0ã¤ã¤ã‹ã‚Œ
-ï¼ãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼
-ï¼Š0Headãªã§ã‚‰ã‚Œ
-ï¼šã¤ã‚„ã¤ã‚„ã€‚
-ï¼Š0Headãªã§ã‚‰ã‚Œ
-ï¼šã•ã‚‰ã•ã‚‰ã€‚
-ï¼Š0Headãªã§ã‚‰ã‚Œ
-ï¼šã¸ã¸â€¦â€¦è§¦ã‚Šåå¿œã‚‚ã¤ã„ãŸã—ã€ã“ã‚Œã§è¶Šãˆã‚‰ã‚Œã‚‹è¦‹è¾¼ã¿ãŒã¤ã„ãŸã­ã€‚
-ï¼šã‚ï¼Ÿã€€ä½•ã‚’ã ï¼Ÿ
-ï¼šã¾ã‚†
-ï¼šå£ã‚’ã¤ã¤ã—ã‚ãƒƒï¼
-ï¼šã‚ã…â€¦â€¦
+–‚P•ª‚¨‚«
+’‚èŠÔŠu	‚U‚O
+„’‚èŠÔŠuŒˆ’è
+–‚Q•ª‚¨‚«
+’‚èŠÔŠu	‚P‚Q‚O
+„’‚èŠÔŠuŒˆ’è
+–‚R‚O•b‚¢‚â
+\t\h\w3
+\s[0]YesA\w4I'll go \w2backA\w7okc
+„’‚è•p“x
+–‚R‚O•b‚¨‚«
+\t\h\s[4]\w4
+OhA\w4uhmc
+I'm gonna \w2sound \w2really chattyA\w9butc
 
-ï¼Š0LeftEyeã¤ã¤ã‹ã‚Œ
-ï¼æ™‚å ±
-ï¼Š0RightEyeã¤ã¤ã‹ã‚Œ
-ï¼çµŒéæ™‚é–“
-
-
-
-ï¼ƒãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã€€-------------------------------------------------------
-
-ï¼Š0Faceã¤ã¤ã‹ã‚Œ
-ï¼šãƒ¡ãƒ‹ãƒ¥ãƒ¼ã§ã™ã€‚
-
-ï¼¿éš£ã®ã‚´ãƒ¼ã‚¹ãƒˆã«ã§ã‚“ã±ã‚’é€ã‚‹
-ï¼¿ãƒã‚¹ãƒˆã¨è©±ã—ãŸã„
-ï¼¿å–‹ã‚Šé »åº¦
-ï¼¿ã‚‰ã¼
-ï¼¿SAORIã¦ã™ã¨
-
-ï¼¿ãªã‚“ã§ã‚‚ã‚ã‚Šã¾ã›ã‚“
-
-ï¼Šãƒã‚¹ãƒˆã¨è©±ã—ãŸã„
-ï¼šã¯ã„ã€ä½•ã§ã—ã‚‡ã†ã€‚\![open,communicatebox]
-
-
-ï¼Šå–‹ã‚Šé »åº¦
-ï¼šã©ã®ãã‚‰ã„ã®é–“éš”ã§å–‹ã‚Šã¾ã—ã‚‡ã†ã‹ã€‚
-
-ï¼¿ï¼“ï¼ç§’ãŠã
-ï¼¿ï¼‘åˆ†ãŠã
-ï¼¿ï¼’åˆ†ãŠã
-ï¼¿ï¼“åˆ†ãŠã
-ï¼¿ï¼•åˆ†ãŠã
-ï¼¿ã¤ã¤ãã¾ã§é»™ã£ã¦ã¦ãã ã•ã„
-
-ï¼Šï¼“ï¼ç§’ãŠã
-ï¼„å–‹ã‚Šé–“éš”ã€ã‚¿ãƒ–ã€‘ï¼“ï¼ç§’
-ï¼šè¨­å®šã—ã¾ã—ãŸã€‚
-
-ï¼Šï¼‘åˆ†ãŠã
-ï¼„å–‹ã‚Šé–“éš”ã€ã‚¿ãƒ–ã€‘ï¼–ï¼ç§’
-ï¼šè¨­å®šã—ã¾ã—ãŸã€‚
-
-ï¼Šï¼’åˆ†ãŠã
-ï¼„å–‹ã‚Šé–“éš”ã€ã‚¿ãƒ–ã€‘ï¼‘ï¼’ï¼ç§’
-ï¼šè¨­å®šã—ã¾ã—ãŸã€‚
-
-ï¼Šï¼“åˆ†ãŠã
-ï¼„å–‹ã‚Šé–“éš”ã€ã‚¿ãƒ–ã€‘ï¼‘ï¼˜ï¼ç§’
-ï¼šè¨­å®šã—ã¾ã—ãŸã€‚
-
-ï¼Šï¼•åˆ†ãŠã
-ï¼„å–‹ã‚Šé–“éš”ã€ã‚¿ãƒ–ã€‘ï¼“ï¼ï¼ç§’
-ï¼šè¨­å®šã—ã¾ã—ãŸã€‚
-
-ï¼Šã¤ã¤ãã¾ã§é»™ã£ã¦ã¦ãã ã•ã„
-ï¼šï¼ˆï¼”ï¼‰ãˆãƒ¼ã€‚
-ï¼šãˆãƒ¼ã€ã˜ã‚ƒã­ã‡ã ã‚ã€‚ä¿ºã‚‰ã¯ã“ã‚ŒãŒæ™®é€šãªã‚“ã ã‚ˆã€‚
-ï¼šãˆãƒ¼ã€‚
-ï¼šãˆãƒ¼ã€ã˜ã‚ƒãªã„ã£ï¼
-ï¼„å–‹ã‚Šé–“éš”ã€ã‚¿ãƒ–ã€‘ï¼ç§’
-
-
-
-ï¼Šãªã‚“ã§ã‚‚ã‚ã‚Šã¾ã›ã‚“
-ï¼ˆã‚­ãƒ£ãƒ³ã‚»ãƒ«ï¼‰
-ï¼Š1ã¤ã¤ã‹ã‚Œ
-ï¼ˆç‹›çŠ¬åå¿œï¼‰
-
-
-ï¼ŠOnMouseDoubleClick
-ï¼ï¼ˆï¼²ï¼“ï¼‰ï¼ˆï¼²ï¼”ï¼‰ã¤ã¤ã‹ã‚Œ
-ï¼ˆï¼‰
-
-
-
-
-
-
-
-
-
-
-
-
-ï¼ƒã“ã‚ã“ã‚åå¿œã€€-----------------------------------------------------
-
-ï¼Š0ã“ã‚ã“ã‚
-ï¼šâ€¦â€¦ï¼Ÿã€€ãªã«ã—ã¦ã‚‹ã®ï¼Ÿ
-
-ï¼Š0ã“ã‚ã“ã‚
-ï¼šâ€¦â€¦ãƒãƒƒã‚µãƒ¼ã‚¸ï¼Ÿ
-ï¼šä¸æ¯›ãªã€‚
-
-ï¼Š0Faceã“ã‚ã“ã‚
-ï¼šã‚ã€ãªã«ï¼Ÿã€€ã³ã£ãã‚Šã—ãŸâ€¦â€¦ã€‚
-
-
-
-ï¼Š0Headã“ã‚ã“ã‚
-ï¼0Headã“ã‚ã“ã‚ä¸Šæ–¹å‘ã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼’ï¼‰>0
-ï¼šâ€¦â€¦ï¼Ÿ
-
-ï¼Š0Headã“ã‚ã“ã‚
-ï¼0Headã“ã‚ã“ã‚ä¸Šæ–¹å‘ã€ã‚¿ãƒ–ã€‘ï¼ˆï¼²ï¼’ï¼‰>0
-ï¼šâ€¦â€¦é ­ã®ä¸Šã§ä½•ã‹å‹•ã„ã¦ã‚‹ã‚ˆã†ãªâ€¦â€¦
-ï¼šè™«ã‹ã€‚
-ï¼šï¼ˆï¼“ï¼‰ã¡ã‚‡ã€å˜˜ã£ã€ã‚„ã ã€ã¨ã£ã¦ã¨ã£ã¦ï¼
-ï¼šâ€¦â€¦ä¿ºã«è¨€ã‚ã‚Œã¦ã‚‚ãªã€‚
-ï¼šï¼ˆï¼”ï¼‰ã†ãƒ¼â€¦â€¦ã€€æ°—ã«ãªã‚‹ã‚ˆã‰â€¦â€¦
-ï¼šæ°—ã«ã™ã‚‹ãªã€‚ç‘æƒ³ã§ã‚‚ã—ã¦ã‚ã€‚
-ï¼šã†ãƒ¼â€¦â€¦
-
-ï¼Š0Headã“ã‚ã“ã‚ä¸Šæ–¹å‘
-ï¼šï¼ˆï¼‘ï¼‰ã„ã‚„ã‚“ã€‚è“‹ã¨ã‚Œã¡ã‚ƒã†ã€‚
-ï¼šâ€¦ã¨ã‚Œã‚‹ã®ã‹ã€ãã‚Œã€‚
-
-ï¼ƒ-----------ã€€</ã‚µãƒ—ãƒªãƒ¡ãƒ³ãƒˆè¿½åŠ ãƒ»ä¿®æ­£éƒ¨åˆ†>ã€€----------
-
-
-ï¼Š1ã“ã‚ã“ã‚
-â€¦â€¦ã‚“ï¼Ÿ
-
-ï¼Š1ã“ã‚ã“ã‚
-â€¦â€¦ãŠï¼Ÿ
-
-ï¼Š1ã“ã‚ã“ã‚
-â€¦â€¦ã‚ï¼Ÿ
-
-ï¼Šãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼
-ï¼š\_q\*\b[2]ï¼ˆãƒ¡ã‚¤ãƒ³ãƒ¡ãƒ‹ãƒ¥ãƒ¼å‘¼ã³å‡ºã—ï¼‰
-
-\![*]\q[ãŠã—ã‚ƒã¹ã‚Šã—ã¾ã™Ï†â€¦ã€‚,ãƒ©ãƒ³ãƒ€ãƒ ãƒˆãƒ¼ã‚¯]
-
-\![*]\q[ä¸€ã¤å‰ã®ãŠè©±ã‚’ã‚‚ã†ä¸€åº¦,ãƒªãƒ—ãƒ¬ã‚¤ï¼¿ç›´å‰ã®ãƒˆãƒ¼ã‚¯]
-
-\![*]\q[ã‚ãŸã—ã®ã“ã¨","mytalk_54]
-
-\![*]\q[ã‚ãŸã—ã«ã§ãã‚‹ã€ã“ã¨â€¦ã€‚","sys54_ã‚ãŸã—ã«å‡ºæ¥ã‚‹ã“ã¨]
-
-\![*]\q[ç°¡å˜ãªã€ä¼šè©±Ï†â€¦ã€‚","com54test]
-\![*]\q[ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰é¸ã‚“ã§ä¼šè©±Ï†â€¦ã€‚,ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‹ã‚‰é¸ã‚“ã§ä¼šè©±â€¦ã€‚.Sel]
-
-\![*]\q[ã‚„ã‚ã‚‹,ãªã‚“ã§ã‚‚ã‚ã‚Šã¾ã›ã‚“]
+\w5Is thatA\w9\w3okaycH
 \_q
+\q[That's fine,‚R‚O•bŠm”F]
+\q[Please reconsider,‚R‚O•b‚¢‚â]
+\_q
+–‚R‚O•bŠm”F
+’‚èŠÔŠu	‚R‚O
+\t\h
+\s[0]\w3Ahc\w3yesB\w8
+
+\s[1]\w5I-\w4I'll do \w2myA\w9bestc
+–‚R•ª‚¨‚«
+’‚èŠÔŠu	‚P‚W‚O
+„’‚èŠÔŠuŒˆ’è
+–‚T‚S–¼‘OŠm”F
+„ƒjƒbƒNƒl[ƒ€–á‚Á‚Ä‚È‚¢	‚T‚S–¼‘OI
+„–¼‘O‚T‚SD‚«	icompare,i‚T‚S–¼‘Oj,54j••i‚T‚S‚Á‚Ä–¼‘OD‚«j‚P
+„‚±‚Ì–¼‘O‚¢‚â	icompare,i‚T‚S–¼‘Oj,54j
+„ƒjƒbƒNƒl[ƒ€‚ ‚è‚ª‚Æ‚¤
+–‚T¿
+\t\h\_q\*\b[2]i‚Oj\w4
+ThenA\w3pleasec
+
+\_q
+\![*]\q[What do you call yourselfƒÓ/othersH,‚T¿‚P]
+
+\![*]\q[Tell me what you likeƒÓ/dislikeB,‚T¿‚Q]
+
+\![*]\q[Tell me your happiest memoryB,‚T¿‚R]
+
+\![*]\q[What was your biggest mistakeH,‚T¿‚S]
+
+\![*]\q[If you had to choose, would you pick your lover or best friendH,‚T¿‚T]
+
+
+
+\![*]\q[NoAthanksB,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–‚T¿‚P
+\t\h
+i‚OjI'm hi‚T‚SŒÄÌjh\w5c
+
+\x
+„‚T¿
+–‚T¿‚Q
+\t\h
+\w7The thing I like the mostA
+
+\s[1]\w6Being together with
+
+\w8my favorite \w1personc\w4iUjB
+
+\x
+„‚T¿
+–‚T¿‚R
+\t\h\n\w7\s[1]I'm \w1still hereA\w5
+
+\w5and \w1didn't \w1disappearA\w5overnight\w1c
+
+\x
+„‚T¿
+–‚T¿‚S
+\t\h
+\w9I don't \w1know\w1c
+
+\w5\w8\t\h\s[4]I hope \w1being born \w1like thisA\w5\n\w5doesn't make itA\w4soc
+\w5\x
+Ehc\w2andctake care \w3ofA\w2yourselfB\w1\s[0]\w5\n
+
+\x
+„‚T¿
+–‚T¿‚T
+\t\h
+i‚R‚Xj\w5I feel like \w2I don't haveA
+
+\w4friends \w1or a bestfriendc\w9
+
+\x
+i‚R‚Oj\w5ButA\w5ifA\w6iUj \w8is herec\w8
+
+i‚Pj\w3NoA\w3nothingA\w5nevermindc
+
+\x
+„‚T¿
+–‚T•ª‚¨‚«
+’‚èŠÔŠu	‚R‚O‚O
+„’‚èŠÔŠuŒˆ’è
+–‚ ‚è‚¦‚È‚¢“ú•t
+\t\h\c
+i‚S‚UjAhAuhmc
+
+PleaseAenter a date that existsB
+
+„’a¶“ú“ü—Íƒ~ƒX
+–‚±‚Ì–¼‘O‚¢‚â
+\t\hi‚S‚Uj\w8
+I'm gladA\w7you gave \w2this nameA\w9to me,\w9i‚Sj\w5
+
+but\w4c\w8I would have \w2preferredA\w7a prettierAnamec
+–ƒRƒ~ƒ…ƒVƒ‡ƒbƒgƒJƒbƒgà–¾
+\t\hi‚Tj
+\w5For manual communication\w3Ause the ‚˜ keyc
+
+\w5For multi-choice communication\w3Ause the ‚– keyc
+
+\w5Alrightc\w2B
+
+\_q
+\![*]\q[Back to Comm Menu,ƒRƒ~ƒ…ƒƒjƒ…[]
+\_q
+–ƒRƒ~ƒ…ƒƒjƒ…[
+\t\h\b[2]i‚Tj
+It isArandomizedc
+\_q
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+iƒRƒ~ƒ…’PŒêj
+
+
+\![*]\q[Comm Menu Settings,ƒRƒ~ƒ…ƒƒjƒ…[İ’è]@\![*]\q[Shortcuts list,ƒRƒ~ƒ…ƒVƒ‡ƒbƒgƒJƒbƒgà–¾]
+\![*]\q[Shuffle choices,ƒRƒ~ƒ…ƒƒjƒ…[]@\![*]\q[Switch to standard menu ,’è”ÔƒRƒ~ƒ…ƒƒjƒ…[]
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ƒRƒ~ƒ…ƒƒjƒ…[İ’è
+\t\h\s[5]\w4
+The current setting is uiƒRƒ~ƒ…ƒƒjƒ…[ƒ^ƒCƒvjv modeB\w4
+
+What would you like to docH
+
+\_q
+\![*]\q[Use standard choices,’è”Ô‚Éİ’è]
+
+\![*]\q[Use randomized choices,ƒ‰ƒ“ƒ_ƒ€‚Éİ’è]
+\_q
+–ƒRƒ~ƒ…ƒƒjƒ…[İ’èˆ—
+„ƒRƒ~ƒ…ƒƒjƒ…[	iƒRƒ~ƒ…ƒƒjƒ…[ƒ^ƒCƒvjRandom
+„’è”ÔƒRƒ~ƒ…ƒƒjƒ…[	iƒRƒ~ƒ…ƒƒjƒ…[ƒ^ƒCƒvjStandard
+–ƒRƒ~ƒ…è“®
+\t\hiƒRƒ~ƒ…è“®‰ï˜bj
+
+\![open,communicatebox]
+—ƒRƒ~ƒ…’PŒê
+\![*]\q[This time I want to spoil you,ƒRƒ~ƒ…ŠÃ‚¦‚½‚¢]
+\![*]\q[Your hair is beautiful,ƒRƒ~ƒ…ƒLƒŒƒC]
+\![*]\q[Let's play,ƒRƒ~ƒ…—V‚Ú‚¤]
+\![*]\q[Please cheer for me,ƒRƒ~ƒ…‰‰‡‚µ‚Ä]
+\![*]\q[Do you like doing laundryH,ƒRƒ~ƒ…ô‘ó]
+\![*]\q[Do you often do karaokeH,ƒRƒ~ƒ…ƒJƒ‰ƒIƒP]
+\![*]\q[Do you like ghost storiesH,ƒRƒ~ƒ…‰ö’k]
+\![*]\q[I dozed off,ƒRƒ~ƒ…’‹Q]
+\![*]\q[Sing something,ƒRƒ~ƒ…‰Ì‚Á‚Ä]
+\![*]\q[Do you like lettersH,ƒRƒ~ƒ…è†]
+\![*]\q[Can I touch your butt,ƒRƒ~ƒ…K•‚Å‚½‚¢]
+\![*]\q[You're prettyô,ƒRƒ~ƒ…ƒLƒŒƒC]
+\![*]\q[Do your bestI,ƒRƒ~ƒ…Šæ’£‚ê]
+\![*]\q[Are you a foodieH,ƒRƒ~ƒ…H‚¢‚µ‚ñ–V]
+\![*]\q[You're adorable,ƒRƒ~ƒ…ƒOƒ‰ƒ}[]
+\![*]\q[I feel tired,ƒRƒ~ƒ…‚¾‚é‚¢]
+\![*]\q[My back hurts,ƒRƒ~ƒ…‰ö‰ä]
+\![*]\q[Are you happyH,ƒRƒ~ƒ…K‚¹]
+\![*]\q[Kiss meô,ŒûƒLƒX]
+\![*]\q[Can I pet your headH,ƒRƒ~ƒ…•‚Å‚½‚¢]
+\![*]\q[What time is itH,ƒRƒ~ƒ…¡‰½]
+\![*]\q[Undress,ƒRƒ~ƒ…’E‚¢‚Å]
+\![*]\q[Curse at you,ƒRƒ~ƒ…‚Ì‚Ì‚µ‚Á‚Ä]
+\![*]\q[Touch my thighs,ƒRƒ~ƒ…‚Ó‚Æ‚à‚à]
+\![*]\q[HentaiH,ƒRƒ~ƒ…•Ï‘Ô]
+\![*]\q[I want to roll up your skirt,ƒRƒ~ƒ…ƒXƒJ[ƒgŒ‚é]
+\![*]\q[Nice to meet you,ƒRƒ~ƒ…‚æ‚ë‚µ‚­]
+\![*]\q[You're so kind,ƒRƒ~ƒ…—D‚µ‚¢‚È]
+\![*]\q[Hot baths are nice,ƒRƒ~ƒ…•—˜C]
+\![*]\q[PleaseAforgive me,ƒRƒ~ƒ…‹–‚µ‚Ä]
+\![*]\q[Formal clothes are nice,ƒRƒ~ƒ…°‚ê’…]
+\![*]\q[Amusement parks are funArightH,ƒRƒ~ƒ…—V‰€’n]
+\![*]\q[I want to cry,ƒRƒ~ƒ…‹ƒ‚«‚½‚¢]
+\![*]\q[HandI,ƒRƒ~ƒ…‚¨è]
+\![*]\q[Do you like game arcades H,ƒRƒ~ƒ…ƒQ[ƒ€ƒZƒ“ƒ^[]
+\![*]\q[I want to disappear,ƒRƒ~ƒ…€‚É‚½‚¢]
+\![*]\q[Are you by yourselfH,ƒRƒ~ƒ…ˆêl‚Å‚·‚éH]
+\![*]\q[Can you wait a bitH,ƒRƒ~ƒ…‘Ò‚Ä‚éH]
+\![*]\q[You smell nice,ƒRƒ~ƒ…—Ç‚¢‚è]
+\![*]\q[Do you like Rom-ComsH,ƒRƒ~ƒ…ƒ‰ƒuƒRƒ]
+\![*]\q[You seem gloomy,ƒRƒ~ƒ…ƒ€ƒbƒcƒŠ]
+\![*]\q[What makes you joyfulH,ƒRƒ~ƒ…‚Í‚µ‚á‚®]
+\![*]\q[The night view is beautifulAisn't it,ƒRƒ~ƒ…–éŒi]
+\![*]\q[I feel stressed,ƒRƒ~ƒ…”æ‚ê‚½]
+\![*]\q[Do you like laceH,ƒRƒ~ƒ…ƒŒ[ƒX]
+\![*]\q[Kimono are nice,ƒRƒ~ƒ…˜a•]
+\![*]\q[This is nice,ƒRƒ~ƒ…—Ç‚©‚Á‚½]
+\![*]\q[I'd love to travel,ƒRƒ~ƒ…—·s]
+\![*]\q[I feel nervous,ƒRƒ~ƒ…ƒCƒ‰ƒCƒ‰‚·‚é]
+\![*]\q[About SSP,ƒRƒ~ƒ…SSP]
+\![*]\q[About ‚T‚S,ƒRƒ~ƒ…‚T‚S]
+\![*]\q[Ice cream in summerH,ƒRƒ~ƒ…ƒAƒCƒXƒNƒŠ[ƒ€]
+\![*]\q[Do you have aspirationsH,ƒRƒ~ƒ…“²‚ê‚é]
+\![*]\q[Hmm,ƒRƒ~ƒ…‚¤[‚ñ]
+\![*]\q[What's your genderH,ƒRƒ~ƒ…«•Ê‚ÍH]
+\![*]\q[How old are youH,ƒRƒ~ƒ…‰½Î]
+\![*]\q[You're cute,ƒRƒ~ƒ…ƒLƒŒƒC]
+\![*]\q[Hot weather,ƒRƒ~ƒ…‹‚¢]
+\![*]\q[Cold weather,ƒRƒ~ƒ…Š¦‚¢]
+\![*]\q[I'm sad,ƒRƒ~ƒ…”ß‚µ‚¢]
+\![*]\q[I feel stressed,ƒRƒ~ƒ…”æ‚ê‚½]
+\![*]\q[Aprons are nice,ƒRƒ~ƒ…ƒGƒvƒƒ“]
+\![*]\q[HeyI,ƒRƒ~ƒ…‚¨‚¢]
+\![*]\q[YoI,ƒRƒ~ƒ…‰Ÿ”E]
+\![*]\q[Good morning,ƒRƒ~ƒ…‚¨‚Í‚æ‚¤]
+\![*]\q[Good night,ƒRƒ~ƒ…‚¨‚â‚·‚İ]
+\![*]\q[I'd like some tea,ƒRƒ~ƒ…‚¨’ƒ]
+\![*]\q[Good job,ƒRƒ~ƒ…‚¨”æ‚ê]
+\![*]\q[I want to eat lunch,ƒRƒ~ƒ…•Ù“–]
+\![*]\q[You're so adorable,ƒRƒ~ƒ…‚©‚í‚¢‚¢]
+\![*]\q[Do your best,ƒRƒ~ƒ…Šæ’£‚ê]
+\![*]\q[Giggles,ƒRƒ~ƒ…ƒNƒXƒNƒX]
+\![*]\q[Do you like dogsH,ƒRƒ~ƒ…Œ¢]
+\![*]\q[What do you think of arcadesH,ƒRƒ~ƒ…ƒQ[ƒ€ƒZƒ“ƒ^[]
+\![*]\q[About Ghosts,ƒRƒ~ƒ…ƒS[ƒXƒg]
+\![*]\q[About ‚T‚S's name,ƒRƒ~ƒ…‚T‚SŒÄ‚Ô]
+\![*]\q[Are you scared of bugsH,ƒRƒ~ƒ…ƒSƒLƒuƒŠ]
+\![*]\q[About Comiket,ƒRƒ~ƒ…ƒRƒ~ƒP]
+\![*]\q[Sorry,ƒRƒ~ƒ…‚²‚ß‚ñ]
+\![*]\q[HeyaIô,ƒRƒ~ƒ…ƒRƒ‰]
+\![*]\q[ôHelloô,ƒRƒ~ƒ…‚±‚ñ‚É‚¿‚Í]
+\![*]\q[Good evening,ƒRƒ~ƒ…‚±‚ñ‚Î‚ñ‚Í]
+\![*]\q[About Shells,ƒRƒ~ƒ…ƒVƒFƒ‹]
+\![*]\q[PleaseAsmile,ƒRƒ~ƒ…ƒXƒ}ƒCƒ‹]
+\![*]\q[DietH You're fat,ƒRƒ~ƒ…ƒ_ƒCƒGƒbƒg]
+\![*]\q[I'm homeô,ƒRƒ~ƒ…‚½‚¾‚¢‚Ü]
+\![*]\q[I'm tired[,ƒRƒ~ƒ…‚¾‚é‚¢]
+\![*]\q[Kiss me[,ŒûƒLƒX]
+\![*]\q[ôHeadpatsô,ƒRƒ~ƒ…‚È‚Å‚È‚Å]
+\![*]\q[What day is it todayH,ƒRƒ~ƒ…¡“ú‚Í‰½‚Ì“ú]
+\![*]\q[Meow[,ƒRƒ~ƒ…‚É‚á[]
+\![*]\q[Are you lonelyH,ƒRƒ~ƒ…ˆêl‚Ú‚Á‚¿]
+\![*]\q[Hey Hey[,ƒRƒ~ƒ…‚Ë‚¢]
+\![*]\q[Let's go to the pool,ƒRƒ~ƒ…ƒv[ƒ‹]
+\![*]\q[Who is iƒ†[ƒU–¼jH,ƒRƒ~ƒ…„‚Í’N]
+\![*]\q[About pockets,ƒRƒ~ƒ…ƒ|ƒPƒbƒg]
+\![*]\q[Let's do a sleepoverI,ƒRƒ~ƒ…ƒzƒeƒ‹]
+\![*]\q[Are you smilingH,ƒRƒ~ƒ…”÷Î‚Ş]
+\![*]\q[It's all a little hazy,ƒRƒ~ƒ…‚Ú‚ñ‚â‚è]
+\![*]\q[You look like Tomoe Mami,ƒRƒ~ƒ…ƒ}ƒ~‚³‚ñ]
+\![*]\q[Look at my mug,ƒRƒ~ƒ…ƒ}ƒOƒJƒbƒv]
+\![*]\q[I'm upset,ƒRƒ~ƒ…ƒ€ƒJƒcƒN]
+\![*]\q[About glasses,ƒRƒ~ƒ…ƒƒKƒl]
+\![*]\q[Open the Comm MenuAplease,ƒRƒ~ƒ…ƒƒjƒ…[]
+\![*]\q[YesAhelloH,ƒRƒ~ƒ…‚à‚µ‚à‚µ]
+\![*]\q[About kettles,ƒRƒ~ƒ…ƒ„ƒJƒ“]
+\![*]\q[Oh no[,ƒRƒ~ƒ…‚â‚Î‚¢]
+\![*]\q[Nice to meet you,ƒRƒ~ƒ…‚æ‚ë‚µ‚­]
+\![*]\q[Do you enjoy Rom-ComsH,ƒRƒ~ƒ…ƒ‰ƒuƒRƒ]
+\![*]\q[About lace,ƒRƒ~ƒ…ƒŒ[ƒX]
+\![*]\q[You're beamingI,ƒRƒ~ƒ…‚É‚±‚É‚±]
+\![*]\q[Can I pet youH,ƒRƒ~ƒ…ˆ¤Šß]
+\![*]\q[You're great,ƒRƒ~ƒ…ˆÌ‚¢]
+\![*]\q[Comfort me,ƒRƒ~ƒ…ˆÔ‚ß‚Ä]
+\![*]\q[I want to be with you forever,ƒRƒ~ƒ…ˆê]
+\![*]\q[You work so hard,ƒRƒ~ƒ…ˆê¶Œœ–½]
+\![*]\q[What music do you likeH,ƒRƒ~ƒ…‰¹Šy]
+\![*]\q[About summer,ƒRƒ~ƒ…‰Ä]
+\![*]\q[Could you do my choresH,ƒRƒ~ƒ…‰Æ–]
+\![*]\q[About our free time,ƒRƒ~ƒ…‰É]
+\![*]\q[About fruits,ƒRƒ~ƒ…‰Ê•¨]
+\![*]\q[About singing,ƒRƒ~ƒ…‰Ì‚Á‚Ä]
+\![*]\q[I burned myself,ƒRƒ~ƒ…‰Î]
+\![*]\q[You look like Sylvie from Transiruby ,ƒRƒ~ƒ…ƒVƒ‹ƒrƒB]
+\![*]\q[Here's a snack,ƒRƒ~ƒ…‚¨‰Ùq]
+\![*]\q[I have regrets,ƒRƒ~ƒ…‰÷‚â‚ñ‚Å‚¢‚é]
+\![*]\q[Nostalgicc,ƒRƒ~ƒ…‰ù‚©‚µ‚¢]
+\![*]\q[I want to go to the beach,ƒRƒ~ƒ…ŠC]
+\![*]\q[I want to go out for dinner,ƒRƒ~ƒ…ŠOH]
+\![*]\q[I have to study,ƒRƒ~ƒ…•×‹­]
+\![*]\q[I have school tomorrow,ƒRƒ~ƒ…ŠwZ]
+\![*]\q[This is fun,ƒRƒ~ƒ…Šy‚µ‚¢]
+\![*]\q[Can you play an instrumentH,ƒRƒ~ƒ…ŠyŠí]
+\![*]\q[Cold weather,ƒRƒ~ƒ…Š¦‚¢]
+\![*]\q[How many Kanji do you knowH,ƒRƒ~ƒ…Š¿š]
+\![*]\q[Can I spoil youH,ƒRƒ~ƒ…ŠÃ‚¦‚½‚¢]
+\![*]\q[Keep doing your best,ƒRƒ~ƒ…Šæ’£‚é]
+\![*]\q[I'm happy today,ƒRƒ~ƒ…Šğ‚µ‚¢]
+\![*]\q[How are you feelingH,ƒRƒ~ƒ…‹@Œ™‚ÍH]
+\![*]\q[Bad mood todayH,ƒRƒ~ƒ…‹@Œ™ˆ«‚¢H]
+\![*]\q[I'm enjoying this,ƒRƒ~ƒ…S’n‚¢‚¢]
+\![*]\q[I feel sick,ƒRƒ~ƒ…‹C•ª‚ªˆ«‚¢]
+\![*]\q[How about a change of pace,ƒRƒ~ƒ…‹C•ª“]Š·]
+\![*]\q[HeyAwake up,ƒRƒ~ƒ…‹N‚«‚Ä]
+\![*]\q[What's the startup timeH,ƒRƒ~ƒ…‹N“®ŠÔ]
+\![*]\q[About personification,ƒRƒ~ƒ…‹[l‰»]
+\![*]\q[Someone's here,ƒRƒ~ƒ…’N‚©—ˆ‚½]
+\![*]\q[Let's hurry up,ƒRƒ~ƒ…‹}‚®]
+\![*]\q[I'm off,ƒRƒ~ƒ…s‚Á‚Ä—ˆ‚é]
+\![*]\q[What day is it todayH,ƒRƒ~ƒ…¡“ú‚Í‰½“ú]
+\![*]\q[About sewing,ƒRƒ~ƒ…Ù–D]
+\![*]\q[About umbrellas,ƒRƒ~ƒ…P]
+\![*]\q[About walks,ƒRƒ~ƒ…U•à]
+\![*]\q[I'm going for a walk,ƒRƒ~ƒ…U•às‚Á‚Ä‚­‚é]
+\![*]\q[About Ukagaka,ƒRƒ~ƒ…f‚©]
+\![*]\q[About little kids,ƒRƒ~ƒ…q‹Ÿ]
+\![*]\q[Can you cry on commandH,ƒRƒ~ƒ…‹ƒ‚¢‚Ä]
+\![*]\q[Don't cry,ƒRƒ~ƒ…‹ƒ‚©‚È‚¢‚Å]
+\![*]\q[I want to cry,ƒRƒ~ƒ…‹ƒ‚«‚½‚¢]
+\![*]\q[What makes you cryH,ƒRƒ~ƒ…‹ƒ‚«‚½‚¢‚ÍH]
+\![*]\q[Forgive me,ƒRƒ~ƒ…‹–‚µ‚Ä]
+\![*]\q[What do you struggle withH,ƒRƒ~ƒ…‹êè‚Ì‚±‚Æ‚ÍH]
+\![*]\q[Do you have a hard timeH,ƒRƒ~ƒ…‹ê˜J‚µ‚Ä‚¢‚é]
+\![*]\q[What are your hardshipsH,ƒRƒ~ƒ…‹ê˜J‚ğ‚©‚¯‚é]
+\![*]\q[About dogs,ƒRƒ~ƒ…Œ¢]
+\![*]\q[How are youH,ƒRƒ~ƒ…Œ³‹CH]
+\![*]\q[How are you doingH,ƒRƒ~ƒ…‚²‚«‚°‚ñ‚æ‚¤]
+\![*]\q[What do you likeH,ƒRƒ~ƒ…D‚«‚È‚à‚Ì]
+\![*]\q[What are you favorite thingsH,ƒRƒ~ƒ…D‚İ‚ÍH]
+\![*]\q[Let's go somewhere,ƒRƒ~ƒ…s‚±‚¤]
+\![*]\q[I'm annoyed,ƒRƒ~ƒ…‰÷‚µ‚¢]
+\![*]\q[Where is your tailH,ƒRƒ~ƒ…K”ö]
+\![*]\q[Just do it,ƒRƒ~ƒ…‚µ‚Ä‚­‚ê]
+\![*]\q[Can I give you a hugH,ƒRƒ~ƒ…ƒXƒbƒ|ƒŠ]
+\![*]\q[What is itH,ƒRƒ~ƒ…‚È‚ñ‚Å‚·]
+\![*]\q[I will make you happy,ƒRƒ~ƒ…K‚¹‚É‚·‚é]
+\![*]\q[About happiness,ƒRƒ~ƒ…K‚¹]
+\![*]\q[What do you think of meH,ƒRƒ~ƒ…‚Ç‚¤v‚¤]
+\![*]\q[Don't you like meH,ƒRƒ~ƒ…„‚Ì–‚ÍŒ™‚¢H]
+\![*]\q[Who am IH,ƒRƒ~ƒ…„‚Í’N]
+\![*]\q[Sorry for staring at you,ƒRƒ~ƒ…‹ü]
+\![*]\q[About bicycles,ƒRƒ~ƒ…©“]Ô]
+\![*]\q[About drawing,ƒRƒ~ƒ…Ê¶]
+\![*]\q[I'm lonely,ƒRƒ~ƒ…â‚µ‚¢]
+\![*]\q[About autumn,ƒRƒ~ƒ…H]
+\![*]\q[About Hatsune Miku,ƒRƒ~ƒ…‰‰¹ƒ~ƒN]
+\![*]\q[Hot weather,ƒRƒ~ƒ…‹‚¢]
+\![*]\q[Help me,ƒRƒ~ƒ…•‚¯‚Ä]
+\![*]\q[Can you leaveAplease,ƒRƒ~ƒ…Á‚¦‚Ä]
+\![*]\q[ôLaughsô,ƒRƒ~ƒ…Î‚Á‚Ä]
+\![*]\q[I'm sleepy,ƒRƒ~ƒ…Q‚é]
+\![*]\q[I feel a bit down,ƒRƒ~ƒ…”ß‚µ‚¢]
+\![*]\q[This is amazing,ƒRƒ~ƒ…¦‚¢‚æ‚Ë]
+\![*]\q[What's your genderH,ƒRƒ~ƒ…«•Ê‚ÍH]
+\![*]\q[About formal clothes,ƒRƒ~ƒ…°‚ê’…]
+\![*]\q[I remember a long time agoc,ƒRƒ~ƒ…Ì]
+\![*]\q[About toddlers,ƒRƒ~ƒ…Ô‚¿‚á‚ñ]
+\![*]\q[You're blushing,ƒRƒ~ƒ…ŠçÔ‚¢]
+\![*]\q[I want to get to know you,ƒRƒ~ƒ…‹ß‚Ã‚­]
+\![*]\q[Tell me my fortune,ƒRƒ~ƒ…è‚¢]
+\![*]\q[I should clean my room,ƒRƒ~ƒ…‘|œ]
+\![*]\q[Here's some candy,ƒRƒ~ƒ…‘Ê‰Ùq]
+\![*]\q[Can you stand-byH,ƒRƒ~ƒ…‘Ò‚Ä‚éH]
+\![*]\q[What's the most important for youH,ƒRƒ~ƒ…‘åØ]
+\![*]\q[Are you okayH,ƒRƒ~ƒ…‘åä•vH]
+\![*]\q[Do you care about meH,ƒRƒ~ƒ…‘å–‚É‚µ‚Ä]
+\![*]\q[Undress,ƒRƒ~ƒ…’E‚¢‚Å]
+\![*]\q[Do you have a crushH,‚¾‚ê‚ªD‚«‚©]
+\![*]\q[About birthdays,ƒRƒ~ƒ…’a¶“ú]
+\![*]\q[Are you a boyH,ƒRƒ~ƒ…«•Ê‚ÍH]
+\![*]\q[About men,ƒRƒ~ƒ…’j«]
+\![*]\q[I want to be friends,ƒRƒ~ƒ…’‡—Ç‚­]
+\![*]\q[How are you doingH,ƒRƒ~ƒ…’²q‚ÍH]
+\![*]\q[What angers you ?,ƒRƒ~ƒ…“{‚Á‚Ä]
+\![*]\q[I'm angry,ƒRƒ~ƒ…ƒ€ƒJƒcƒN]
+\![*]\q[Are you mad at meH,ƒRƒ~ƒ…“{‚Á‚Ä‚éH]
+\![*]\q[About winter,ƒRƒ~ƒ…“~]
+\![*]\q[ôPats your headô,ƒRƒ~ƒ…“ª]
+\![*]\q[I have a headache,ƒRƒ~ƒ…“ª’É]
+\![*]\q[I'm hangover,ƒRƒ~ƒ…“ñ“úŒ‚¢]
+\![*]\q[About rainbows,ƒRƒ~ƒ…“ø]
+\![*]\q[About parasols,ƒRƒ~ƒ…“úP]
+\![*]\q[About cats,ƒRƒ~ƒ…”L]
+\![*]\q[I'm worried,ƒRƒ~ƒ…”Y‚İ]
+\![*]\q[What can you say about thick eyebrows?H,ƒRƒ~ƒ…‘¾”û]
+\![*]\q[ôClaps handsô,ƒRƒ~ƒ…”è]
+\![*]\q[About chopsticks,ƒRƒ~ƒ…”¢]
+\![*]\q[I feel stressed,ƒRƒ~ƒ…”æ‚ê‚½]
+\![*]\q[I wanna fly,ƒRƒ~ƒ…”ò‚×‚é]
+\![*]\q[Deliciousô,ƒRƒ~ƒ…”ü–¡‚µ‚¢]
+\![*]\q[About calligraphy,ƒRƒ~ƒ…•Mƒyƒ“]
+\![*]\q[What scares youH,ƒRƒ~ƒ…•|‚¢‚Ì‚ÍH]
+\![*]\q[Can I pat your headH,ƒRƒ~ƒ…•‚Å‚½‚¢]
+\![*]\q[I want a hot bath,ƒRƒ~ƒ…•—˜C]
+\![*]\q[I'm hungry,ƒRƒ~ƒ…• Œ¸‚Á‚½]
+\![*]\q[Is everything fineH,ƒRƒ~ƒ…•½‹CH]
+\![*]\q[I'll go study,ƒRƒ~ƒ…•×‹­]
+\![*]\q[Wanna go for a walkH,ƒRƒ~ƒ…U•à‚µ‚æ]
+\![*]\q[I want to hug you,ƒRƒ~ƒ…•ø‚«‚µ‚ß‚½‚¢]
+\![*]\q[Let's hugô,ƒRƒ~ƒ…•ø‚«‚µ‚ß‚Ä]
+\![*]\q[Moeô,ƒRƒ~ƒ…–G‚¦]
+\![*]\q[Make a contract with me & become a magical girl,ƒRƒ~ƒ…–l‚ÆŒ_–ñ‚µ‚Ä–‚–@­—‚É‚È‚Á‚Ä‚æ]
+\![*]\q[I'm drowsy,ƒRƒ~ƒ…–°‚¢]
+\![*]\q[What is your dreamH,ƒRƒ~ƒ…–²]
+\![*]\q[What's your nameH,ƒRƒ~ƒ…–¼‘O‚ÍH]
+\![*]\q[InterestingAisn't it,ƒRƒ~ƒ…–Ê”’‚¢‚æ‚Ë]
+\![*]\q[PleaseAbe silent,ƒRƒ~ƒ…–Ù‚ê]
+\![*]\q[Nightscapes are beautifulAaren't they,ƒRƒ~ƒ…–éŒi]
+\![*]\q[I'll take some medicine,ƒRƒ~ƒ…–ò]
+\![*]\q[You're so kind,ƒRƒ~ƒ…—D‚µ‚¢‚È]
+\![*]\q[Be my friend,ƒRƒ~ƒ…—F‚½‚¿‚É‚È‚Á‚Ä]
+\![*]\q[Let's play,ƒRƒ~ƒ…—V‚Ú‚¤]
+\![*]\q[About amusement parks,ƒRƒ~ƒ…—V‰€’n]
+\![*]\q[OhAit's nothing,ƒRƒ~ƒ…—p–‚Í‚È‚¢]
+\![*]\q[Calm downA relax,ƒRƒ~ƒ…—‚¿’…‚¢‚Ä]
+\![*]\q[I miss travelling,ƒRƒ~ƒ…—·s]
+\![*]\q[About cooking,ƒRƒ~ƒ…—¿—]
+\![*]\q[I'm glad,ƒRƒ~ƒ…—Ç‚©‚Á‚½]
+\![*]\q[Do you like Kimono'sH,ƒRƒ~ƒ…˜a•]
+\![*]\q[You're pretty,ƒRƒ~ƒ…ƒLƒŒƒC]
+\![*]\q[What do you wish forH,ƒRƒ~ƒ…–]‚İ]
+\![*]\q[When is your birthdayH,ƒRƒ~ƒ…’a¶“ú‚Í‚¢‚ÂH]
+
+–ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒgPRE
+\t\hi‚S‚Uj\w4
+Do you want to reset our activites historycH
+\_q
+\![*]\q[YesAreset it,ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg–{”Ô]
+
+\![*]\q[What is the activity history?,ƒf[ƒgƒŠƒZƒbƒgƒƒŠƒbƒg]
+
+\![*]\q[Don't reset it,ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg’†~]
+
+\![*]\q[Go back,İ’èƒƒjƒ…[]
+\_q
+–ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg’†~
+\t\hi‚Tj\w4
+YesA\w5\w2
+
+No problem \w1A\w4
+
+asA\w7alwaysc
+–ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg–{”Ô
+ƒQ[ƒ€ƒZƒ“ƒ^[s‚Á‚½–‚ ‚é	‚O
+—V‰€’ns‚Á‚½–‚ ‚é	‚O
+ƒvƒŠƒNƒ‰‚â‚Á‚¾	‚O
+¡“úƒvƒŠƒNƒ‰‚â‚Á‚¾‰ñ”	‚O
+ƒuƒ‰ƒbƒNƒR[ƒq[ŒoŒ±	‚O
+ƒŠƒYƒ€ƒQ[ƒ€—û“x	‚O
+ƒLƒƒƒbƒ`ƒƒ[‚Ì‚Ê‚¢‚®‚é‚İe”L	‚O
+‚Ê‚¢‚­‚é‚İƒvƒŒƒ[ƒ“ƒg‚µ‚½	‚O
+ƒLƒƒƒbƒ`ƒƒ[‚ÌƒNƒ}‚Ì‚Ê‚¢‚®‚é‚İ	‚O
+ƒLƒƒƒbƒ`ƒƒ[‚Ì‚¤‚Ï[‚Ê‚¢‚­‚é‚İ	‚O
+
+\t\h\w5i‚P‚Xj\w6
+OurA\w6activities \w3together\w3c\w3\w9\w9\w9
+
+All\w9ofAitci‚Q‚Pj\w9\w9
+I forgotA\w9all of themc\w3\w9\w9\w9i‚P‚Uj\w9\w9\w9
+
+i‚Rj\w4Pleaseclet's do \w1fun thingsA\w9again c\w9one dayc\w9\w9i‚P‚Uj\w9\w9\w9\w9\s[-1]\w9\w9\w9\w9\w9i‚Q‚Pj
+–ƒf[ƒgƒ‚[ƒhƒŠƒZƒbƒg
+\t\hi‚S‚Uj\w4
+Here arec
+
+all the things \w1we did \w2togetherA\w8so farc\w6
+
+I can \w3forgetA\w7aboutcall of themB\w9
+\x
+OnceA\w4I forgetA\w8themc\w6
+
+I \w1can'tA\w5goA\w8backc\w8B
+\x
+i‚R‚Xj\w3ArecyouA\w8surecH\w3
+\_q
+\![*]\q[Reset activity history ifinal confirmation needed on the next menuj,ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒgPRE]
+
+\![*]\q[Don't reset it,ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg’†~]
+
+\![*]\q[Go back,İ’èƒƒjƒ…[]
+\_q
+–ƒf[ƒgƒŠƒZƒbƒgƒƒŠƒbƒg
+\t\hi‚S‚Uj\w4
+When you bring me to a new placeA\w5
+or we do an activity togetherAI'll remember it.\w5
+
+Resetting the activity history makes me able toA\w5
+go there again\w2Aand experience it \w2for the first time again.\w9
+You will also be able toA\w6enjoy it againc\w2
+\_q
+\![*]\q[AlrightA reset it please,ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg–{”Ô]
+
+\![*]\q[Don't reset it,ƒf[ƒgƒf[ƒ^ƒŠƒZƒbƒg’†~]
+
+\![*]\q[Go back,İ’èƒƒjƒ…[]
+\_q
+–‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ
+iƒLƒƒƒ“ƒZƒ‹’PŒêj
+–ƒjƒbƒNƒl[ƒ€‚ ‚è‚ª‚Æ‚¤
+\t\hi‚R‚Oj\w8
+\w3The name you \w2gave meA\w7is
+
+\w2i‚T‚S–¼‘Ojc\w9\w5
+
+i‚Pj\w5I'll alwaysA\w7treasure \w2it\w5c\w5\w2Thank youA\w7iUjc
+–ƒjƒbƒNƒl[ƒ€–á‚Á‚Ä‚È‚¢
+\t\hi‚Q‚Wj\w8
+I\w4c\w9
+
+i‚R‚Xj\w4I \w2didn'tA\w7get\w9
+
+a \w2newA\w7nickname\w8c
+–‚Ü‚¾‰½‚à˜b‚µ‚Ä‚È‚¢
+\t\hi‚Oj
+\w5I haven't\w3cA
+
+\w5said\w3c
+
+\w5anything\w3Ayet\w3c
+–ƒƒCƒ“ƒƒjƒ…[
+\t\h\t\h\n\*\b[2]iƒƒCƒ“ƒƒjƒ…[ŒÄ‚Ño‚µj
+
+\_q
+\![*]\q[Say something,ƒ‰ƒ“ƒ_ƒ€ƒg[ƒN]
+
+\![*]\q[Can you repeat the last dialogue,ˆê‚Â‘O‚Ì‚¨˜b‚ğ‚à‚¤ˆê“x]
+
+
+\![*]\q[Can IAask you somethingƒÓc,ƒRƒ~ƒ…è“®]
+
+\![*]\q[Open the conversation menuƒÓc,ƒRƒ~ƒ…ƒƒjƒ…[İ’èˆ—]
+
+
+\![*]\q[Settings ƒÓ& infos about meƒÓc,İ’èƒƒjƒ…[]
+
+\![*]\q[About you,‚í‚½‚µ‚Ì‚±‚Æ]
+
+
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ƒ†[ƒU‚Í—«
+ƒ†[ƒU«•Ê	—«
+\t\h\s[5]\w6
+I seeA\w8
+
+iUjA\w4isA\w6a womanc\w3B
+–ƒ†[ƒU‚Í’j«
+ƒ†[ƒU«•Ê	’j«
+\t\h\s[5]\w6
+I seeA\w8
+
+iUjA\w4isA\w6a manc\w3B
+–UserNB
+ƒ†[ƒU«•Ê	NonƒÓ-binary
+\t\h\s[5]\w6
+I seeA\w8
+
+iUjA\w4isA\w6non-binaryc\w3B
+–ƒ†[ƒUî•ñİ’è
+\t\h\b[2]\s[5]\w4
+You can editAall the thingscI knowAabout youB
+
+\_q
+\![*]\q[Check  my username ƒÓ& change it,ƒ†[ƒU–¼“ü—Í]
+
+\![*]\q[Change how you address me,ƒ†[ƒU–¼‚ğ‹³‚¦‚Ä‚à‚ç‚Á‚½]
+
+\![*]\q[Gender settings,ƒ†[ƒU«•Êİ’è]
+
+\![*]\q[Birthday settings,ƒ†[ƒU’a¶“úİ’è]
+
+
+\![*]\q[Return to settings menu,İ’èƒƒjƒ…[]
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ƒ†[ƒU«•Êİ’è
+\t\h\s[0]\w7\b[2]
+i‚T‚S–¼‘Oj canc
+
+\w3answer inA\w2different \w6 waysB\w6
+Depending onA\w2the gender \w4ofA\w4iUj\w6
+my answers \w2will \w6changec\w6
+\w4
+CurrentlyA\w1your gender \w4is \w1set toA\w4uiƒ†[ƒU«•ÊjvB\w6
+
+Would you like toA\w6change itcH\w6
+
+\_q
+\![*]\q[Set my gender to female,ƒ†[ƒU‚Í—«]
+
+\![*]\q[Set my gender to male,ƒ†[ƒU‚Í’j«]
+
+\![*]\q[Set my gender to non-binary,UserNB]
+
+
+\![*]\q[Return to user settings menu,ƒ†[ƒUî•ñİ’è]
+
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ƒ†[ƒU’a¶“úİ’è
+\t\h\s[0]\w7
+I can \w2rememberA
+
+iUj's \w8birthdayc
+
+\_q
+\![*]\q[Set my birthdayƒÓc,’a¶“ú‹³‚¦‚é]
+
+\![*]\q[Cancel,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ƒ†[ƒU–¼“ü—Í
+\t\h\s[1]\w5
+CurrentlyA\w3I know you ascuiUjv\w2B
+i‚Tj\w7
+If that's not correctA\w1I can change itB\w7
+Would you like toA\w6change itcH
+
+\_q
+\![*]\q[Change it,ƒ†[ƒU–¼“ü—Í‚Q]
+
+\![*]\q[Don't change it,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ƒ†[ƒU–¼“ü—Í‚Q
+\t\hi‚Tj
+SureA\w7let me knowA\w4how I should call youc
+\![open,inputbox,ƒ†[ƒU–¼]
+–ƒ‰ƒ“ƒ_ƒ€ƒg[ƒN
+r_talk	ij
+ir_talkj
+–‚í‚ª‚Ü‚Üƒg[ƒN‚ ‚è
+‚í‚ª‚Ü‚Üƒg[ƒN	‚P
+\t\hi‚S‚Rj\w4\w9
+i‚T‚S–¼‘OjA
+
+\w3might be \w3saying somethingc\w5selfishc\w8
+
+i‚SjiŒ™‚í‚ê‚½‚­‚È‚¢j
+
+–‚í‚ª‚Ü‚Üƒg[ƒN‚È‚µ
+‚í‚ª‚Ü‚Üƒg[ƒN	‚O
+\t\hi‚Tj\w5
+i‚T‚S–¼‘OjA\w5
+
+am \w3relieved that \w3I don't have toc
+
+say anything selfish to iUjB\w9\w5i‚S‚Rj\w4
+
+i‚T‚WjButAi'm a bit confusedc
+–‚í‚ª‚Ü‚Üƒ‚[ƒhƒƒjƒ…[
+\t\hi‚Tj
+uSelfish modev \w4 settingsB
+
+\s[1]\w3If you enable itA\w2I willcbe \w2a little \w5selfishc
+when I talkA\w3to youc
+
+\_q
+\![*]\q[Activate selfish mode,‚í‚ª‚Ü‚Üƒg[ƒN‚ ‚è]
+
+\![*]\q[Don't activate it,‚í‚ª‚Ü‚Üƒg[ƒN‚È‚µ]
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–‚í‚½‚µ‚Ì‚±‚Æ
+\t\h\*\_q
+ihennanamaenoj
+
+\_q
+\![*]\q[The secret of how you were born,’a¶–§’k]
+
+\![*]\q[5 things about you,‚T¿]
+
+\![*]\q[About your given name,‚T‚S–¼‘OŠm”F]
+
+\![*]\q[Return to main menuH,ƒƒCƒ“ƒƒjƒ…[]
+
+\![*]\q[CancelƒÓcƒÓcH,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–ˆê‚Â‘O‚Ì‚¨˜b‚ğ‚à‚¤ˆê“x
+„‚Ü‚¾‰½‚à˜b‚µ‚Ä‚È‚¢	i•Ï”ur_talkv‚Ì‘¶İj==0
+ir_talkj
+–Á–Åƒ{ƒ^ƒ“İ’è
+\t\h\s[0]\w5
+CurrentlyA\w2the uninstall button is \w1uiÁ–Åƒ{ƒ^ƒ“‚Ìó‘Ôj£c\w4
+What do you wantA\w4to docH\w5
+
+\_q
+\![*]\q[Enable it,Á–Å•\¦‚n‚m]
+
+\![*]\q[Disable it,Á–Å•\¦‚n‚e‚e]
+
+
+\![*]\q[Cancel,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–Á–Å•\¦‚n‚e‚e
+Á–Åƒ{ƒ^ƒ“	0
+Á–Åƒ{ƒ^ƒ“‚Ìó‘Ô	Disabled
+\t\h
+\s[5]\w5The uninstallation buttonA\w3will \w1be disabledcI
+
+\w9Thank you so muchA
+
+\w4iUjB
+–Á–Å•\¦‚n‚m
+Á–Åƒ{ƒ^ƒ“	1
+Á–Åƒ{ƒ^ƒ“‚Ìó‘Ô	Enabled
+\t\h\s[4]\w5
+AlrightA
+\w9
+The uninstallation button \w3will be enabledc
+–”š‚¶‚á‚È‚¢
+\t\h
+i‚S‚UjOhAuhmc
+
+PleaseAinput only numbersB
+
+„’a¶“ú“ü—Íƒ~ƒX
+–İ’èƒƒjƒ…[
+\t\h\b[2]\s[5]\w4
+Various settingsc
+
+\_q
+\![*]\q[Set the frequency of chatsƒÓc,’‚è•p“x]
+
+\![*]\q[Change my user info settings,ƒ†[ƒUî•ñİ’è]
+
+\![*]\q[Selfish mode settingsƒÓc,‚í‚ª‚Ü‚Üƒ‚[ƒhƒƒjƒ…[]
+
+
+\![*]\q[Display settings of the uninstall buttonƒÓc,Á–Åƒ{ƒ^ƒ“İ’è]
+
+\![*]\q[Settings to close Ghost by head-clicking,“ª’@‚«Á–Åİ’èƒƒjƒ…[]
+
+\![*]\q[Reset activity history,ƒf[ƒgƒ‚[ƒhƒŠƒZƒbƒg]
+
+
+\![*]\q[Send a message to the dev,OnWebClap]
+
+\![*]\q[Cancel,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–’a¶Œˆ—
+„”š‚¶‚á‚È‚¢	iis_digit,i’a¶Œjj==0
+„‚ ‚è‚¦‚È‚¢“ú•t	i’a¶Œj„‚P‚Q
+
+\![open,inputbox,’a¶“ú]
+–’a¶“ú‚Í¡“ú
+‘O‰ñƒ†[ƒU’a¶“ú	iŒ»İ”Nj
+\t\hi‚R‚Wj\w6\w7
+TodayA\w8is\w4c\w4
+
+\w4iUj's \w3birthdaycisn't \w9itH
+
+\w5i‚W‚Tj\w9\w5Happy[\w6 birthday \w5to \w6youuuô \w9\w5iUj\w4c\w3B
+–’a¶“ú‹³‚¦‚é
+\c\t\hi‚R‚Wj\w7
+Thank youA\w5for your \w5trustc
+
+Please \w2enter \w2the month (like "1" for january)A\n\w3then the day (like "24")Aone after the otherc
+
+Make sure you \w1press "OK"A\w2after entering \w2the  monthc
+And \w2press "OK" againA\w2after entering \w2the dayc
+
+\![open,inputbox,’a¶Œ]
+–’a¶“úŒˆ’è
+„”š‚¶‚á‚È‚¢	iis_digit,i’a¶“újj==0
+„‚ ‚è‚¦‚È‚¢“ú•t	i’a¶“új„‚R‚P
+„’a¶“ú‚Í¡“ú	i’a¶Œji’a¶“új==iŒ»İŒjiŒ»İ“új
+’a¶“ú‹³‚¦‚½	‚P
+\t\hi‚R‚Wj
+\w5iUj\w2's \w3birthday isc
+
+\w4i’a¶Œj ƒÓ/ \w2i’a¶“újA\w4I seec
+–’a¶“úˆ—
+„”š‚¶‚á‚È‚¢	iis_digit,i’a¶“újj==0
+„‚ ‚è‚¦‚È‚¢“ú•t	i’a¶“új„‚R‚P
+
+„’a¶“úŒˆ’è
+–’a¶“ú“ü—Íƒ~ƒX
+\t\hi‚Tj\c
+MonthA\w1then \w3day
+
+\w3This is the order \w1I'll remember it \w1in\w5
+
+So please \w2enter only numbersA\w2and only \w3in this orderc
+
+\![open,inputbox,’a¶Œ]
+–’a¶–§’k
+\t\h\s[0]
+It seems like that conversation was happeningAwhen I was bornc
+„’a¶–§’k2
+–’a¶–§’k2
+\t\h\*\b[2]yChat history on WoolChat looks like thisBz
+\w5---@#### has joined the chatBƒÓ@(23:08)
+\w523:08@[$$$$]@c
+\w523:08@[####]@this really happenedc
+\w523:08@[$$$$]@|EƒÓjƒmlolƒÓ
+\w523:09@[####]@What should we talk aboutH
+\w523:09@[####]@54's gasping maybeH lol
+\w523:09@[$$$$]@what else can I sayƒÓ lol
+\w523:09@[$$$$]@the TOPIC@is : 54-chan yayƒÓi*L„DM*jyay
+\w523:10@[####]@54cyupƒÓ(*L„DM*)yup
+\w523:10@[$$$$]@that a wasteB
+\w523:11@[####]@indeed lol
+\w5---@EEE@has joined the chatBƒÓ@(23:12)
+\w523:12@[EEE]@|„DM*ƒÓ)ƒm@I'll vote for 54 as the most moe girlB
+\w523:12@[$$$$]@#We're all nameless ƒÓ& serious about it
+\w523:12@[EEE]@bƒÓjƒ~
+\w523:12@[$$$$]@We have to add 54 in the pollI
+\w523:12@[####]@the most moec moe-stƒÓ lol
+\w5---@EEE@has left the chatBƒÓ((((*L„DM*))))ƒÓ@(23:12)
+\w523:12@[####]@We need to make her into a ghost firstƒÓi‚—
+\w523:13@[$$$$]@The one who said it should do it
+\w523:13@[####]@ehJ
+\w523:14@[####]@I can't imagine what kind of ghost she should be
+\w523:14@[$$$$]@her height should be 8 times 
+@@@@@@@@@@@@@@@@@the size of her head lol
+\w523:15@[$$$$]@8 head-height 54-chan lol
+\w523:15@[####]@54-chancI'll make sure she's cute
+\w523:15@[$$$$]@that's the spirit lol
+\w5---@@@@@@has joined the chatBƒÓ@(23:15)
+\w523:16@[$$$$]@good evening comradesB
+\w523:16@[####]@ƒmƒV yo
+\w523:16@[@@@@]@you really made it
+\w523:16@[$$$$]@con a whim yea
+\w523:17@[@@@@]@SoAwhat should I sayccI'm at a loss lol
+\w523:17@[####]@54cyayƒÓ(*L„DM*)yayB
+\w523:17@[$$$$]@TOPIC@: 54-chan's ghost & 
+@@@@@@@@@@@@@@@@@her eight-headed ratio MWAH!
+\w523:17@[$$$$]@alrightƒÓ! lol
+\w523:18@[@@@@]@54-chancyayƒÓ(*L„DM*)yay
+\w523:19@[$$$$]@I don' know what going on herec@yayƒÓi*L„DM*jyay
+\w523:19@[@@@@]@OyIUntil it's blackccGoodI„to my shed
+\w523:20@[####]@The shed is the same color as 54 lol
+\w523:20@[$$$$]@54's observation shed lol
+\w523:21@[@@@@]@What should I doBI meanAwith this many 
+@@@@@@@@@@@@@@@@people here, I'm reluctant to leave lol
+\w523:21@[####]@What shall we doHlol
+\w523:22@[####]@Shall we all leave & turn our PC offH
+\w523:22@[@@@@]@SoAare all the logs publicHƒThat's trolling
+\w523:22@[####]@All logs open to the publicc
+@@@@@@@@@@@@@@@@Could be interesting lol
+\w523:23@[####]@Upload it on the appB
+\w523:23@[@@@@]@Well, how about we all leave at 23:25H
+\w523:23@[####]@Roger thatB
+\w523:24@[$$$$]@OK
+\w523:24@[####]@1 minute leftc54-chanAƒÓ(L„DMG)sigh
+\w523:24@[$$$$]@I'm going to pull the plug lol@54-chancƒÓ(*L„DM*)
+\w523:24@[@@@@]@Let's do our best ƒÓi*L„DM*j until the end ƒÓi*L„DM*j
+\w523:24@[####]@this is the first channel to do that lol
+\w523:24@[@@@@] AlrightAi'm leavingI@
+@@@@@@@@@@@@@@@@I'll leave it to you to decide 
+@@@@@@@@@@@@@@@@what to do about loggingIƒÓ*runs*
+\w523:24@[$$$$]@54-chancƒÓi*L„DM*jsigh
+\w523:25@[$$$$]@I'm doing it lol
+\w5---@####@has left the chatB"Goodnight"ƒÓ@(23:25@)
+\x
+„’a¶–§’k‚R
+
+–’a¶–§’k‚R
+\t\h\w9\w9\w5\c\s[4]
+\w4c\w2It kinda soundsA\w5
+
+\w3likeA\w8a jokec
+–’‚èŠÔŠuŒˆ’è
+\t\hi‚Tj\w5
+The interval between chats \w2is currentlyA\w3\ni’‚èŠÔŠuj seconds\w1c\w2
+
+\w4i‚R‚Wj\w1A \w2promiseA
+between \w2iUj \w2and mec
+–’‚è•p“x
+\t\h\b[2]\*i‚Tj
+\w5The intervals \w1betweenA\w3chatsc
+
+I can adjust \w2the chats frequency \w1to suit \w2iUj's preferencec
+
+\_q
+\![*]\q[Every 30 seconds,‚R‚O•b‚¨‚«]
+
+\![*]\q[Every 1 minute,‚P•ª‚¨‚«]
+
+\![*]\q[Every 2 minutes,‚Q•ª‚¨‚«]
+
+\![*]\q[Every 3 minutes,‚R•ª‚¨‚«]
+
+\![*]\q[Every 5 minutes,‚T•ª‚¨‚«]
+
+
+\![*]\q[Input a custom interval,’‚è•p“x’¼Ú“ü—Í]
+
+
+\![*]\q[Don't change it,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–’‚è•p“x’¼Ú“ü—Í
+\t\hi‚Tj\w5
+AlrightA\w3
+
+The unit for \w1the interval \w1 is usecondsvc
+
+\w2Please enter \w1your custom interval \w1in usecondsvc
+\![open,inputbox,’‚èŠÔŠu]
+–’è”ÔƒRƒ~ƒ…ƒƒjƒ…[
+\t\h\_q\*\b[2]i‚Tj
+Standard menuAPage ‚Pc\w3
+
+\![*]\q[You're so cute,ƒRƒ~ƒ…‚©‚í‚¢‚¢]
+\![*]\q[Let's play,ƒRƒ~ƒ…—V‚Ú‚¤]
+\![*]\q[What's your genderH,ƒRƒ~ƒ…«•Ê‚ÍH]
+\![*]\q[How old are youH,ƒRƒ~ƒ…‰½Î]
+\![*]\q[HeyIô,ƒRƒ~ƒ…‚¨‚¢]
+\![*]\q[This is fun,ƒRƒ~ƒ…Šy‚µ‚¢]
+\![*]\q[I'm drowsy,ƒRƒ~ƒ…–°‚¢]
+\![*]\q[ôHelloô,ƒRƒ~ƒ…‚±‚ñ‚É‚¿‚Í]
+\![*]\q[I'm homeô,ƒRƒ~ƒ…‚½‚¾‚¢‚Ü]
+\![*]\q[I have to go,ƒRƒ~ƒ…s‚Á‚Ä—ˆ‚é]
+\![*]\q[Can you stop talking,–Ù‚ê‚Í‚¢]
+
+\![*]\q[Comm Menu Settings,ƒRƒ~ƒ…ƒƒjƒ…[İ’è]@\![*]\q[Shortcuts list,ƒRƒ~ƒ…ƒVƒ‡ƒbƒgƒJƒbƒgà–¾]
+\![*]\q[Next page,’è”ÔƒRƒ~ƒ…ƒƒjƒ…[‚Q]@\![*]\q[Switch to random menu,ƒRƒ~ƒ…ƒƒjƒ…[]
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–’è”ÔƒRƒ~ƒ…ƒƒjƒ…[‚Q
+\t\h\_q\*\b[2]i‚Tj
+Standard menuAPage ‚Qc\w3
+That's it for nowA butA\w1
+The random menu option has \w1
+additional dialogues listedAif you wantc\w1
+
+\![*]\q[ôLaughsô,ƒRƒ~ƒ…Î‚Á‚Ä]
+\![*]\q[ôHeadpatsô,ƒRƒ~ƒ…‚È‚Å‚È‚Å]
+\![*]\q[I'm hungry,ƒRƒ~ƒ…• Œ¸‚Á‚½]
+\![*]\q[I missed you,ƒRƒ~ƒ…‰ï‚¢‚½‚©‚Á‚½]
+\![*]\q[I want to hug you,ƒRƒ~ƒ…•ø‚«‚µ‚ß‚½‚¢]
+\![*]\q[Be my friend,ƒRƒ~ƒ…—F‚½‚¿‚É‚È‚Á‚Ä]
+\![*]\q[Someone's here,ƒRƒ~ƒ…’N‚©—ˆ‚½]
+\![*]\q[I just woke up,ƒRƒ~ƒ…‚¨‚Í‚æ‚¤]
+\![*]\q[I'm sad,ƒRƒ~ƒ…”ß‚µ‚¢]
+\![*]\q[I feel stressed,ƒRƒ~ƒ…”æ‚ê‚½]
+\![*]\q[You're cute,ƒRƒ~ƒ…ƒLƒŒƒC]
+\![*]\q[Hot weather,ƒRƒ~ƒ…‹‚¢]
+\![*]\q[Cold weather,ƒRƒ~ƒ…Š¦‚¢]
+
+\![*]\q[Comm Menu Settings,ƒRƒ~ƒ…ƒƒjƒ…[İ’è]@\![*]\q[Shortcuts list,ƒRƒ~ƒ…ƒVƒ‡ƒbƒgƒJƒbƒgà–¾]
+\![*]\q[Previous Page,’è”ÔƒRƒ~ƒ…ƒƒjƒ…[]@\![*]\q[Switch to random menu,ƒRƒ~ƒ…ƒƒjƒ…[]
+
+\![*]\q[Close menu,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+–“ª’@‚«Á–ÅƒIƒt
+“ª’@‚«Á–Å‚Ìó‘Ô	Disabled
+’@‚«Á–Å	‚O
+“ª’@‚¢‚¾‰ñ”	‚O
+\t\h
+i‚TjUnderstoodB
+–“ª’@‚«Á–ÅƒIƒ“
+“ª’@‚«Á–Å‚Ìó‘Ô	Enabled
+’@‚«Á–Å	‚P
+\t\h
+i‚Q‚PjUnderstoodB
+–“ª’@‚«Á–Åİ’èƒƒjƒ…[
+\t\h\s[0]\w5
+If you click my head \w3enough timesc\w2
+I will be \w3forced to leavec\w2
+
+CurrentlyA this setting is \w1ui“ª’@‚«Á–Å‚Ìó‘Ôj£c\w4
+What shouldA\w2I docH\w5
+\_q
+\![*]\q[Enable it,“ª’@‚«Á–ÅƒIƒ“]
+\![*]\q[Disable it,“ª’@‚«Á–ÅƒIƒt]
+
+\![*]\q[Cancel,‚È‚ñ‚Å‚à‚ ‚è‚Ü‚¹‚ñ]
+\_q
+––¼‘O‚T‚SD‚«
+\t\hi‚V‚Pj
+\w9‚T‚S's namec\w5\w9
+I've always \w7thought \w3it was weirdA\w9\w9butc\w9\w9
+
+i‚R‚Wj\w6If \w2iUjA\w9
+thinks \w2it's \w2that \w4it'sA\w8nicec\w9
+ThenA\w4I like it\w4AtooB
+
+\w9\w9\w9i‚W‚Tj\w9Thank youA\w7iUjc
+––Ù‚ê‚Í‚¢
+\t\h\s[4]\w5
+Yes\w4c\w4
+
+I'll stopA\w7talkingB
+Use the \w1speech frequency menu\w1
+If you'd like me to start talking againB\w1
+’‚èŠÔŠu	‚O
+–’è”Ô‚Éİ’è
+ƒRƒ~ƒ…ƒƒjƒ…[ƒ^ƒCƒv	Standard
+\b[2]\t\h\s[5]\w5
+Standard modec\w2activatedB
+Next timec\w2the standard menu \w2willAopenB
+\w3
+You can displayArandom dialogue choices anytimeA
+by clicking uSwitch to random menu£\w2
+on the bottom rightAof the communication menuB
+\_q
+\![*]\q[Back to Comm Menu,’è”ÔƒRƒ~ƒ…ƒƒjƒ…[]
+\![*]\q[Close menu,ƒRƒ~ƒ…ƒƒjƒ…[I‚í‚è‚É‚·‚é]
+\_q
+–ƒ‰ƒ“ƒ_ƒ€‚Éİ’è
+ƒRƒ~ƒ…ƒƒjƒ…[ƒ^ƒCƒv	Random
+\b[2]\t\h\s[5]\w5
+Random modec\w2activatedB\w6
+Next timec\w2the random menu \w2willAopenB
+\w3
+You can displayA\w3random dialogue choices \w2anytimeA
+by clicking \w2uSwitch to random menu£\w2
+on the bottom rightA\w4of the communication menuB
+\_q
+\![*]\q[Back to Comm Menu,ƒRƒ~ƒ…ƒƒjƒ…[]
+\![*]\q[Close menu,ƒRƒ~ƒ…ƒƒjƒ…[I‚í‚è‚É‚·‚é]
+\_q
+–ƒRƒ~ƒ…ƒƒjƒ…[I‚í‚è‚É‚·‚é
+\t\hi‚Tj\w5
+YesA\w5see youcsoonc
