@@ -46,23 +46,23 @@ From here, you'll be able to access different menus related to the functions of 
 - Press「C」to display the communication box to talk to her directly
   
 ##### Progress of translation 
-- [x]  `dic01_Base.txt`
-- [ ] ***(50% done)*** `dic02_Event.txt`
-- [x] `dic03_Menu.txt`
-- [ ] `dic04_Change.txt`
-- [ ] `dic05_CommRes.txt`
-- [ ] `dic05_CommSel.txt`
-- [ ] `dic05_Communicate.txt`
-- [ ] `dic06_String.txt`
-- [ ] `dic07_Time.txt`
-- [ ] `dic08_RandomTalk.txt`
-- [ ] `dic09_dic.txt`
-- [ ] `dic10_naming.txt`
-- [ ] `dic11_touch.txt`
-- [ ] `dic12_TeaParty.txt`
-- [ ] `dic13_date.txt`
-- [ ] `dic14_DressChange.txt`
-- [ ] `dicAnchor.txt`  
+■■■■■■ 100% `dic01_Base.txt`
+■■■□□□ 50%  `dic02_Event.txt`
+■■■■■■ 100% `dic03_Menu.txt`
+□□□□□□ 0%   `dic04_Change.txt`
+□□□□□□ 0%   `dic05_CommRes.txt`
+□□□□□□ 0%   `dic05_CommSel.txt`
+□□□□□□ 0%   `dic05_Communicate.txt`
+□□□□□□ 0%   `dic06_String.txt`
+□□□□□□ 0%   `dic07_Time.txt`
+■□□□□□ 10%  `dic08_RandomTalk.txt`
+□□□□□□ 0%   `dic09_dic.txt`
+□□□□□□ 0%   `dic10_naming.txt`
+□□□□□□ 0%   `dic11_touch.txt`
+□□□□□□ 0%   `dic12_TeaParty.txt`
+□□□□□□ 0%   `dic13_date.txt`
+□□□□□□ 0%   `dic14_DressChange.txt`
+□□□□□□ 0%   `dicAnchor.txt`  
   
 －－－－－－－－－－－－－－－－－－－  
 Translator's main social media  
