@@ -759,7 +759,7 @@ Various settings…
 \![*]\q[Reset activity history,デートモードリセット]
 
 
-\![*]\q[Send a message to the dev,OnWebClap]
+＃　\![*]\q[Send a message to the dev,OnWebClap]
 
 \![*]\q[Cancel,なんでもありません]
 \_q

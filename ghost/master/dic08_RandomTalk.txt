@@ -330,7 +330,7 @@ I'd like、\w7to…
 
 \w6be \w4suddenly \w1hug\w4ged、\w9
 
-（３０）\w2and、\w5squeezed\…
+（３０）\w2and、\w5squeezed…
 \s[1]\w7very \w1tightly\w4…
 ＊
 \t\h（１）\w6
@@ -577,31 +577,19 @@ It's \w4just、what \w7I think…\w9
 
 （４５）\w4Love\w4…\w3is \w2really、\w4fun、\w9\w3isn't it…
 ＊
-\t\h（8）\w7
-おとこの\w1ひと、\w7は…
-
-\w7（０）\w3（呼ばれ方おとこの）\w2って、\w6呼ばれ方、\w8に…
-
-\w3憧れたり\w3するの、\w9かな…？
-＊
-\t\h（４５）\w7
-（呼ばれ方おとこの）\w1って、\w7呼び方は…
-
-\w7\s[1]\w3少し、\w7照れますね…
-＊
 \t\h（３０）\w7
-一緒に、\w5街を、\w3歩いて\w4…\w3
+Walking、\w5down、\w3the streets together\w4…\w3
 
-\s[1]\w5あの\w1二人、\w5お似合い\w2だって\w4…\w4
+\s[1]\w5Those \w1two、\w5look good\w2together\w4…\w4
 
-\w8冷やかされて、\w6みたい、\w9\w3な…
+\w3I also want、\w6to be、\w3that cool…
 ＊
 \t\h（４５）\w7
-（U）と…幼馴染、\w4だった、\w8ら…
+If…（U） and I、\w4were\w8 childhood friends…
 
-\w7\s[1]\w6毎朝、\w5起こしに\w2行ったり、\w7とか…\w5
+\w3\s[1]\w3We'd have \w3sleepovers \w2and stay \w3up all night…\w5
 
-\w8（３０）\w3そういうの…できたりする、\w3かな…
+\w8（３０）\w3I wonder…if we would have \w3done that…
 ＊
 \t\h（２７）\w8\w9
 （U）…\w9\w9\w9
@@ -609,113 +597,101 @@ It's \w4just、what \w7I think…\w9
 \w9\s[1]\w5（U）…
 ＊
 \t\h\s[1]\w7
-（５４名前）は、\w6（U）\w2に…
+（U） and \w2（５４名前）…
 
-\w6（すごく類語）\w3（見られ触れられ）、\w5たい、\w8\w2です…
+\w6 I （すごく類語） want to \w3（見られ触れられ） \w2you…
 ＊
 \t\h（３０）\w7
-（U）と…おんなじ学校、に、通って…\w9
+If I went、 to the same school as…（U）\w9
 
-（１）\w4帰りに待ち合わせ、\w3たりするの…
+（１）\w4We could、\w3 meet up on the way home…
 
-\w9できたらいいな…
+\w9It would be nice…
 ＊
 \t\h（１）\w7
-と、\w7とき\w1どき、\w6深呼吸\w2しない、\w3と\w4…\w5
+S-\w1sometimes \w1 I have \w3to take \w2a deep breath\w3…\w3
 
-\w8（３０）\w5（５４名前）、\w7（U）の\w2近く、\w6では…
+\w8（３０）\w5When i'm、\w3 near \w2（U）…
 
-\w8緊張\w1しすぎ\w1ちゃっ、\w4て…
+\w8I\w1 get\w1 a bit\w4 nervous…
 ＊
 \t\h（４５）\w7
-（５４名前）、\w4いつも、\w5すぐ\w6…\w7
-\w8真っ赤に\w2なって\w1ばかり、\w9で\w4…\w4
+（５４名前）、\w4always、\w5immediately\w2…\w2
+\w3start\w2 to\w1 blush…
 
-\w8\w8\s[1]\w3（U）と\w1いっしょに\w3居る、\w7と\w5…\w5
+\w3\s[1]\w3When\w1 I'm hanging out\w3 with、\w3（U）…\w2
 
-\w5どきどきが、\w8止まらないです…
-＊
-\t\h（４５）\w7
-（５４名前）、\w4いつも、\w5すぐ\w6…\w7
-\w8真っ赤に\w2なって\w1ばかり、\w9のは\w4…\w4
-
-\w8\w8\s[1]\w3（U）と\w1いっしょに\w3居る、\w7と\w5…\w5
-\w5どきどきが、\w8止まらない、\w9\w4から…
+\w5I can't stop、\w3blushing…
 ＊
 \t\h（５）\w7
-裾\w2とか、\w8袖口\w1とか、\w8\w8引っ張った\w3ら\w5…\w5
+If\w2 I\w1 pull、\w3 on your\w3 shirt\w5…\w5
 
-\w8\w9（３０）\w5あ、\w5歩くの\w3速いです、\w8って\w3
-\w5合図、\w7とか…\w4
+\w3（３０）\w5It's、\w3 to signal \w3that、
+\w3you're\w5 walking too fast…\w4
 
-\w9\w9（１）\w5あこがれて、\w9ます…
+\w5（１）\w2Just so\w3 you know…
 ＊
 \t\h\s[1]\w7
-（U）\w2、\w4の…\w4
+（U）…\w4
 
-\w4肩に、\w5よりそっ、\w5て…
+\w4Shoulder\w3 to\w3 shoulder…
 
-\w7一緒に\w2歩いて、\w4みたい、\w9な…
+\w3I'd like\w2 to take a walk、\w4 with\w5 （U）…
 ＊
 \t\h\s[0]\w7
-（U）、\w5に\w4…\w4
+I\w5 would…\w2
 
-お、\w6おんぶ\w1されて、\w5みたい、\w7なんて\w5…\w5
+l-\w2like\w1 to\w1 be、\w3 carried on\w3 （U）'s shoulders…\w2
 
-\w8\s[1]\w8ゆ、\w7夢見がち過ぎる\w1でしょうか、\w9\w3か…？
+\w1\s[1]\w2Or、\w2Am I\w1 dreaming、\w3too much…？
 ＊
 \t\h\s[0]\w7
-（U）、\w5に…
+If\w3 I…
 
-\w4\s[1]\w7\w8ひ、\w5ひざまくら、\w7とか…できた、\w7ら…
+\w4\s[1]\w3c-\w3could、\w7give a…pillow\w7 to （U）…
 
-\w8\w8きっと、\w6すごく\w5…\w5しあわせな\w3気持ち、\w9\w5に…
+\w3I'm sure、\w3you would be\w3…\w2 Very\w3 happy…
 ＊
 \t\h（３０）\w7
-あの、\w6（５４名前）\w5…\w5を
+Uhm、\w2please\w2…
 
-\w5（１）\w5置いて\w1いかない、\w8で…ください、\w9\w6ね…？
+\w2（１）\w2promise to\w1 never、\w5leave 54 behind…\w6 ok…？
 ＊
 \t\h（３０）\w7
-（U）、\w4の\w1横顔、\w5を…\w4
+I\w2 like\w1 to…\w2
 
-\w5見上げたり、\w6しなが、\w8ら…\w5\s[1]\w7\w5
+\w3look up、\w5at、\w5（U）'s profile…\w5\s[1]\w5
 
-隣で\w2いっしょ、\w7に…\w5歩みたい、\w8\w8な…
+While\w2 we\w3 walk…\w5 next to\w5 each other…
 ＊
 \t\h（５）\w7
-（５４名前）は…\w9
+I…\w5
 
-もっと\w5…\w4
+wish\w5…\w4
 
-\w5（U）、\w1の…役に\w2立ちたい、\w9な…
+\w3I\w1 was…more\w2 useful to、\w5（U）…
 ＊
 \t\h（４５）\w7
-ちょっとだけ（ちゃーむすーすぺる）、\w3に…
+Maybe、
 
-あこがれ、\w8\w6ます…
-＊
-\t\h（４５）\w7
-（U）に、
-
-\w6おねだり、して\w2みたい、\w9\w3な…
+\w6I should、ask\w2 （U）、\w7\w3something…
 ＊
 \t\h（５）\w7
-（U）、\w6の\w4…\w3好み、\w7に\w4…\w3
+I\w5 want\w4 to…
 
-\w5（３８）\w3すこし、\w5でも、\w6近くなり、\w9たい…
+\w5（３８）\w3grow\w5 closer、\w6to\w9 （U）…
 ＊
 \t\h（４５）\w7
-（U）\w2を\w5…\w5\w5\s[1]
+I\w5 want\w4 to…\s[1]
 
-\w5ぎゅっ、\w7\w4と、\w9背中\w3から\w5…\w3。
+\w5give\w4 a、\w2 big\w2 hug\w5 to （U）…\w3。
 ＊
 \t\h（５）\w7
-どんな、\w5（辛い日）、\w6日でも\w4…\w3
+No matter、\w5how （辛い日）\w4 the day is…\w3
 
-\w4（U）\w1が、\w6いて\w1くれる、\w5なら\w4\w3
+\w4If\w1 （U）\w6 is there\w1 for\w5 me…\w3
 
-\w4（４５）\w5とっても、\w6素敵な\w5…\w4日に\w3なるんです、\w9\w6よ\w4…\w3。
+\w4（４５）\w1It will\w2 be\w2…\w2a\w3 wonderful\w3 day…\w3。
 ＊
 \t\h（２７）\w7
 （U）、\w5の、\w7体温、\w8を\w4\w3
