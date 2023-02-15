@@ -45,6 +45,24 @@ From here, you'll be able to access different menus related to the functions of 
 - Press「V」to display the communication menu
 - Press「C」to display the communication box to talk to her directly
   
+##### Progress of translation 
+- [x]  `dic01_Base.txt`
+- [ ] ***(50% done)*** `dic02_Event.txt`
+- [x] `dic03_Menu.txt`
+- [ ] `dic04_Change.txt`
+- [ ] `dic05_CommRes.txt`
+- [ ] `dic05_CommSel.txt`
+- [ ] `dic05_Communicate.txt`
+- [ ] `dic06_String.txt`
+- [ ] `dic07_Time.txt`
+- [ ] `dic08_RandomTalk.txt`
+- [ ] `dic09_dic.txt`
+- [ ] `dic10_naming.txt`
+- [ ] `dic11_touch.txt`
+- [ ] `dic12_TeaParty.txt`
+- [ ] `dic13_date.txt`
+- [ ] `dic14_DressChange.txt`
+- [ ] `dicAnchor.txt`  
   
 －－－－－－－－－－－－－－－－－－－  
 Translator's main social media  
