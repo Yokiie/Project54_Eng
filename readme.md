@@ -1,10 +1,7 @@
 ## About this project
 This is an english translation based on the adapted "Project54" ghost from AG36. 
-
 Here : https://github.com/ag3601/Project54
-
 This translation was made entirely by Yokiie (myself).
-
 This is a fan translation and I have no ties with AG36 or とわ/Towa
 
 #### Terms of use :
